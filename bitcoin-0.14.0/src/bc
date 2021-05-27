@@ -1,0 +1,30 @@
+#!/bin/bash
+#ifconfig | grep -m1 "inet addr:" | tr -s ' ' | cut -d' ' -f3 | tr ':' ' ' | cut -d' ' -f2
+
+
+#if [ $1 == 'an' ]
+#then
+# IP=`ifconfig | grep -m1 "inet addr:" | tr -s ' ' | cut -d' ' -f3 | tr ':' ' ' | cut -d' ' -f2`
+#  IP=192.168.170.105
+# ./bitcoin-cli -regtest addnode IP onetry 
+#if 
+#else
+# ./bitcoin-cli -regtest $1 $2 $3
+# echo "nope...."
+#fi
+
+case $1 in
+
+  'an')
+     IP=192.168.170.105
+     ./bitcoin-cli -regtest addnode IP onetry 
+  ;;
+
+  'start')
+    ./bitcoind -regtest -printtoconsole
+  ;; 
+
+  *)
+    ./bitcoin-cli -regtest $1 $2 $3
+  ;;
+esac

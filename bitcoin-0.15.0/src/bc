@@ -1,0 +1,28 @@
+#!/bin/bash
+#ifconfig | grep -m1 "inet addr:" | tr -s ' ' | cut -d' ' -f3 | tr ':' ' ' | cut -d' ' -f2
+
+HostLocal=`uname -a | cut -f2 -d' '`
+
+case $1 in
+  'startweb')
+     java -jar ../../Bitcoin-JSON-RPC-Client/webserver.jar
+  ;;
+  'an')
+     IP=`cat bcmaster.txt`
+     ./bitcoin-cli -regtest addnode $IP onetry 
+  ;;
+
+  'start')
+    if [[ ($HostLocal == 'Ubi-VM-1') || ($HostLocal == 'Ubi-VM-ThinkPad') ]]
+      then
+        IP=`ifconfig | grep -m1 "inet addr:" | tr -s ' ' | cut -d' ' -f3 | tr ':' ' ' | cut -d' ' -f2`
+        echo "my ip is" $IP
+        echo $IP > bcmaster.txt
+    fi
+    ./bitcoind -regtest -printtoconsole
+  ;; 
+
+  *)
+    ./bitcoin-cli -regtest $1 $2 $3
+  ;;
+esac

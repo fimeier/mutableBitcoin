@@ -1,0 +1,71 @@
+ let contextMenuOptions = [
+        "decodescript ",
+        "getrawtransaction ",
+    ];
+
+    document.getElementById('rawResponse').innerHTML = JSON.stringify(data, undefined, 2);
+
+    let workingText = jQuery('#rawResponse').text().split("\n");
+
+    for (const textNum in workingText) {
+        if (workingText.hasOwnProperty(textNum)) {
+            let line = workingText[textNum];
+            if (line.match(/^\s+"[^"]+": ([^\{\[]+),?/)) {
+                let regex = /(^\s*"[^"]+": )([^\{\[,]+)(,?)/g;
+                let valueIsString = !!workingText[textNum].replace(regex, `$2`).match(/^".*"$/) + 0; // +0 to cast to int
+                workingText[textNum] = workingText[textNum].replace(regex, `$1<a href="#" data-value=$2 data-isstring=${valueIsString}>$2</a>$3`);
+            }
+        }
+    }
+
+    document.getElementById('rawResponse').innerHTML = workingText.join("\n");
+
+    $('#rawResponse').find('a').on('click', function (e) {
+
+        let data = $(this).data('value');
+        let isString = $(this).data('isstring');
+        if (isString) {
+            data = `"${data}"`;
+        }
+        $('#command').val(
+            $('#command').val() + data
+        ).focus();
+    });
+
+    let currentValue = '';
+
+    $('#rawResponse').find('a').contextmenu(function(e) {
+        e.preventDefault();
+        let $context = $('#contextMenu');
+        currentValue = $(this).data('value');
+        $context.addClass('show');
+        $context.css('top', e.clientY-10);
+        $context.css('left', e.clientX-10);
+        $context.find('ul li').remove();
+
+        $.each(contextMenuOptions, function(index, value) {
+            $('ul', $context).append(`<li><a href="#">${value}</a></li>`);
+        });
+
+        $('#contextMenu').on('click', 'a', function(e) {
+            $('#command').val($(this).text() + currentValue).focus();
+        });
+
+    });
+
+    $('#rawResponse').on('mouseover', function() {
+        $('#contextMenu').removeClass('show');
+    });
+
+
+    </script>
+
+    <div id="contextMenu">
+        <ul>
+
+        </ul>
+    </div>
+
+</div>
+</body>
+</html>

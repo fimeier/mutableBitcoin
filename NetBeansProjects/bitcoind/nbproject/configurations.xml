@@ -1,0 +1,4739 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<configurationDescriptor version="100">
+  <logicalFolder name="root" displayName="root" projectFiles="true" kind="ROOT">
+    <logicalFolder name="SourceFiles"
+                   displayName="Source Files"
+                   projectFiles="true">
+      <logicalFolder name="src"
+                     displayName="src"
+                     projectFiles="true"
+                     root="../../bitcoin-0.14.0/src">
+        <logicalFolder name="bench" displayName="bench" projectFiles="true">
+          <logicalFolder name="data" displayName="data" projectFiles="true">
+            <itemPath>../../bitcoin-0.14.0/src/bench/data/block413567.raw.h</itemPath>
+          </logicalFolder>
+          <itemPath>../../bitcoin-0.14.0/src/bench/Examples.cpp</itemPath>
+          <itemPath>../../bitcoin-0.14.0/src/bench/base58.cpp</itemPath>
+          <itemPath>../../bitcoin-0.14.0/src/bench/bench.cpp</itemPath>
+          <itemPath>../../bitcoin-0.14.0/src/bench/bench.h</itemPath>
+          <itemPath>../../bitcoin-0.14.0/src/bench/bench_bitcoin.cpp</itemPath>
+          <itemPath>../../bitcoin-0.14.0/src/bench/ccoins_caching.cpp</itemPath>
+          <itemPath>../../bitcoin-0.14.0/src/bench/checkblock.cpp</itemPath>
+          <itemPath>../../bitcoin-0.14.0/src/bench/checkqueue.cpp</itemPath>
+          <itemPath>../../bitcoin-0.14.0/src/bench/coin_selection.cpp</itemPath>
+          <itemPath>../../bitcoin-0.14.0/src/bench/crypto_hash.cpp</itemPath>
+          <itemPath>../../bitcoin-0.14.0/src/bench/lockedpool.cpp</itemPath>
+          <itemPath>../../bitcoin-0.14.0/src/bench/mempool_eviction.cpp</itemPath>
+          <itemPath>../../bitcoin-0.14.0/src/bench/perf.cpp</itemPath>
+          <itemPath>../../bitcoin-0.14.0/src/bench/perf.h</itemPath>
+          <itemPath>../../bitcoin-0.14.0/src/bench/rollingbloom.cpp</itemPath>
+          <itemPath>../../bitcoin-0.14.0/src/bench/verify_script.cpp</itemPath>
+        </logicalFolder>
+        <logicalFolder name="compat" displayName="compat" projectFiles="true">
+          <itemPath>../../bitcoin-0.14.0/src/compat/byteswap.h</itemPath>
+          <itemPath>../../bitcoin-0.14.0/src/compat/endian.h</itemPath>
+          <itemPath>../../bitcoin-0.14.0/src/compat/glibc_sanity.cpp</itemPath>
+          <itemPath>../../bitcoin-0.14.0/src/compat/glibcxx_sanity.cpp</itemPath>
+          <itemPath>../../bitcoin-0.14.0/src/compat/sanity.h</itemPath>
+          <itemPath>../../bitcoin-0.14.0/src/compat/strnlen.cpp</itemPath>
+        </logicalFolder>
+        <logicalFolder name="config" displayName="config" projectFiles="true">
+          <itemPath>../../bitcoin-0.14.0/src/config/bitcoin-config.h</itemPath>
+        </logicalFolder>
+        <logicalFolder name="consensus" displayName="consensus" projectFiles="true">
+          <itemPath>../../bitcoin-0.14.0/src/consensus/consensus.h</itemPath>
+          <itemPath>../../bitcoin-0.14.0/src/consensus/merkle.cpp</itemPath>
+          <itemPath>../../bitcoin-0.14.0/src/consensus/merkle.h</itemPath>
+          <itemPath>../../bitcoin-0.14.0/src/consensus/params.h</itemPath>
+          <itemPath>../../bitcoin-0.14.0/src/consensus/validation.h</itemPath>
+        </logicalFolder>
+        <logicalFolder name="crypto" displayName="crypto" projectFiles="true">
+          <logicalFolder name="ctaes" displayName="ctaes" projectFiles="true">
+            <itemPath>../../bitcoin-0.14.0/src/crypto/ctaes/ctaes.c</itemPath>
+            <itemPath>../../bitcoin-0.14.0/src/crypto/ctaes/ctaes.h</itemPath>
+          </logicalFolder>
+          <itemPath>../../bitcoin-0.14.0/src/crypto/aes.cpp</itemPath>
+          <itemPath>../../bitcoin-0.14.0/src/crypto/aes.h</itemPath>
+          <itemPath>../../bitcoin-0.14.0/src/crypto/common.h</itemPath>
+          <itemPath>../../bitcoin-0.14.0/src/crypto/hmac_sha256.cpp</itemPath>
+          <itemPath>../../bitcoin-0.14.0/src/crypto/hmac_sha256.h</itemPath>
+          <itemPath>../../bitcoin-0.14.0/src/crypto/hmac_sha512.cpp</itemPath>
+          <itemPath>../../bitcoin-0.14.0/src/crypto/hmac_sha512.h</itemPath>
+          <itemPath>../../bitcoin-0.14.0/src/crypto/ripemd160.cpp</itemPath>
+          <itemPath>../../bitcoin-0.14.0/src/crypto/ripemd160.h</itemPath>
+          <itemPath>../../bitcoin-0.14.0/src/crypto/sha1.cpp</itemPath>
+          <itemPath>../../bitcoin-0.14.0/src/crypto/sha1.h</itemPath>
+          <itemPath>../../bitcoin-0.14.0/src/crypto/sha256.cpp</itemPath>
+          <itemPath>../../bitcoin-0.14.0/src/crypto/sha256.h</itemPath>
+          <itemPath>../../bitcoin-0.14.0/src/crypto/sha512.cpp</itemPath>
+          <itemPath>../../bitcoin-0.14.0/src/crypto/sha512.h</itemPath>
+        </logicalFolder>
+        <logicalFolder name="leveldb" displayName="leveldb" projectFiles="true">
+          <logicalFolder name="db" displayName="db" projectFiles="true">
+            <itemPath>../../bitcoin-0.14.0/src/leveldb/db/builder.cc</itemPath>
+            <itemPath>../../bitcoin-0.14.0/src/leveldb/db/builder.h</itemPath>
+            <itemPath>../../bitcoin-0.14.0/src/leveldb/db/c.cc</itemPath>
+            <itemPath>../../bitcoin-0.14.0/src/leveldb/db/db_impl.cc</itemPath>
+            <itemPath>../../bitcoin-0.14.0/src/leveldb/db/db_impl.h</itemPath>
+            <itemPath>../../bitcoin-0.14.0/src/leveldb/db/db_iter.cc</itemPath>
+            <itemPath>../../bitcoin-0.14.0/src/leveldb/db/db_iter.h</itemPath>
+            <itemPath>../../bitcoin-0.14.0/src/leveldb/db/dbformat.cc</itemPath>
+            <itemPath>../../bitcoin-0.14.0/src/leveldb/db/dbformat.h</itemPath>
+            <itemPath>../../bitcoin-0.14.0/src/leveldb/db/dumpfile.cc</itemPath>
+            <itemPath>../../bitcoin-0.14.0/src/leveldb/db/filename.cc</itemPath>
+            <itemPath>../../bitcoin-0.14.0/src/leveldb/db/filename.h</itemPath>
+            <itemPath>../../bitcoin-0.14.0/src/leveldb/db/log_format.h</itemPath>
+            <itemPath>../../bitcoin-0.14.0/src/leveldb/db/log_reader.cc</itemPath>
+            <itemPath>../../bitcoin-0.14.0/src/leveldb/db/log_reader.h</itemPath>
+            <itemPath>../../bitcoin-0.14.0/src/leveldb/db/log_writer.cc</itemPath>
+            <itemPath>../../bitcoin-0.14.0/src/leveldb/db/log_writer.h</itemPath>
+            <itemPath>../../bitcoin-0.14.0/src/leveldb/db/memtable.cc</itemPath>
+            <itemPath>../../bitcoin-0.14.0/src/leveldb/db/memtable.h</itemPath>
+            <itemPath>../../bitcoin-0.14.0/src/leveldb/db/repair.cc</itemPath>
+            <itemPath>../../bitcoin-0.14.0/src/leveldb/db/skiplist.h</itemPath>
+            <itemPath>../../bitcoin-0.14.0/src/leveldb/db/snapshot.h</itemPath>
+            <itemPath>../../bitcoin-0.14.0/src/leveldb/db/table_cache.cc</itemPath>
+            <itemPath>../../bitcoin-0.14.0/src/leveldb/db/table_cache.h</itemPath>
+            <itemPath>../../bitcoin-0.14.0/src/leveldb/db/version_edit.cc</itemPath>
+            <itemPath>../../bitcoin-0.14.0/src/leveldb/db/version_edit.h</itemPath>
+            <itemPath>../../bitcoin-0.14.0/src/leveldb/db/version_set.cc</itemPath>
+            <itemPath>../../bitcoin-0.14.0/src/leveldb/db/version_set.h</itemPath>
+            <itemPath>../../bitcoin-0.14.0/src/leveldb/db/write_batch.cc</itemPath>
+            <itemPath>../../bitcoin-0.14.0/src/leveldb/db/write_batch_internal.h</itemPath>
+          </logicalFolder>
+          <logicalFolder name="helpers" displayName="helpers" projectFiles="true">
+            <logicalFolder name="memenv" displayName="memenv" projectFiles="true">
+              <itemPath>../../bitcoin-0.14.0/src/leveldb/helpers/memenv/memenv.cc</itemPath>
+              <itemPath>../../bitcoin-0.14.0/src/leveldb/helpers/memenv/memenv.h</itemPath>
+            </logicalFolder>
+          </logicalFolder>
+          <logicalFolder name="include" displayName="include" projectFiles="true">
+            <logicalFolder name="leveldb" displayName="leveldb" projectFiles="true">
+              <itemPath>../../bitcoin-0.14.0/src/leveldb/include/leveldb/c.h</itemPath>
+              <itemPath>../../bitcoin-0.14.0/src/leveldb/include/leveldb/cache.h</itemPath>
+              <itemPath>../../bitcoin-0.14.0/src/leveldb/include/leveldb/comparator.h</itemPath>
+              <itemPath>../../bitcoin-0.14.0/src/leveldb/include/leveldb/db.h</itemPath>
+              <itemPath>../../bitcoin-0.14.0/src/leveldb/include/leveldb/env.h</itemPath>
+              <itemPath>../../bitcoin-0.14.0/src/leveldb/include/leveldb/filter_policy.h</itemPath>
+              <itemPath>../../bitcoin-0.14.0/src/leveldb/include/leveldb/iterator.h</itemPath>
+              <itemPath>../../bitcoin-0.14.0/src/leveldb/include/leveldb/options.h</itemPath>
+              <itemPath>../../bitcoin-0.14.0/src/leveldb/include/leveldb/slice.h</itemPath>
+              <itemPath>../../bitcoin-0.14.0/src/leveldb/include/leveldb/status.h</itemPath>
+              <itemPath>../../bitcoin-0.14.0/src/leveldb/include/leveldb/table.h</itemPath>
+              <itemPath>../../bitcoin-0.14.0/src/leveldb/include/leveldb/table_builder.h</itemPath>
+              <itemPath>../../bitcoin-0.14.0/src/leveldb/include/leveldb/write_batch.h</itemPath>
+            </logicalFolder>
+          </logicalFolder>
+          <logicalFolder name="port" displayName="port" projectFiles="true">
+            <itemPath>../../bitcoin-0.14.0/src/leveldb/port/atomic_pointer.h</itemPath>
+            <itemPath>../../bitcoin-0.14.0/src/leveldb/port/port.h</itemPath>
+            <itemPath>../../bitcoin-0.14.0/src/leveldb/port/port_posix.cc</itemPath>
+            <itemPath>../../bitcoin-0.14.0/src/leveldb/port/port_posix.h</itemPath>
+            <itemPath>../../bitcoin-0.14.0/src/leveldb/port/thread_annotations.h</itemPath>
+          </logicalFolder>
+          <logicalFolder name="table" displayName="table" projectFiles="true">
+            <itemPath>../../bitcoin-0.14.0/src/leveldb/table/block.cc</itemPath>
+            <itemPath>../../bitcoin-0.14.0/src/leveldb/table/block.h</itemPath>
+            <itemPath>../../bitcoin-0.14.0/src/leveldb/table/block_builder.cc</itemPath>
+            <itemPath>../../bitcoin-0.14.0/src/leveldb/table/block_builder.h</itemPath>
+            <itemPath>../../bitcoin-0.14.0/src/leveldb/table/filter_block.cc</itemPath>
+            <itemPath>../../bitcoin-0.14.0/src/leveldb/table/filter_block.h</itemPath>
+            <itemPath>../../bitcoin-0.14.0/src/leveldb/table/format.cc</itemPath>
+            <itemPath>../../bitcoin-0.14.0/src/leveldb/table/format.h</itemPath>
+            <itemPath>../../bitcoin-0.14.0/src/leveldb/table/iterator.cc</itemPath>
+            <itemPath>../../bitcoin-0.14.0/src/leveldb/table/iterator_wrapper.h</itemPath>
+            <itemPath>../../bitcoin-0.14.0/src/leveldb/table/merger.cc</itemPath>
+            <itemPath>../../bitcoin-0.14.0/src/leveldb/table/merger.h</itemPath>
+            <itemPath>../../bitcoin-0.14.0/src/leveldb/table/table.cc</itemPath>
+            <itemPath>../../bitcoin-0.14.0/src/leveldb/table/table_builder.cc</itemPath>
+            <itemPath>../../bitcoin-0.14.0/src/leveldb/table/two_level_iterator.cc</itemPath>
+            <itemPath>../../bitcoin-0.14.0/src/leveldb/table/two_level_iterator.h</itemPath>
+          </logicalFolder>
+          <logicalFolder name="util" displayName="util" projectFiles="true">
+            <itemPath>../../bitcoin-0.14.0/src/leveldb/util/arena.cc</itemPath>
+            <itemPath>../../bitcoin-0.14.0/src/leveldb/util/arena.h</itemPath>
+            <itemPath>../../bitcoin-0.14.0/src/leveldb/util/bloom.cc</itemPath>
+            <itemPath>../../bitcoin-0.14.0/src/leveldb/util/cache.cc</itemPath>
+            <itemPath>../../bitcoin-0.14.0/src/leveldb/util/coding.cc</itemPath>
+            <itemPath>../../bitcoin-0.14.0/src/leveldb/util/coding.h</itemPath>
+            <itemPath>../../bitcoin-0.14.0/src/leveldb/util/comparator.cc</itemPath>
+            <itemPath>../../bitcoin-0.14.0/src/leveldb/util/crc32c.cc</itemPath>
+            <itemPath>../../bitcoin-0.14.0/src/leveldb/util/crc32c.h</itemPath>
+            <itemPath>../../bitcoin-0.14.0/src/leveldb/util/env.cc</itemPath>
+            <itemPath>../../bitcoin-0.14.0/src/leveldb/util/env_posix.cc</itemPath>
+            <itemPath>../../bitcoin-0.14.0/src/leveldb/util/filter_policy.cc</itemPath>
+            <itemPath>../../bitcoin-0.14.0/src/leveldb/util/hash.cc</itemPath>
+            <itemPath>../../bitcoin-0.14.0/src/leveldb/util/hash.h</itemPath>
+            <itemPath>../../bitcoin-0.14.0/src/leveldb/util/histogram.cc</itemPath>
+            <itemPath>../../bitcoin-0.14.0/src/leveldb/util/histogram.h</itemPath>
+            <itemPath>../../bitcoin-0.14.0/src/leveldb/util/logging.cc</itemPath>
+            <itemPath>../../bitcoin-0.14.0/src/leveldb/util/logging.h</itemPath>
+            <itemPath>../../bitcoin-0.14.0/src/leveldb/util/mutexlock.h</itemPath>
+            <itemPath>../../bitcoin-0.14.0/src/leveldb/util/options.cc</itemPath>
+            <itemPath>../../bitcoin-0.14.0/src/leveldb/util/posix_logger.h</itemPath>
+            <itemPath>../../bitcoin-0.14.0/src/leveldb/util/random.h</itemPath>
+            <itemPath>../../bitcoin-0.14.0/src/leveldb/util/status.cc</itemPath>
+          </logicalFolder>
+        </logicalFolder>
+        <logicalFolder name="obj" displayName="obj" projectFiles="true">
+          <itemPath>../../bitcoin-0.14.0/src/obj/build.h</itemPath>
+        </logicalFolder>
+        <logicalFolder name="policy" displayName="policy" projectFiles="true">
+          <itemPath>../../bitcoin-0.14.0/src/policy/fees.cpp</itemPath>
+          <itemPath>../../bitcoin-0.14.0/src/policy/fees.h</itemPath>
+          <itemPath>../../bitcoin-0.14.0/src/policy/policy.cpp</itemPath>
+          <itemPath>../../bitcoin-0.14.0/src/policy/policy.h</itemPath>
+          <itemPath>../../bitcoin-0.14.0/src/policy/rbf.cpp</itemPath>
+          <itemPath>../../bitcoin-0.14.0/src/policy/rbf.h</itemPath>
+        </logicalFolder>
+        <logicalFolder name="primitives" displayName="primitives" projectFiles="true">
+          <itemPath>../../bitcoin-0.14.0/src/primitives/block.cpp</itemPath>
+          <itemPath>../../bitcoin-0.14.0/src/primitives/block.h</itemPath>
+          <itemPath>../../bitcoin-0.14.0/src/primitives/transaction.cpp</itemPath>
+          <itemPath>../../bitcoin-0.14.0/src/primitives/transaction.h</itemPath>
+        </logicalFolder>
+        <logicalFolder name="qt" displayName="qt" projectFiles="true">
+          <logicalFolder name="forms" displayName="forms" projectFiles="true">
+            <itemPath>../../bitcoin-0.14.0/src/qt/forms/ui_addressbookpage.h</itemPath>
+            <itemPath>../../bitcoin-0.14.0/src/qt/forms/ui_askpassphrasedialog.h</itemPath>
+            <itemPath>../../bitcoin-0.14.0/src/qt/forms/ui_coincontroldialog.h</itemPath>
+            <itemPath>../../bitcoin-0.14.0/src/qt/forms/ui_debugwindow.h</itemPath>
+            <itemPath>../../bitcoin-0.14.0/src/qt/forms/ui_editaddressdialog.h</itemPath>
+            <itemPath>../../bitcoin-0.14.0/src/qt/forms/ui_helpmessagedialog.h</itemPath>
+            <itemPath>../../bitcoin-0.14.0/src/qt/forms/ui_intro.h</itemPath>
+            <itemPath>../../bitcoin-0.14.0/src/qt/forms/ui_modaloverlay.h</itemPath>
+            <itemPath>../../bitcoin-0.14.0/src/qt/forms/ui_openuridialog.h</itemPath>
+            <itemPath>../../bitcoin-0.14.0/src/qt/forms/ui_optionsdialog.h</itemPath>
+            <itemPath>../../bitcoin-0.14.0/src/qt/forms/ui_overviewpage.h</itemPath>
+            <itemPath>../../bitcoin-0.14.0/src/qt/forms/ui_receivecoinsdialog.h</itemPath>
+            <itemPath>../../bitcoin-0.14.0/src/qt/forms/ui_receiverequestdialog.h</itemPath>
+            <itemPath>../../bitcoin-0.14.0/src/qt/forms/ui_sendcoinsdialog.h</itemPath>
+            <itemPath>../../bitcoin-0.14.0/src/qt/forms/ui_sendcoinsentry.h</itemPath>
+            <itemPath>../../bitcoin-0.14.0/src/qt/forms/ui_signverifymessagedialog.h</itemPath>
+            <itemPath>../../bitcoin-0.14.0/src/qt/forms/ui_transactiondescdialog.h</itemPath>
+          </logicalFolder>
+          <logicalFolder name="test" displayName="test" projectFiles="true">
+            <itemPath>../../bitcoin-0.14.0/src/qt/test/compattests.cpp</itemPath>
+            <itemPath>../../bitcoin-0.14.0/src/qt/test/compattests.h</itemPath>
+            <itemPath>../../bitcoin-0.14.0/src/qt/test/moc_compattests.cpp</itemPath>
+            <itemPath>../../bitcoin-0.14.0/src/qt/test/moc_paymentservertests.cpp</itemPath>
+            <itemPath>../../bitcoin-0.14.0/src/qt/test/moc_rpcnestedtests.cpp</itemPath>
+            <itemPath>../../bitcoin-0.14.0/src/qt/test/moc_uritests.cpp</itemPath>
+            <itemPath>../../bitcoin-0.14.0/src/qt/test/paymentrequestdata.h</itemPath>
+            <itemPath>../../bitcoin-0.14.0/src/qt/test/paymentservertests.cpp</itemPath>
+            <itemPath>../../bitcoin-0.14.0/src/qt/test/paymentservertests.h</itemPath>
+            <itemPath>../../bitcoin-0.14.0/src/qt/test/rpcnestedtests.cpp</itemPath>
+            <itemPath>../../bitcoin-0.14.0/src/qt/test/rpcnestedtests.h</itemPath>
+            <itemPath>../../bitcoin-0.14.0/src/qt/test/test_main.cpp</itemPath>
+            <itemPath>../../bitcoin-0.14.0/src/qt/test/uritests.cpp</itemPath>
+            <itemPath>../../bitcoin-0.14.0/src/qt/test/uritests.h</itemPath>
+          </logicalFolder>
+          <itemPath>../../bitcoin-0.14.0/src/qt/addressbookpage.cpp</itemPath>
+          <itemPath>../../bitcoin-0.14.0/src/qt/addressbookpage.h</itemPath>
+          <itemPath>../../bitcoin-0.14.0/src/qt/addresstablemodel.cpp</itemPath>
+          <itemPath>../../bitcoin-0.14.0/src/qt/addresstablemodel.h</itemPath>
+          <itemPath>../../bitcoin-0.14.0/src/qt/askpassphrasedialog.cpp</itemPath>
+          <itemPath>../../bitcoin-0.14.0/src/qt/askpassphrasedialog.h</itemPath>
+          <itemPath>../../bitcoin-0.14.0/src/qt/bantablemodel.cpp</itemPath>
+          <itemPath>../../bitcoin-0.14.0/src/qt/bantablemodel.h</itemPath>
+          <itemPath>../../bitcoin-0.14.0/src/qt/bitcoin.cpp</itemPath>
+          <itemPath>../../bitcoin-0.14.0/src/qt/bitcoin.moc</itemPath>
+          <itemPath>../../bitcoin-0.14.0/src/qt/bitcoinaddressvalidator.cpp</itemPath>
+          <itemPath>../../bitcoin-0.14.0/src/qt/bitcoinaddressvalidator.h</itemPath>
+          <itemPath>../../bitcoin-0.14.0/src/qt/bitcoinamountfield.cpp</itemPath>
+          <itemPath>../../bitcoin-0.14.0/src/qt/bitcoinamountfield.h</itemPath>
+          <itemPath>../../bitcoin-0.14.0/src/qt/bitcoinamountfield.moc</itemPath>
+          <itemPath>../../bitcoin-0.14.0/src/qt/bitcoingui.cpp</itemPath>
+          <itemPath>../../bitcoin-0.14.0/src/qt/bitcoingui.h</itemPath>
+          <itemPath>../../bitcoin-0.14.0/src/qt/bitcoinunits.cpp</itemPath>
+          <itemPath>../../bitcoin-0.14.0/src/qt/bitcoinunits.h</itemPath>
+          <itemPath>../../bitcoin-0.14.0/src/qt/clientmodel.cpp</itemPath>
+          <itemPath>../../bitcoin-0.14.0/src/qt/clientmodel.h</itemPath>
+          <itemPath>../../bitcoin-0.14.0/src/qt/coincontroldialog.cpp</itemPath>
+          <itemPath>../../bitcoin-0.14.0/src/qt/coincontroldialog.h</itemPath>
+          <itemPath>../../bitcoin-0.14.0/src/qt/coincontroltreewidget.cpp</itemPath>
+          <itemPath>../../bitcoin-0.14.0/src/qt/coincontroltreewidget.h</itemPath>
+          <itemPath>../../bitcoin-0.14.0/src/qt/csvmodelwriter.cpp</itemPath>
+          <itemPath>../../bitcoin-0.14.0/src/qt/csvmodelwriter.h</itemPath>
+          <itemPath>../../bitcoin-0.14.0/src/qt/editaddressdialog.cpp</itemPath>
+          <itemPath>../../bitcoin-0.14.0/src/qt/editaddressdialog.h</itemPath>
+          <itemPath>../../bitcoin-0.14.0/src/qt/guiconstants.h</itemPath>
+          <itemPath>../../bitcoin-0.14.0/src/qt/guiutil.cpp</itemPath>
+          <itemPath>../../bitcoin-0.14.0/src/qt/guiutil.h</itemPath>
+          <itemPath>../../bitcoin-0.14.0/src/qt/intro.cpp</itemPath>
+          <itemPath>../../bitcoin-0.14.0/src/qt/intro.h</itemPath>
+          <itemPath>../../bitcoin-0.14.0/src/qt/intro.moc</itemPath>
+          <itemPath>../../bitcoin-0.14.0/src/qt/macdockiconhandler.h</itemPath>
+          <itemPath>../../bitcoin-0.14.0/src/qt/macnotificationhandler.h</itemPath>
+          <itemPath>../../bitcoin-0.14.0/src/qt/moc_addressbookpage.cpp</itemPath>
+          <itemPath>../../bitcoin-0.14.0/src/qt/moc_addresstablemodel.cpp</itemPath>
+          <itemPath>../../bitcoin-0.14.0/src/qt/moc_askpassphrasedialog.cpp</itemPath>
+          <itemPath>../../bitcoin-0.14.0/src/qt/moc_bantablemodel.cpp</itemPath>
+          <itemPath>../../bitcoin-0.14.0/src/qt/moc_bitcoinaddressvalidator.cpp</itemPath>
+          <itemPath>../../bitcoin-0.14.0/src/qt/moc_bitcoinamountfield.cpp</itemPath>
+          <itemPath>../../bitcoin-0.14.0/src/qt/moc_bitcoingui.cpp</itemPath>
+          <itemPath>../../bitcoin-0.14.0/src/qt/moc_bitcoinunits.cpp</itemPath>
+          <itemPath>../../bitcoin-0.14.0/src/qt/moc_clientmodel.cpp</itemPath>
+          <itemPath>../../bitcoin-0.14.0/src/qt/moc_coincontroldialog.cpp</itemPath>
+          <itemPath>../../bitcoin-0.14.0/src/qt/moc_coincontroltreewidget.cpp</itemPath>
+          <itemPath>../../bitcoin-0.14.0/src/qt/moc_csvmodelwriter.cpp</itemPath>
+          <itemPath>../../bitcoin-0.14.0/src/qt/moc_editaddressdialog.cpp</itemPath>
+          <itemPath>../../bitcoin-0.14.0/src/qt/moc_guiutil.cpp</itemPath>
+          <itemPath>../../bitcoin-0.14.0/src/qt/moc_intro.cpp</itemPath>
+          <itemPath>../../bitcoin-0.14.0/src/qt/moc_macdockiconhandler.cpp</itemPath>
+          <itemPath>../../bitcoin-0.14.0/src/qt/moc_macnotificationhandler.cpp</itemPath>
+          <itemPath>../../bitcoin-0.14.0/src/qt/moc_modaloverlay.cpp</itemPath>
+          <itemPath>../../bitcoin-0.14.0/src/qt/moc_notificator.cpp</itemPath>
+          <itemPath>../../bitcoin-0.14.0/src/qt/moc_openuridialog.cpp</itemPath>
+          <itemPath>../../bitcoin-0.14.0/src/qt/moc_optionsdialog.cpp</itemPath>
+          <itemPath>../../bitcoin-0.14.0/src/qt/moc_optionsmodel.cpp</itemPath>
+          <itemPath>../../bitcoin-0.14.0/src/qt/moc_overviewpage.cpp</itemPath>
+          <itemPath>../../bitcoin-0.14.0/src/qt/moc_paymentserver.cpp</itemPath>
+          <itemPath>../../bitcoin-0.14.0/src/qt/moc_peertablemodel.cpp</itemPath>
+          <itemPath>../../bitcoin-0.14.0/src/qt/moc_qvalidatedlineedit.cpp</itemPath>
+          <itemPath>../../bitcoin-0.14.0/src/qt/moc_qvaluecombobox.cpp</itemPath>
+          <itemPath>../../bitcoin-0.14.0/src/qt/moc_receivecoinsdialog.cpp</itemPath>
+          <itemPath>../../bitcoin-0.14.0/src/qt/moc_receiverequestdialog.cpp</itemPath>
+          <itemPath>../../bitcoin-0.14.0/src/qt/moc_recentrequeststablemodel.cpp</itemPath>
+          <itemPath>../../bitcoin-0.14.0/src/qt/moc_rpcconsole.cpp</itemPath>
+          <itemPath>../../bitcoin-0.14.0/src/qt/moc_sendcoinsdialog.cpp</itemPath>
+          <itemPath>../../bitcoin-0.14.0/src/qt/moc_sendcoinsentry.cpp</itemPath>
+          <itemPath>../../bitcoin-0.14.0/src/qt/moc_signverifymessagedialog.cpp</itemPath>
+          <itemPath>../../bitcoin-0.14.0/src/qt/moc_splashscreen.cpp</itemPath>
+          <itemPath>../../bitcoin-0.14.0/src/qt/moc_trafficgraphwidget.cpp</itemPath>
+          <itemPath>../../bitcoin-0.14.0/src/qt/moc_transactiondesc.cpp</itemPath>
+          <itemPath>../../bitcoin-0.14.0/src/qt/moc_transactiondescdialog.cpp</itemPath>
+          <itemPath>../../bitcoin-0.14.0/src/qt/moc_transactionfilterproxy.cpp</itemPath>
+          <itemPath>../../bitcoin-0.14.0/src/qt/moc_transactiontablemodel.cpp</itemPath>
+          <itemPath>../../bitcoin-0.14.0/src/qt/moc_transactionview.cpp</itemPath>
+          <itemPath>../../bitcoin-0.14.0/src/qt/moc_utilitydialog.cpp</itemPath>
+          <itemPath>../../bitcoin-0.14.0/src/qt/moc_walletframe.cpp</itemPath>
+          <itemPath>../../bitcoin-0.14.0/src/qt/moc_walletmodel.cpp</itemPath>
+          <itemPath>../../bitcoin-0.14.0/src/qt/moc_walletview.cpp</itemPath>
+          <itemPath>../../bitcoin-0.14.0/src/qt/modaloverlay.cpp</itemPath>
+          <itemPath>../../bitcoin-0.14.0/src/qt/modaloverlay.h</itemPath>
+          <itemPath>../../bitcoin-0.14.0/src/qt/networkstyle.cpp</itemPath>
+          <itemPath>../../bitcoin-0.14.0/src/qt/networkstyle.h</itemPath>
+          <itemPath>../../bitcoin-0.14.0/src/qt/notificator.cpp</itemPath>
+          <itemPath>../../bitcoin-0.14.0/src/qt/notificator.h</itemPath>
+          <itemPath>../../bitcoin-0.14.0/src/qt/openuridialog.cpp</itemPath>
+          <itemPath>../../bitcoin-0.14.0/src/qt/openuridialog.h</itemPath>
+          <itemPath>../../bitcoin-0.14.0/src/qt/optionsdialog.cpp</itemPath>
+          <itemPath>../../bitcoin-0.14.0/src/qt/optionsdialog.h</itemPath>
+          <itemPath>../../bitcoin-0.14.0/src/qt/optionsmodel.cpp</itemPath>
+          <itemPath>../../bitcoin-0.14.0/src/qt/optionsmodel.h</itemPath>
+          <itemPath>../../bitcoin-0.14.0/src/qt/overviewpage.cpp</itemPath>
+          <itemPath>../../bitcoin-0.14.0/src/qt/overviewpage.h</itemPath>
+          <itemPath>../../bitcoin-0.14.0/src/qt/overviewpage.moc</itemPath>
+          <itemPath>../../bitcoin-0.14.0/src/qt/paymentrequest.pb.cc</itemPath>
+          <itemPath>../../bitcoin-0.14.0/src/qt/paymentrequest.pb.h</itemPath>
+          <itemPath>../../bitcoin-0.14.0/src/qt/paymentrequestplus.cpp</itemPath>
+          <itemPath>../../bitcoin-0.14.0/src/qt/paymentrequestplus.h</itemPath>
+          <itemPath>../../bitcoin-0.14.0/src/qt/paymentserver.cpp</itemPath>
+          <itemPath>../../bitcoin-0.14.0/src/qt/paymentserver.h</itemPath>
+          <itemPath>../../bitcoin-0.14.0/src/qt/peertablemodel.cpp</itemPath>
+          <itemPath>../../bitcoin-0.14.0/src/qt/peertablemodel.h</itemPath>
+          <itemPath>../../bitcoin-0.14.0/src/qt/platformstyle.cpp</itemPath>
+          <itemPath>../../bitcoin-0.14.0/src/qt/platformstyle.h</itemPath>
+          <itemPath>../../bitcoin-0.14.0/src/qt/qrc_bitcoin.cpp</itemPath>
+          <itemPath>../../bitcoin-0.14.0/src/qt/qrc_bitcoin_locale.cpp</itemPath>
+          <itemPath>../../bitcoin-0.14.0/src/qt/qvalidatedlineedit.cpp</itemPath>
+          <itemPath>../../bitcoin-0.14.0/src/qt/qvalidatedlineedit.h</itemPath>
+          <itemPath>../../bitcoin-0.14.0/src/qt/qvaluecombobox.cpp</itemPath>
+          <itemPath>../../bitcoin-0.14.0/src/qt/qvaluecombobox.h</itemPath>
+          <itemPath>../../bitcoin-0.14.0/src/qt/receivecoinsdialog.cpp</itemPath>
+          <itemPath>../../bitcoin-0.14.0/src/qt/receivecoinsdialog.h</itemPath>
+          <itemPath>../../bitcoin-0.14.0/src/qt/receiverequestdialog.cpp</itemPath>
+          <itemPath>../../bitcoin-0.14.0/src/qt/receiverequestdialog.h</itemPath>
+          <itemPath>../../bitcoin-0.14.0/src/qt/recentrequeststablemodel.cpp</itemPath>
+          <itemPath>../../bitcoin-0.14.0/src/qt/recentrequeststablemodel.h</itemPath>
+          <itemPath>../../bitcoin-0.14.0/src/qt/rpcconsole.cpp</itemPath>
+          <itemPath>../../bitcoin-0.14.0/src/qt/rpcconsole.h</itemPath>
+          <itemPath>../../bitcoin-0.14.0/src/qt/rpcconsole.moc</itemPath>
+          <itemPath>../../bitcoin-0.14.0/src/qt/sendcoinsdialog.cpp</itemPath>
+          <itemPath>../../bitcoin-0.14.0/src/qt/sendcoinsdialog.h</itemPath>
+          <itemPath>../../bitcoin-0.14.0/src/qt/sendcoinsentry.cpp</itemPath>
+          <itemPath>../../bitcoin-0.14.0/src/qt/sendcoinsentry.h</itemPath>
+          <itemPath>../../bitcoin-0.14.0/src/qt/signverifymessagedialog.cpp</itemPath>
+          <itemPath>../../bitcoin-0.14.0/src/qt/signverifymessagedialog.h</itemPath>
+          <itemPath>../../bitcoin-0.14.0/src/qt/splashscreen.cpp</itemPath>
+          <itemPath>../../bitcoin-0.14.0/src/qt/splashscreen.h</itemPath>
+          <itemPath>../../bitcoin-0.14.0/src/qt/trafficgraphwidget.cpp</itemPath>
+          <itemPath>../../bitcoin-0.14.0/src/qt/trafficgraphwidget.h</itemPath>
+          <itemPath>../../bitcoin-0.14.0/src/qt/transactiondesc.cpp</itemPath>
+          <itemPath>../../bitcoin-0.14.0/src/qt/transactiondesc.h</itemPath>
+          <itemPath>../../bitcoin-0.14.0/src/qt/transactiondescdialog.cpp</itemPath>
+          <itemPath>../../bitcoin-0.14.0/src/qt/transactiondescdialog.h</itemPath>
+          <itemPath>../../bitcoin-0.14.0/src/qt/transactionfilterproxy.cpp</itemPath>
+          <itemPath>../../bitcoin-0.14.0/src/qt/transactionfilterproxy.h</itemPath>
+          <itemPath>../../bitcoin-0.14.0/src/qt/transactionrecord.cpp</itemPath>
+          <itemPath>../../bitcoin-0.14.0/src/qt/transactionrecord.h</itemPath>
+          <itemPath>../../bitcoin-0.14.0/src/qt/transactiontablemodel.cpp</itemPath>
+          <itemPath>../../bitcoin-0.14.0/src/qt/transactiontablemodel.h</itemPath>
+          <itemPath>../../bitcoin-0.14.0/src/qt/transactionview.cpp</itemPath>
+          <itemPath>../../bitcoin-0.14.0/src/qt/transactionview.h</itemPath>
+          <itemPath>../../bitcoin-0.14.0/src/qt/utilitydialog.cpp</itemPath>
+          <itemPath>../../bitcoin-0.14.0/src/qt/utilitydialog.h</itemPath>
+          <itemPath>../../bitcoin-0.14.0/src/qt/walletframe.cpp</itemPath>
+          <itemPath>../../bitcoin-0.14.0/src/qt/walletframe.h</itemPath>
+          <itemPath>../../bitcoin-0.14.0/src/qt/walletmodel.cpp</itemPath>
+          <itemPath>../../bitcoin-0.14.0/src/qt/walletmodel.h</itemPath>
+          <itemPath>../../bitcoin-0.14.0/src/qt/walletmodeltransaction.cpp</itemPath>
+          <itemPath>../../bitcoin-0.14.0/src/qt/walletmodeltransaction.h</itemPath>
+          <itemPath>../../bitcoin-0.14.0/src/qt/walletview.cpp</itemPath>
+          <itemPath>../../bitcoin-0.14.0/src/qt/walletview.h</itemPath>
+          <itemPath>../../bitcoin-0.14.0/src/qt/winshutdownmonitor.h</itemPath>
+        </logicalFolder>
+        <logicalFolder name="rpc" displayName="rpc" projectFiles="true">
+          <itemPath>../../bitcoin-0.14.0/src/rpc/blockchain.cpp</itemPath>
+          <itemPath>../../bitcoin-0.14.0/src/rpc/client.cpp</itemPath>
+          <itemPath>../../bitcoin-0.14.0/src/rpc/client.h</itemPath>
+          <itemPath>../../bitcoin-0.14.0/src/rpc/mining.cpp</itemPath>
+          <itemPath>../../bitcoin-0.14.0/src/rpc/misc.cpp</itemPath>
+          <itemPath>../../bitcoin-0.14.0/src/rpc/net.cpp</itemPath>
+          <itemPath>../../bitcoin-0.14.0/src/rpc/protocol.cpp</itemPath>
+          <itemPath>../../bitcoin-0.14.0/src/rpc/protocol.h</itemPath>
+          <itemPath>../../bitcoin-0.14.0/src/rpc/rawtransaction.cpp</itemPath>
+          <itemPath>../../bitcoin-0.14.0/src/rpc/register.h</itemPath>
+          <itemPath>../../bitcoin-0.14.0/src/rpc/server.cpp</itemPath>
+          <itemPath>../../bitcoin-0.14.0/src/rpc/server.h</itemPath>
+        </logicalFolder>
+        <logicalFolder name="script" displayName="script" projectFiles="true">
+          <itemPath>../../bitcoin-0.14.0/src/script/bitcoinconsensus.cpp</itemPath>
+          <itemPath>../../bitcoin-0.14.0/src/script/bitcoinconsensus.h</itemPath>
+          <itemPath>../../bitcoin-0.14.0/src/script/interpreter.cpp</itemPath>
+          <itemPath>../../bitcoin-0.14.0/src/script/interpreter.h</itemPath>
+          <itemPath>../../bitcoin-0.14.0/src/script/ismine.cpp</itemPath>
+          <itemPath>../../bitcoin-0.14.0/src/script/ismine.h</itemPath>
+          <itemPath>../../bitcoin-0.14.0/src/script/script.cpp</itemPath>
+          <itemPath>../../bitcoin-0.14.0/src/script/script.h</itemPath>
+          <itemPath>../../bitcoin-0.14.0/src/script/script_error.cpp</itemPath>
+          <itemPath>../../bitcoin-0.14.0/src/script/script_error.h</itemPath>
+          <itemPath>../../bitcoin-0.14.0/src/script/sigcache.cpp</itemPath>
+          <itemPath>../../bitcoin-0.14.0/src/script/sigcache.h</itemPath>
+          <itemPath>../../bitcoin-0.14.0/src/script/sign.cpp</itemPath>
+          <itemPath>../../bitcoin-0.14.0/src/script/sign.h</itemPath>
+          <itemPath>../../bitcoin-0.14.0/src/script/standard.cpp</itemPath>
+          <itemPath>../../bitcoin-0.14.0/src/script/standard.h</itemPath>
+        </logicalFolder>
+        <logicalFolder name="secp256k1" displayName="secp256k1" projectFiles="true">
+          <logicalFolder name="include" displayName="include" projectFiles="true">
+            <itemPath>../../bitcoin-0.14.0/src/secp256k1/include/secp256k1.h</itemPath>
+            <itemPath>../../bitcoin-0.14.0/src/secp256k1/include/secp256k1_recovery.h</itemPath>
+          </logicalFolder>
+          <logicalFolder name="src" displayName="src" projectFiles="true">
+            <logicalFolder name="modules" displayName="modules" projectFiles="true">
+              <logicalFolder name="recovery" displayName="recovery" projectFiles="true">
+                <itemPath>../../bitcoin-0.14.0/src/secp256k1/src/modules/recovery/main_impl.h</itemPath>
+              </logicalFolder>
+            </logicalFolder>
+            <itemPath>../../bitcoin-0.14.0/src/secp256k1/src/basic-config.h</itemPath>
+            <itemPath>../../bitcoin-0.14.0/src/secp256k1/src/ecdsa.h</itemPath>
+            <itemPath>../../bitcoin-0.14.0/src/secp256k1/src/ecdsa_impl.h</itemPath>
+            <itemPath>../../bitcoin-0.14.0/src/secp256k1/src/eckey.h</itemPath>
+            <itemPath>../../bitcoin-0.14.0/src/secp256k1/src/eckey_impl.h</itemPath>
+            <itemPath>../../bitcoin-0.14.0/src/secp256k1/src/ecmult.h</itemPath>
+            <itemPath>../../bitcoin-0.14.0/src/secp256k1/src/ecmult_const.h</itemPath>
+            <itemPath>../../bitcoin-0.14.0/src/secp256k1/src/ecmult_const_impl.h</itemPath>
+            <itemPath>../../bitcoin-0.14.0/src/secp256k1/src/ecmult_gen.h</itemPath>
+            <itemPath>../../bitcoin-0.14.0/src/secp256k1/src/ecmult_gen_impl.h</itemPath>
+            <itemPath>../../bitcoin-0.14.0/src/secp256k1/src/ecmult_impl.h</itemPath>
+            <itemPath>../../bitcoin-0.14.0/src/secp256k1/src/ecmult_static_context.h</itemPath>
+            <itemPath>../../bitcoin-0.14.0/src/secp256k1/src/field.h</itemPath>
+            <itemPath>../../bitcoin-0.14.0/src/secp256k1/src/field_10x26.h</itemPath>
+            <itemPath>../../bitcoin-0.14.0/src/secp256k1/src/field_10x26_impl.h</itemPath>
+            <itemPath>../../bitcoin-0.14.0/src/secp256k1/src/field_5x52.h</itemPath>
+            <itemPath>../../bitcoin-0.14.0/src/secp256k1/src/field_5x52_asm_impl.h</itemPath>
+            <itemPath>../../bitcoin-0.14.0/src/secp256k1/src/field_5x52_impl.h</itemPath>
+            <itemPath>../../bitcoin-0.14.0/src/secp256k1/src/field_impl.h</itemPath>
+            <itemPath>../../bitcoin-0.14.0/src/secp256k1/src/gen_context.c</itemPath>
+            <itemPath>../../bitcoin-0.14.0/src/secp256k1/src/group.h</itemPath>
+            <itemPath>../../bitcoin-0.14.0/src/secp256k1/src/group_impl.h</itemPath>
+            <itemPath>../../bitcoin-0.14.0/src/secp256k1/src/hash.h</itemPath>
+            <itemPath>../../bitcoin-0.14.0/src/secp256k1/src/hash_impl.h</itemPath>
+            <itemPath>../../bitcoin-0.14.0/src/secp256k1/src/libsecp256k1-config.h</itemPath>
+            <itemPath>../../bitcoin-0.14.0/src/secp256k1/src/num.h</itemPath>
+            <itemPath>../../bitcoin-0.14.0/src/secp256k1/src/num_impl.h</itemPath>
+            <itemPath>../../bitcoin-0.14.0/src/secp256k1/src/scalar.h</itemPath>
+            <itemPath>../../bitcoin-0.14.0/src/secp256k1/src/scalar_4x64.h</itemPath>
+            <itemPath>../../bitcoin-0.14.0/src/secp256k1/src/scalar_4x64_impl.h</itemPath>
+            <itemPath>../../bitcoin-0.14.0/src/secp256k1/src/scalar_8x32.h</itemPath>
+            <itemPath>../../bitcoin-0.14.0/src/secp256k1/src/scalar_8x32_impl.h</itemPath>
+            <itemPath>../../bitcoin-0.14.0/src/secp256k1/src/scalar_impl.h</itemPath>
+            <itemPath>../../bitcoin-0.14.0/src/secp256k1/src/secp256k1.c</itemPath>
+            <itemPath>../../bitcoin-0.14.0/src/secp256k1/src/util.h</itemPath>
+          </logicalFolder>
+        </logicalFolder>
+        <logicalFolder name="support" displayName="support" projectFiles="true">
+          <logicalFolder name="allocators" displayName="allocators" projectFiles="true">
+            <itemPath>../../bitcoin-0.14.0/src/support/allocators/secure.h</itemPath>
+            <itemPath>../../bitcoin-0.14.0/src/support/allocators/zeroafterfree.h</itemPath>
+          </logicalFolder>
+          <itemPath>../../bitcoin-0.14.0/src/support/cleanse.cpp</itemPath>
+          <itemPath>../../bitcoin-0.14.0/src/support/cleanse.h</itemPath>
+          <itemPath>../../bitcoin-0.14.0/src/support/events.h</itemPath>
+          <itemPath>../../bitcoin-0.14.0/src/support/lockedpool.cpp</itemPath>
+          <itemPath>../../bitcoin-0.14.0/src/support/lockedpool.h</itemPath>
+        </logicalFolder>
+        <logicalFolder name="test" displayName="test" projectFiles="true">
+          <logicalFolder name="data" displayName="data" projectFiles="true">
+            <itemPath>../../bitcoin-0.14.0/src/test/data/base58_encode_decode.json.h</itemPath>
+            <itemPath>../../bitcoin-0.14.0/src/test/data/base58_keys_invalid.json.h</itemPath>
+            <itemPath>../../bitcoin-0.14.0/src/test/data/base58_keys_valid.json.h</itemPath>
+            <itemPath>../../bitcoin-0.14.0/src/test/data/script_tests.json.h</itemPath>
+            <itemPath>../../bitcoin-0.14.0/src/test/data/sighash.json.h</itemPath>
+            <itemPath>../../bitcoin-0.14.0/src/test/data/tx_invalid.json.h</itemPath>
+            <itemPath>../../bitcoin-0.14.0/src/test/data/tx_valid.json.h</itemPath>
+          </logicalFolder>
+          <itemPath>../../bitcoin-0.14.0/src/test/DoS_tests.cpp</itemPath>
+          <itemPath>../../bitcoin-0.14.0/src/test/addrman_tests.cpp</itemPath>
+          <itemPath>../../bitcoin-0.14.0/src/test/allocator_tests.cpp</itemPath>
+          <itemPath>../../bitcoin-0.14.0/src/test/amount_tests.cpp</itemPath>
+          <itemPath>../../bitcoin-0.14.0/src/test/arith_uint256_tests.cpp</itemPath>
+          <itemPath>../../bitcoin-0.14.0/src/test/base32_tests.cpp</itemPath>
+          <itemPath>../../bitcoin-0.14.0/src/test/base58_tests.cpp</itemPath>
+          <itemPath>../../bitcoin-0.14.0/src/test/base64_tests.cpp</itemPath>
+          <itemPath>../../bitcoin-0.14.0/src/test/bip32_tests.cpp</itemPath>
+          <itemPath>../../bitcoin-0.14.0/src/test/blockencodings_tests.cpp</itemPath>
+          <itemPath>../../bitcoin-0.14.0/src/test/bloom_tests.cpp</itemPath>
+          <itemPath>../../bitcoin-0.14.0/src/test/bswap_tests.cpp</itemPath>
+          <itemPath>../../bitcoin-0.14.0/src/test/coins_tests.cpp</itemPath>
+          <itemPath>../../bitcoin-0.14.0/src/test/compress_tests.cpp</itemPath>
+          <itemPath>../../bitcoin-0.14.0/src/test/crypto_tests.cpp</itemPath>
+          <itemPath>../../bitcoin-0.14.0/src/test/cuckoocache_tests.cpp</itemPath>
+          <itemPath>../../bitcoin-0.14.0/src/test/dbwrapper_tests.cpp</itemPath>
+          <itemPath>../../bitcoin-0.14.0/src/test/getarg_tests.cpp</itemPath>
+          <itemPath>../../bitcoin-0.14.0/src/test/hash_tests.cpp</itemPath>
+          <itemPath>../../bitcoin-0.14.0/src/test/key_tests.cpp</itemPath>
+          <itemPath>../../bitcoin-0.14.0/src/test/limitedmap_tests.cpp</itemPath>
+          <itemPath>../../bitcoin-0.14.0/src/test/main_tests.cpp</itemPath>
+          <itemPath>../../bitcoin-0.14.0/src/test/mempool_tests.cpp</itemPath>
+          <itemPath>../../bitcoin-0.14.0/src/test/merkle_tests.cpp</itemPath>
+          <itemPath>../../bitcoin-0.14.0/src/test/miner_tests.cpp</itemPath>
+          <itemPath>../../bitcoin-0.14.0/src/test/multisig_tests.cpp</itemPath>
+          <itemPath>../../bitcoin-0.14.0/src/test/net_tests.cpp</itemPath>
+          <itemPath>../../bitcoin-0.14.0/src/test/netbase_tests.cpp</itemPath>
+          <itemPath>../../bitcoin-0.14.0/src/test/pmt_tests.cpp</itemPath>
+          <itemPath>../../bitcoin-0.14.0/src/test/policyestimator_tests.cpp</itemPath>
+          <itemPath>../../bitcoin-0.14.0/src/test/pow_tests.cpp</itemPath>
+          <itemPath>../../bitcoin-0.14.0/src/test/prevector_tests.cpp</itemPath>
+          <itemPath>../../bitcoin-0.14.0/src/test/raii_event_tests.cpp</itemPath>
+          <itemPath>../../bitcoin-0.14.0/src/test/reverselock_tests.cpp</itemPath>
+          <itemPath>../../bitcoin-0.14.0/src/test/rpc_tests.cpp</itemPath>
+          <itemPath>../../bitcoin-0.14.0/src/test/sanity_tests.cpp</itemPath>
+          <itemPath>../../bitcoin-0.14.0/src/test/scheduler_tests.cpp</itemPath>
+          <itemPath>../../bitcoin-0.14.0/src/test/script_P2SH_tests.cpp</itemPath>
+          <itemPath>../../bitcoin-0.14.0/src/test/script_tests.cpp</itemPath>
+          <itemPath>../../bitcoin-0.14.0/src/test/scriptnum10.h</itemPath>
+          <itemPath>../../bitcoin-0.14.0/src/test/scriptnum_tests.cpp</itemPath>
+          <itemPath>../../bitcoin-0.14.0/src/test/serialize_tests.cpp</itemPath>
+          <itemPath>../../bitcoin-0.14.0/src/test/sighash_tests.cpp</itemPath>
+          <itemPath>../../bitcoin-0.14.0/src/test/sigopcount_tests.cpp</itemPath>
+          <itemPath>../../bitcoin-0.14.0/src/test/skiplist_tests.cpp</itemPath>
+          <itemPath>../../bitcoin-0.14.0/src/test/streams_tests.cpp</itemPath>
+          <itemPath>../../bitcoin-0.14.0/src/test/test_bitcoin.cpp</itemPath>
+          <itemPath>../../bitcoin-0.14.0/src/test/test_bitcoin.h</itemPath>
+          <itemPath>../../bitcoin-0.14.0/src/test/test_bitcoin_fuzzy.cpp</itemPath>
+          <itemPath>../../bitcoin-0.14.0/src/test/test_random.h</itemPath>
+          <itemPath>../../bitcoin-0.14.0/src/test/testutil.cpp</itemPath>
+          <itemPath>../../bitcoin-0.14.0/src/test/testutil.h</itemPath>
+          <itemPath>../../bitcoin-0.14.0/src/test/timedata_tests.cpp</itemPath>
+          <itemPath>../../bitcoin-0.14.0/src/test/transaction_tests.cpp</itemPath>
+          <itemPath>../../bitcoin-0.14.0/src/test/txvalidationcache_tests.cpp</itemPath>
+          <itemPath>../../bitcoin-0.14.0/src/test/uint256_tests.cpp</itemPath>
+          <itemPath>../../bitcoin-0.14.0/src/test/univalue_tests.cpp</itemPath>
+          <itemPath>../../bitcoin-0.14.0/src/test/util_tests.cpp</itemPath>
+          <itemPath>../../bitcoin-0.14.0/src/test/versionbits_tests.cpp</itemPath>
+        </logicalFolder>
+        <logicalFolder name="univalue" displayName="univalue" projectFiles="true">
+          <logicalFolder name="include" displayName="include" projectFiles="true">
+            <itemPath>../../bitcoin-0.14.0/src/univalue/include/univalue.h</itemPath>
+          </logicalFolder>
+          <logicalFolder name="lib" displayName="lib" projectFiles="true">
+            <itemPath>../../bitcoin-0.14.0/src/univalue/lib/univalue.cpp</itemPath>
+            <itemPath>../../bitcoin-0.14.0/src/univalue/lib/univalue_escapes.h</itemPath>
+            <itemPath>../../bitcoin-0.14.0/src/univalue/lib/univalue_read.cpp</itemPath>
+            <itemPath>../../bitcoin-0.14.0/src/univalue/lib/univalue_utffilter.h</itemPath>
+            <itemPath>../../bitcoin-0.14.0/src/univalue/lib/univalue_write.cpp</itemPath>
+          </logicalFolder>
+        </logicalFolder>
+        <logicalFolder name="wallet" displayName="wallet" projectFiles="true">
+          <logicalFolder name="test" displayName="test" projectFiles="true">
+            <itemPath>../../bitcoin-0.14.0/src/wallet/test/accounting_tests.cpp</itemPath>
+            <itemPath>../../bitcoin-0.14.0/src/wallet/test/crypto_tests.cpp</itemPath>
+            <itemPath>../../bitcoin-0.14.0/src/wallet/test/wallet_test_fixture.cpp</itemPath>
+            <itemPath>../../bitcoin-0.14.0/src/wallet/test/wallet_test_fixture.h</itemPath>
+            <itemPath>../../bitcoin-0.14.0/src/wallet/test/wallet_tests.cpp</itemPath>
+          </logicalFolder>
+          <itemPath>../../bitcoin-0.14.0/src/wallet/coincontrol.h</itemPath>
+          <itemPath>../../bitcoin-0.14.0/src/wallet/crypter.cpp</itemPath>
+          <itemPath>../../bitcoin-0.14.0/src/wallet/crypter.h</itemPath>
+          <itemPath>../../bitcoin-0.14.0/src/wallet/db.cpp</itemPath>
+          <itemPath>../../bitcoin-0.14.0/src/wallet/db.h</itemPath>
+          <itemPath>../../bitcoin-0.14.0/src/wallet/rpcdump.cpp</itemPath>
+          <itemPath>../../bitcoin-0.14.0/src/wallet/rpcwallet.cpp</itemPath>
+          <itemPath>../../bitcoin-0.14.0/src/wallet/rpcwallet.h</itemPath>
+          <itemPath>../../bitcoin-0.14.0/src/wallet/wallet.cpp</itemPath>
+          <itemPath>../../bitcoin-0.14.0/src/wallet/wallet.h</itemPath>
+          <itemPath>../../bitcoin-0.14.0/src/wallet/walletdb.cpp</itemPath>
+          <itemPath>../../bitcoin-0.14.0/src/wallet/walletdb.h</itemPath>
+        </logicalFolder>
+        <logicalFolder name="zmq" displayName="zmq" projectFiles="true">
+          <itemPath>../../bitcoin-0.14.0/src/zmq/zmqabstractnotifier.cpp</itemPath>
+          <itemPath>../../bitcoin-0.14.0/src/zmq/zmqabstractnotifier.h</itemPath>
+          <itemPath>../../bitcoin-0.14.0/src/zmq/zmqconfig.h</itemPath>
+          <itemPath>../../bitcoin-0.14.0/src/zmq/zmqnotificationinterface.cpp</itemPath>
+          <itemPath>../../bitcoin-0.14.0/src/zmq/zmqnotificationinterface.h</itemPath>
+          <itemPath>../../bitcoin-0.14.0/src/zmq/zmqpublishnotifier.cpp</itemPath>
+          <itemPath>../../bitcoin-0.14.0/src/zmq/zmqpublishnotifier.h</itemPath>
+        </logicalFolder>
+        <itemPath>../../bitcoin-0.14.0/src/addrdb.cpp</itemPath>
+        <itemPath>../../bitcoin-0.14.0/src/addrdb.h</itemPath>
+        <itemPath>../../bitcoin-0.14.0/src/addrman.cpp</itemPath>
+        <itemPath>../../bitcoin-0.14.0/src/addrman.h</itemPath>
+        <itemPath>../../bitcoin-0.14.0/src/amount.cpp</itemPath>
+        <itemPath>../../bitcoin-0.14.0/src/amount.h</itemPath>
+        <itemPath>../../bitcoin-0.14.0/src/arith_uint256.cpp</itemPath>
+        <itemPath>../../bitcoin-0.14.0/src/arith_uint256.h</itemPath>
+        <itemPath>../../bitcoin-0.14.0/src/base58.cpp</itemPath>
+        <itemPath>../../bitcoin-0.14.0/src/base58.h</itemPath>
+        <itemPath>../../bitcoin-0.14.0/src/bitcoin-cli.cpp</itemPath>
+        <itemPath>../../bitcoin-0.14.0/src/bitcoin-tx.cpp</itemPath>
+        <itemPath>../../bitcoin-0.14.0/src/bitcoind.cpp</itemPath>
+        <itemPath>../../bitcoin-0.14.0/src/blockencodings.cpp</itemPath>
+        <itemPath>../../bitcoin-0.14.0/src/blockencodings.h</itemPath>
+        <itemPath>../../bitcoin-0.14.0/src/bloom.cpp</itemPath>
+        <itemPath>../../bitcoin-0.14.0/src/bloom.h</itemPath>
+        <itemPath>../../bitcoin-0.14.0/src/chain.cpp</itemPath>
+        <itemPath>../../bitcoin-0.14.0/src/chain.h</itemPath>
+        <itemPath>../../bitcoin-0.14.0/src/chainparams.cpp</itemPath>
+        <itemPath>../../bitcoin-0.14.0/src/chainparams.h</itemPath>
+        <itemPath>../../bitcoin-0.14.0/src/chainparamsbase.cpp</itemPath>
+        <itemPath>../../bitcoin-0.14.0/src/chainparamsbase.h</itemPath>
+        <itemPath>../../bitcoin-0.14.0/src/chainparamsseeds.h</itemPath>
+        <itemPath>../../bitcoin-0.14.0/src/checkpoints.cpp</itemPath>
+        <itemPath>../../bitcoin-0.14.0/src/checkpoints.h</itemPath>
+        <itemPath>../../bitcoin-0.14.0/src/checkqueue.h</itemPath>
+        <itemPath>../../bitcoin-0.14.0/src/clientversion.cpp</itemPath>
+        <itemPath>../../bitcoin-0.14.0/src/clientversion.h</itemPath>
+        <itemPath>../../bitcoin-0.14.0/src/coins.cpp</itemPath>
+        <itemPath>../../bitcoin-0.14.0/src/coins.h</itemPath>
+        <itemPath>../../bitcoin-0.14.0/src/compat.h</itemPath>
+        <itemPath>../../bitcoin-0.14.0/src/compressor.cpp</itemPath>
+        <itemPath>../../bitcoin-0.14.0/src/compressor.h</itemPath>
+        <itemPath>../../bitcoin-0.14.0/src/core_io.h</itemPath>
+        <itemPath>../../bitcoin-0.14.0/src/core_memusage.h</itemPath>
+        <itemPath>../../bitcoin-0.14.0/src/core_read.cpp</itemPath>
+        <itemPath>../../bitcoin-0.14.0/src/core_write.cpp</itemPath>
+        <itemPath>../../bitcoin-0.14.0/src/cuckoocache.h</itemPath>
+        <itemPath>../../bitcoin-0.14.0/src/dbwrapper.cpp</itemPath>
+        <itemPath>../../bitcoin-0.14.0/src/dbwrapper.h</itemPath>
+        <itemPath>../../bitcoin-0.14.0/src/hash.cpp</itemPath>
+        <itemPath>../../bitcoin-0.14.0/src/hash.h</itemPath>
+        <itemPath>../../bitcoin-0.14.0/src/httprpc.cpp</itemPath>
+        <itemPath>../../bitcoin-0.14.0/src/httprpc.h</itemPath>
+        <itemPath>../../bitcoin-0.14.0/src/httpserver.cpp</itemPath>
+        <itemPath>../../bitcoin-0.14.0/src/httpserver.h</itemPath>
+        <itemPath>../../bitcoin-0.14.0/src/indirectmap.h</itemPath>
+        <itemPath>../../bitcoin-0.14.0/src/init.cpp</itemPath>
+        <itemPath>../../bitcoin-0.14.0/src/init.h</itemPath>
+        <itemPath>../../bitcoin-0.14.0/src/key.cpp</itemPath>
+        <itemPath>../../bitcoin-0.14.0/src/key.h</itemPath>
+        <itemPath>../../bitcoin-0.14.0/src/keystore.cpp</itemPath>
+        <itemPath>../../bitcoin-0.14.0/src/keystore.h</itemPath>
+        <itemPath>../../bitcoin-0.14.0/src/limitedmap.h</itemPath>
+        <itemPath>../../bitcoin-0.14.0/src/memusage.h</itemPath>
+        <itemPath>../../bitcoin-0.14.0/src/merkleblock.cpp</itemPath>
+        <itemPath>../../bitcoin-0.14.0/src/merkleblock.h</itemPath>
+        <itemPath>../../bitcoin-0.14.0/src/miner.cpp</itemPath>
+        <itemPath>../../bitcoin-0.14.0/src/miner.h</itemPath>
+        <itemPath>../../bitcoin-0.14.0/src/net.cpp</itemPath>
+        <itemPath>../../bitcoin-0.14.0/src/net.h</itemPath>
+        <itemPath>../../bitcoin-0.14.0/src/net_processing.cpp</itemPath>
+        <itemPath>../../bitcoin-0.14.0/src/net_processing.h</itemPath>
+        <itemPath>../../bitcoin-0.14.0/src/netaddress.cpp</itemPath>
+        <itemPath>../../bitcoin-0.14.0/src/netaddress.h</itemPath>
+        <itemPath>../../bitcoin-0.14.0/src/netbase.cpp</itemPath>
+        <itemPath>../../bitcoin-0.14.0/src/netbase.h</itemPath>
+        <itemPath>../../bitcoin-0.14.0/src/netmessagemaker.h</itemPath>
+        <itemPath>../../bitcoin-0.14.0/src/noui.cpp</itemPath>
+        <itemPath>../../bitcoin-0.14.0/src/noui.h</itemPath>
+        <itemPath>../../bitcoin-0.14.0/src/pow.cpp</itemPath>
+        <itemPath>../../bitcoin-0.14.0/src/pow.h</itemPath>
+        <itemPath>../../bitcoin-0.14.0/src/prevector.h</itemPath>
+        <itemPath>../../bitcoin-0.14.0/src/protocol.cpp</itemPath>
+        <itemPath>../../bitcoin-0.14.0/src/protocol.h</itemPath>
+        <itemPath>../../bitcoin-0.14.0/src/pubkey.cpp</itemPath>
+        <itemPath>../../bitcoin-0.14.0/src/pubkey.h</itemPath>
+        <itemPath>../../bitcoin-0.14.0/src/random.cpp</itemPath>
+        <itemPath>../../bitcoin-0.14.0/src/random.h</itemPath>
+        <itemPath>../../bitcoin-0.14.0/src/rest.cpp</itemPath>
+        <itemPath>../../bitcoin-0.14.0/src/reverselock.h</itemPath>
+        <itemPath>../../bitcoin-0.14.0/src/scheduler.cpp</itemPath>
+        <itemPath>../../bitcoin-0.14.0/src/scheduler.h</itemPath>
+        <itemPath>../../bitcoin-0.14.0/src/serialize.h</itemPath>
+        <itemPath>../../bitcoin-0.14.0/src/streams.h</itemPath>
+        <itemPath>../../bitcoin-0.14.0/src/sync.cpp</itemPath>
+        <itemPath>../../bitcoin-0.14.0/src/sync.h</itemPath>
+        <itemPath>../../bitcoin-0.14.0/src/threadinterrupt.cpp</itemPath>
+        <itemPath>../../bitcoin-0.14.0/src/threadinterrupt.h</itemPath>
+        <itemPath>../../bitcoin-0.14.0/src/threadsafety.h</itemPath>
+        <itemPath>../../bitcoin-0.14.0/src/timedata.cpp</itemPath>
+        <itemPath>../../bitcoin-0.14.0/src/timedata.h</itemPath>
+        <itemPath>../../bitcoin-0.14.0/src/tinyformat.h</itemPath>
+        <itemPath>../../bitcoin-0.14.0/src/torcontrol.cpp</itemPath>
+        <itemPath>../../bitcoin-0.14.0/src/torcontrol.h</itemPath>
+        <itemPath>../../bitcoin-0.14.0/src/txdb.cpp</itemPath>
+        <itemPath>../../bitcoin-0.14.0/src/txdb.h</itemPath>
+        <itemPath>../../bitcoin-0.14.0/src/txmempool.cpp</itemPath>
+        <itemPath>../../bitcoin-0.14.0/src/txmempool.h</itemPath>
+        <itemPath>../../bitcoin-0.14.0/src/ui_interface.cpp</itemPath>
+        <itemPath>../../bitcoin-0.14.0/src/ui_interface.h</itemPath>
+        <itemPath>../../bitcoin-0.14.0/src/uint256.cpp</itemPath>
+        <itemPath>../../bitcoin-0.14.0/src/uint256.h</itemPath>
+        <itemPath>../../bitcoin-0.14.0/src/undo.h</itemPath>
+        <itemPath>../../bitcoin-0.14.0/src/util.cpp</itemPath>
+        <itemPath>../../bitcoin-0.14.0/src/util.h</itemPath>
+        <itemPath>../../bitcoin-0.14.0/src/utilmoneystr.cpp</itemPath>
+        <itemPath>../../bitcoin-0.14.0/src/utilmoneystr.h</itemPath>
+        <itemPath>../../bitcoin-0.14.0/src/utilstrencodings.cpp</itemPath>
+        <itemPath>../../bitcoin-0.14.0/src/utilstrencodings.h</itemPath>
+        <itemPath>../../bitcoin-0.14.0/src/utiltime.cpp</itemPath>
+        <itemPath>../../bitcoin-0.14.0/src/utiltime.h</itemPath>
+        <itemPath>../../bitcoin-0.14.0/src/validation.cpp</itemPath>
+        <itemPath>../../bitcoin-0.14.0/src/validation.h</itemPath>
+        <itemPath>../../bitcoin-0.14.0/src/validationinterface.cpp</itemPath>
+        <itemPath>../../bitcoin-0.14.0/src/validationinterface.h</itemPath>
+        <itemPath>../../bitcoin-0.14.0/src/version.h</itemPath>
+        <itemPath>../../bitcoin-0.14.0/src/versionbits.cpp</itemPath>
+        <itemPath>../../bitcoin-0.14.0/src/versionbits.h</itemPath>
+        <itemPath>../../bitcoin-0.14.0/src/warnings.cpp</itemPath>
+        <itemPath>../../bitcoin-0.14.0/src/warnings.h</itemPath>
+      </logicalFolder>
+    </logicalFolder>
+    <logicalFolder name="TestFiles"
+                   displayName="Test Files"
+                   projectFiles="false"
+                   kind="TEST_LOGICAL_FOLDER">
+    </logicalFolder>
+    <logicalFolder name="ExternalFiles"
+                   displayName="Important Files"
+                   projectFiles="false"
+                   kind="IMPORTANT_FILES_FOLDER">
+      <itemPath>/home/fimeier/Dropbox/00ETH/Bachelor-Arbeit/00Code/vmubuntu/bitcoin-0.14.0/Makefile</itemPath>
+      <itemPath>../../bitcoin-0.14.0/src/bitcoind</itemPath>
+      <itemPath>/home/fimeier/Dropbox/00ETH/Bachelor-Arbeit/00Code/vmubuntu/bitcoin-0.14.0/configure.ac</itemPath>
+    </logicalFolder>
+  </logicalFolder>
+  <sourceRootList>
+    <Elem>../../bitcoin-0.14.0/src</Elem>
+  </sourceRootList>
+  <projectmakefile></projectmakefile>
+  <confs>
+    <conf name="Default" type="0">
+      <toolsSet>
+        <compilerSet>default</compilerSet>
+        <dependencyChecking>false</dependencyChecking>
+        <rebuildPropChanged>false</rebuildPropChanged>
+      </toolsSet>
+      <flagsDictionary>
+        <element flagsID="0" commonFlags="-fPIC"/>
+        <element flagsID="1" commonFlags="-g -O2"/>
+        <element flagsID="2" commonFlags="-std=c++11 -fstack-protector-all -fPIC"/>
+        <element flagsID="3" commonFlags="-std=c++11 -fstack-protector-all -fPIE"/>
+        <element flagsID="4" commonFlags="-std=c89 -fPIC"/>
+      </flagsDictionary>
+      <codeAssistance>
+      </codeAssistance>
+      <makefileType>
+        <makeTool>
+          <buildCommandWorkingDir>/home/fimeier/Dropbox/00ETH/Bachelor-Arbeit/00Code/vmubuntu/bitcoin-0.14.0</buildCommandWorkingDir>
+          <buildCommand>${MAKE} -f Makefile</buildCommand>
+          <cleanCommand>${MAKE} -f Makefile clean</cleanCommand>
+          <executablePath>../../bitcoin-0.14.0/src/bitcoind</executablePath>
+          <cTool>
+            <incDir>
+              <pElem>../../bitcoin-0.14.0/src/secp256k1</pElem>
+            </incDir>
+          </cTool>
+          <ccTool>
+            <preprocessorList>
+              <Elem>HAVE_CONFIG_H</Elem>
+            </preprocessorList>
+          </ccTool>
+        </makeTool>
+        <preBuild>
+          <preBuildCommandWorkingDir>.</preBuildCommandWorkingDir>
+          <preBuildCommand></preBuildCommand>
+        </preBuild>
+      </makefileType>
+      <item path="../../bitcoin-0.14.0/src/addrdb.cpp"
+            ex="false"
+            tool="1"
+            flavor2="8">
+        <ccTool flags="3">
+          <incDir>
+            <pElem>../../bitcoin-0.14.0/src</pElem>
+            <pElem>../../bitcoin-0.14.0/src/config</pElem>
+            <pElem>../../bitcoin-0.14.0/src/obj</pElem>
+            <pElem>/usr/include</pElem>
+            <pElem>../../bitcoin-0.14.0/src/leveldb/include</pElem>
+            <pElem>../../bitcoin-0.14.0/src/leveldb/helpers/memenv</pElem>
+            <pElem>../../bitcoin-0.14.0/src/secp256k1/include</pElem>
+            <pElem>../../bitcoin-0.14.0/src/univalue/include</pElem>
+          </incDir>
+          <preprocessorList>
+            <Elem>HAVE_BUILD_INFO</Elem>
+            <Elem>_FORTIFY_SOURCE=2</Elem>
+            <Elem>__STDC_FORMAT_MACROS</Elem>
+          </preprocessorList>
+        </ccTool>
+      </item>
+      <item path="../../bitcoin-0.14.0/src/addrman.cpp"
+            ex="false"
+            tool="1"
+            flavor2="8">
+        <ccTool flags="3">
+          <incDir>
+            <pElem>../../bitcoin-0.14.0/src</pElem>
+            <pElem>../../bitcoin-0.14.0/src/config</pElem>
+            <pElem>../../bitcoin-0.14.0/src/obj</pElem>
+            <pElem>/usr/include</pElem>
+            <pElem>../../bitcoin-0.14.0/src/leveldb/include</pElem>
+            <pElem>../../bitcoin-0.14.0/src/leveldb/helpers/memenv</pElem>
+            <pElem>../../bitcoin-0.14.0/src/secp256k1/include</pElem>
+            <pElem>../../bitcoin-0.14.0/src/univalue/include</pElem>
+          </incDir>
+          <preprocessorList>
+            <Elem>HAVE_BUILD_INFO</Elem>
+            <Elem>_FORTIFY_SOURCE=2</Elem>
+            <Elem>__STDC_FORMAT_MACROS</Elem>
+          </preprocessorList>
+        </ccTool>
+      </item>
+      <item path="../../bitcoin-0.14.0/src/amount.cpp"
+            ex="false"
+            tool="1"
+            flavor2="8">
+        <ccTool flags="3">
+          <incDir>
+            <pElem>../../bitcoin-0.14.0/src</pElem>
+            <pElem>../../bitcoin-0.14.0/src/config</pElem>
+            <pElem>../../bitcoin-0.14.0/src/obj</pElem>
+            <pElem>/usr/include</pElem>
+            <pElem>../../bitcoin-0.14.0/src/leveldb/include</pElem>
+            <pElem>../../bitcoin-0.14.0/src/leveldb/helpers/memenv</pElem>
+            <pElem>../../bitcoin-0.14.0/src/secp256k1/include</pElem>
+            <pElem>../../bitcoin-0.14.0/src/univalue/include</pElem>
+          </incDir>
+          <preprocessorList>
+            <Elem>HAVE_BUILD_INFO</Elem>
+            <Elem>_FORTIFY_SOURCE=2</Elem>
+            <Elem>__STDC_FORMAT_MACROS</Elem>
+          </preprocessorList>
+        </ccTool>
+      </item>
+      <item path="../../bitcoin-0.14.0/src/arith_uint256.cpp"
+            ex="false"
+            tool="1"
+            flavor2="8">
+        <ccTool flags="3">
+          <incDir>
+            <pElem>../../bitcoin-0.14.0/src</pElem>
+            <pElem>../../bitcoin-0.14.0/src/config</pElem>
+            <pElem>../../bitcoin-0.14.0/src/obj</pElem>
+            <pElem>/usr/include</pElem>
+            <pElem>../../bitcoin-0.14.0/src/leveldb/include</pElem>
+            <pElem>../../bitcoin-0.14.0/src/leveldb/helpers/memenv</pElem>
+            <pElem>../../bitcoin-0.14.0/src/secp256k1/include</pElem>
+            <pElem>../../bitcoin-0.14.0/src/univalue/include</pElem>
+          </incDir>
+          <preprocessorList>
+            <Elem>HAVE_BUILD_INFO</Elem>
+            <Elem>_FORTIFY_SOURCE=2</Elem>
+            <Elem>__STDC_FORMAT_MACROS</Elem>
+          </preprocessorList>
+        </ccTool>
+      </item>
+      <item path="../../bitcoin-0.14.0/src/base58.cpp"
+            ex="false"
+            tool="1"
+            flavor2="8">
+        <ccTool flags="3">
+          <incDir>
+            <pElem>../../bitcoin-0.14.0/src</pElem>
+            <pElem>../../bitcoin-0.14.0/src/config</pElem>
+            <pElem>../../bitcoin-0.14.0/src/obj</pElem>
+            <pElem>/usr/include</pElem>
+            <pElem>../../bitcoin-0.14.0/src/leveldb/include</pElem>
+            <pElem>../../bitcoin-0.14.0/src/leveldb/helpers/memenv</pElem>
+            <pElem>../../bitcoin-0.14.0/src/secp256k1/include</pElem>
+            <pElem>../../bitcoin-0.14.0/src/univalue/include</pElem>
+          </incDir>
+          <preprocessorList>
+            <Elem>HAVE_BUILD_INFO</Elem>
+            <Elem>_FORTIFY_SOURCE=2</Elem>
+            <Elem>__STDC_FORMAT_MACROS</Elem>
+          </preprocessorList>
+        </ccTool>
+      </item>
+      <item path="../../bitcoin-0.14.0/src/bench/Examples.cpp"
+            ex="false"
+            tool="1"
+            flavor2="8">
+        <ccTool flags="3">
+        </ccTool>
+      </item>
+      <item path="../../bitcoin-0.14.0/src/bench/base58.cpp"
+            ex="false"
+            tool="1"
+            flavor2="8">
+        <ccTool flags="3">
+        </ccTool>
+      </item>
+      <item path="../../bitcoin-0.14.0/src/bench/bench.cpp"
+            ex="false"
+            tool="1"
+            flavor2="8">
+        <ccTool flags="3">
+        </ccTool>
+      </item>
+      <item path="../../bitcoin-0.14.0/src/bench/bench_bitcoin.cpp"
+            ex="false"
+            tool="1"
+            flavor2="8">
+        <ccTool flags="3">
+        </ccTool>
+      </item>
+      <item path="../../bitcoin-0.14.0/src/bench/ccoins_caching.cpp"
+            ex="false"
+            tool="1"
+            flavor2="8">
+        <ccTool flags="3">
+        </ccTool>
+      </item>
+      <item path="../../bitcoin-0.14.0/src/bench/checkblock.cpp"
+            ex="false"
+            tool="1"
+            flavor2="8">
+        <ccTool flags="3">
+        </ccTool>
+      </item>
+      <item path="../../bitcoin-0.14.0/src/bench/checkqueue.cpp"
+            ex="false"
+            tool="1"
+            flavor2="8">
+        <ccTool flags="3">
+        </ccTool>
+      </item>
+      <item path="../../bitcoin-0.14.0/src/bench/coin_selection.cpp"
+            ex="false"
+            tool="1"
+            flavor2="8">
+        <ccTool flags="3">
+        </ccTool>
+      </item>
+      <item path="../../bitcoin-0.14.0/src/bench/crypto_hash.cpp"
+            ex="false"
+            tool="1"
+            flavor2="8">
+        <ccTool flags="3">
+        </ccTool>
+      </item>
+      <item path="../../bitcoin-0.14.0/src/bench/lockedpool.cpp"
+            ex="false"
+            tool="1"
+            flavor2="8">
+        <ccTool flags="3">
+        </ccTool>
+      </item>
+      <item path="../../bitcoin-0.14.0/src/bench/mempool_eviction.cpp"
+            ex="false"
+            tool="1"
+            flavor2="8">
+        <ccTool flags="3">
+        </ccTool>
+      </item>
+      <item path="../../bitcoin-0.14.0/src/bench/perf.cpp"
+            ex="false"
+            tool="1"
+            flavor2="8">
+        <ccTool flags="3">
+        </ccTool>
+      </item>
+      <item path="../../bitcoin-0.14.0/src/bench/rollingbloom.cpp"
+            ex="false"
+            tool="1"
+            flavor2="8">
+        <ccTool flags="3">
+        </ccTool>
+      </item>
+      <item path="../../bitcoin-0.14.0/src/bench/verify_script.cpp"
+            ex="false"
+            tool="1"
+            flavor2="8">
+        <ccTool flags="3">
+        </ccTool>
+      </item>
+      <item path="../../bitcoin-0.14.0/src/bitcoin-cli.cpp"
+            ex="false"
+            tool="1"
+            flavor2="8">
+        <ccTool flags="3">
+          <incDir>
+            <pElem>../../bitcoin-0.14.0/src</pElem>
+            <pElem>../../bitcoin-0.14.0/src/config</pElem>
+            <pElem>../../bitcoin-0.14.0/src/obj</pElem>
+            <pElem>/usr/include</pElem>
+            <pElem>../../bitcoin-0.14.0/src/leveldb/include</pElem>
+            <pElem>../../bitcoin-0.14.0/src/leveldb/helpers/memenv</pElem>
+            <pElem>../../bitcoin-0.14.0/src/secp256k1/include</pElem>
+            <pElem>../../bitcoin-0.14.0/src/univalue/include</pElem>
+          </incDir>
+          <preprocessorList>
+            <Elem>HAVE_BUILD_INFO</Elem>
+            <Elem>_FORTIFY_SOURCE=2</Elem>
+            <Elem>__STDC_FORMAT_MACROS</Elem>
+          </preprocessorList>
+        </ccTool>
+      </item>
+      <item path="../../bitcoin-0.14.0/src/bitcoin-tx.cpp"
+            ex="false"
+            tool="1"
+            flavor2="8">
+        <ccTool flags="3">
+          <incDir>
+            <pElem>../../bitcoin-0.14.0/src</pElem>
+            <pElem>../../bitcoin-0.14.0/src/config</pElem>
+            <pElem>../../bitcoin-0.14.0/src/obj</pElem>
+            <pElem>/usr/include</pElem>
+            <pElem>../../bitcoin-0.14.0/src/leveldb/include</pElem>
+            <pElem>../../bitcoin-0.14.0/src/leveldb/helpers/memenv</pElem>
+            <pElem>../../bitcoin-0.14.0/src/secp256k1/include</pElem>
+            <pElem>../../bitcoin-0.14.0/src/univalue/include</pElem>
+          </incDir>
+          <preprocessorList>
+            <Elem>HAVE_BUILD_INFO</Elem>
+            <Elem>_FORTIFY_SOURCE=2</Elem>
+            <Elem>__STDC_FORMAT_MACROS</Elem>
+          </preprocessorList>
+        </ccTool>
+      </item>
+      <item path="../../bitcoin-0.14.0/src/bitcoind.cpp"
+            ex="false"
+            tool="1"
+            flavor2="8">
+        <ccTool flags="3">
+          <incDir>
+            <pElem>../../bitcoin-0.14.0/src</pElem>
+            <pElem>../../bitcoin-0.14.0/src/config</pElem>
+            <pElem>../../bitcoin-0.14.0/src/obj</pElem>
+            <pElem>/usr/include</pElem>
+            <pElem>../../bitcoin-0.14.0/src/leveldb/include</pElem>
+            <pElem>../../bitcoin-0.14.0/src/leveldb/helpers/memenv</pElem>
+            <pElem>../../bitcoin-0.14.0/src/secp256k1/include</pElem>
+            <pElem>../../bitcoin-0.14.0/src/univalue/include</pElem>
+          </incDir>
+          <preprocessorList>
+            <Elem>HAVE_BUILD_INFO</Elem>
+            <Elem>_FORTIFY_SOURCE=2</Elem>
+            <Elem>__STDC_FORMAT_MACROS</Elem>
+          </preprocessorList>
+        </ccTool>
+      </item>
+      <item path="../../bitcoin-0.14.0/src/blockencodings.cpp"
+            ex="false"
+            tool="1"
+            flavor2="8">
+        <ccTool flags="3">
+          <incDir>
+            <pElem>../../bitcoin-0.14.0/src</pElem>
+            <pElem>../../bitcoin-0.14.0/src/config</pElem>
+            <pElem>../../bitcoin-0.14.0/src/obj</pElem>
+            <pElem>/usr/include</pElem>
+            <pElem>../../bitcoin-0.14.0/src/leveldb/include</pElem>
+            <pElem>../../bitcoin-0.14.0/src/leveldb/helpers/memenv</pElem>
+            <pElem>../../bitcoin-0.14.0/src/secp256k1/include</pElem>
+            <pElem>../../bitcoin-0.14.0/src/univalue/include</pElem>
+          </incDir>
+          <preprocessorList>
+            <Elem>HAVE_BUILD_INFO</Elem>
+            <Elem>_FORTIFY_SOURCE=2</Elem>
+            <Elem>__STDC_FORMAT_MACROS</Elem>
+          </preprocessorList>
+        </ccTool>
+      </item>
+      <item path="../../bitcoin-0.14.0/src/bloom.cpp" ex="false" tool="1" flavor2="8">
+        <ccTool flags="3">
+          <incDir>
+            <pElem>../../bitcoin-0.14.0/src</pElem>
+            <pElem>../../bitcoin-0.14.0/src/config</pElem>
+            <pElem>../../bitcoin-0.14.0/src/obj</pElem>
+            <pElem>/usr/include</pElem>
+            <pElem>../../bitcoin-0.14.0/src/leveldb/include</pElem>
+            <pElem>../../bitcoin-0.14.0/src/leveldb/helpers/memenv</pElem>
+            <pElem>../../bitcoin-0.14.0/src/secp256k1/include</pElem>
+            <pElem>../../bitcoin-0.14.0/src/univalue/include</pElem>
+          </incDir>
+          <preprocessorList>
+            <Elem>HAVE_BUILD_INFO</Elem>
+            <Elem>_FORTIFY_SOURCE=2</Elem>
+            <Elem>__STDC_FORMAT_MACROS</Elem>
+          </preprocessorList>
+        </ccTool>
+      </item>
+      <item path="../../bitcoin-0.14.0/src/chain.cpp" ex="false" tool="1" flavor2="8">
+        <ccTool flags="3">
+          <incDir>
+            <pElem>../../bitcoin-0.14.0/src</pElem>
+            <pElem>../../bitcoin-0.14.0/src/config</pElem>
+            <pElem>../../bitcoin-0.14.0/src/obj</pElem>
+            <pElem>/usr/include</pElem>
+            <pElem>../../bitcoin-0.14.0/src/leveldb/include</pElem>
+            <pElem>../../bitcoin-0.14.0/src/leveldb/helpers/memenv</pElem>
+            <pElem>../../bitcoin-0.14.0/src/secp256k1/include</pElem>
+            <pElem>../../bitcoin-0.14.0/src/univalue/include</pElem>
+          </incDir>
+          <preprocessorList>
+            <Elem>HAVE_BUILD_INFO</Elem>
+            <Elem>_FORTIFY_SOURCE=2</Elem>
+            <Elem>__STDC_FORMAT_MACROS</Elem>
+          </preprocessorList>
+        </ccTool>
+      </item>
+      <item path="../../bitcoin-0.14.0/src/chainparams.cpp"
+            ex="false"
+            tool="1"
+            flavor2="8">
+        <ccTool flags="3">
+          <incDir>
+            <pElem>../../bitcoin-0.14.0/src</pElem>
+            <pElem>../../bitcoin-0.14.0/src/config</pElem>
+            <pElem>../../bitcoin-0.14.0/src/obj</pElem>
+            <pElem>/usr/include</pElem>
+            <pElem>../../bitcoin-0.14.0/src/leveldb/include</pElem>
+            <pElem>../../bitcoin-0.14.0/src/leveldb/helpers/memenv</pElem>
+            <pElem>../../bitcoin-0.14.0/src/secp256k1/include</pElem>
+            <pElem>../../bitcoin-0.14.0/src/univalue/include</pElem>
+          </incDir>
+          <preprocessorList>
+            <Elem>HAVE_BUILD_INFO</Elem>
+            <Elem>_FORTIFY_SOURCE=2</Elem>
+            <Elem>__STDC_FORMAT_MACROS</Elem>
+          </preprocessorList>
+        </ccTool>
+      </item>
+      <item path="../../bitcoin-0.14.0/src/chainparamsbase.cpp"
+            ex="false"
+            tool="1"
+            flavor2="8">
+        <ccTool flags="3">
+          <incDir>
+            <pElem>../../bitcoin-0.14.0/src</pElem>
+            <pElem>../../bitcoin-0.14.0/src/config</pElem>
+            <pElem>../../bitcoin-0.14.0/src/obj</pElem>
+            <pElem>/usr/include</pElem>
+            <pElem>../../bitcoin-0.14.0/src/leveldb/include</pElem>
+            <pElem>../../bitcoin-0.14.0/src/leveldb/helpers/memenv</pElem>
+            <pElem>../../bitcoin-0.14.0/src/secp256k1/include</pElem>
+            <pElem>../../bitcoin-0.14.0/src/univalue/include</pElem>
+          </incDir>
+          <preprocessorList>
+            <Elem>HAVE_BUILD_INFO</Elem>
+            <Elem>_FORTIFY_SOURCE=2</Elem>
+            <Elem>__STDC_FORMAT_MACROS</Elem>
+          </preprocessorList>
+        </ccTool>
+      </item>
+      <item path="../../bitcoin-0.14.0/src/checkpoints.cpp"
+            ex="false"
+            tool="1"
+            flavor2="8">
+        <ccTool flags="3">
+          <incDir>
+            <pElem>../../bitcoin-0.14.0/src</pElem>
+            <pElem>../../bitcoin-0.14.0/src/config</pElem>
+            <pElem>../../bitcoin-0.14.0/src/obj</pElem>
+            <pElem>/usr/include</pElem>
+            <pElem>../../bitcoin-0.14.0/src/leveldb/include</pElem>
+            <pElem>../../bitcoin-0.14.0/src/leveldb/helpers/memenv</pElem>
+            <pElem>../../bitcoin-0.14.0/src/secp256k1/include</pElem>
+            <pElem>../../bitcoin-0.14.0/src/univalue/include</pElem>
+          </incDir>
+          <preprocessorList>
+            <Elem>HAVE_BUILD_INFO</Elem>
+            <Elem>_FORTIFY_SOURCE=2</Elem>
+            <Elem>__STDC_FORMAT_MACROS</Elem>
+          </preprocessorList>
+        </ccTool>
+      </item>
+      <item path="../../bitcoin-0.14.0/src/clientversion.cpp"
+            ex="false"
+            tool="1"
+            flavor2="8">
+        <ccTool flags="3">
+          <incDir>
+            <pElem>../../bitcoin-0.14.0/src</pElem>
+            <pElem>../../bitcoin-0.14.0/src/config</pElem>
+            <pElem>../../bitcoin-0.14.0/src/obj</pElem>
+            <pElem>/usr/include</pElem>
+            <pElem>../../bitcoin-0.14.0/src/leveldb/include</pElem>
+            <pElem>../../bitcoin-0.14.0/src/leveldb/helpers/memenv</pElem>
+            <pElem>../../bitcoin-0.14.0/src/secp256k1/include</pElem>
+            <pElem>../../bitcoin-0.14.0/src/univalue/include</pElem>
+          </incDir>
+          <preprocessorList>
+            <Elem>HAVE_BUILD_INFO</Elem>
+            <Elem>_FORTIFY_SOURCE=2</Elem>
+            <Elem>__STDC_FORMAT_MACROS</Elem>
+          </preprocessorList>
+        </ccTool>
+      </item>
+      <item path="../../bitcoin-0.14.0/src/coins.cpp" ex="false" tool="1" flavor2="8">
+        <ccTool flags="3">
+          <incDir>
+            <pElem>../../bitcoin-0.14.0/src</pElem>
+            <pElem>../../bitcoin-0.14.0/src/config</pElem>
+            <pElem>../../bitcoin-0.14.0/src/obj</pElem>
+            <pElem>/usr/include</pElem>
+            <pElem>../../bitcoin-0.14.0/src/leveldb/include</pElem>
+            <pElem>../../bitcoin-0.14.0/src/leveldb/helpers/memenv</pElem>
+            <pElem>../../bitcoin-0.14.0/src/secp256k1/include</pElem>
+            <pElem>../../bitcoin-0.14.0/src/univalue/include</pElem>
+          </incDir>
+          <preprocessorList>
+            <Elem>HAVE_BUILD_INFO</Elem>
+            <Elem>_FORTIFY_SOURCE=2</Elem>
+            <Elem>__STDC_FORMAT_MACROS</Elem>
+          </preprocessorList>
+        </ccTool>
+      </item>
+      <item path="../../bitcoin-0.14.0/src/compat/glibc_sanity.cpp"
+            ex="false"
+            tool="1"
+            flavor2="8">
+        <ccTool flags="3">
+        </ccTool>
+      </item>
+      <item path="../../bitcoin-0.14.0/src/compat/glibcxx_sanity.cpp"
+            ex="false"
+            tool="1"
+            flavor2="8">
+        <ccTool flags="3">
+        </ccTool>
+      </item>
+      <item path="../../bitcoin-0.14.0/src/compat/strnlen.cpp"
+            ex="false"
+            tool="1"
+            flavor2="8">
+        <ccTool flags="3">
+        </ccTool>
+      </item>
+      <item path="../../bitcoin-0.14.0/src/compressor.cpp"
+            ex="false"
+            tool="1"
+            flavor2="8">
+        <ccTool flags="3">
+          <incDir>
+            <pElem>../../bitcoin-0.14.0/src</pElem>
+            <pElem>../../bitcoin-0.14.0/src/config</pElem>
+            <pElem>../../bitcoin-0.14.0/src/obj</pElem>
+            <pElem>/usr/include</pElem>
+            <pElem>../../bitcoin-0.14.0/src/leveldb/include</pElem>
+            <pElem>../../bitcoin-0.14.0/src/leveldb/helpers/memenv</pElem>
+            <pElem>../../bitcoin-0.14.0/src/secp256k1/include</pElem>
+            <pElem>../../bitcoin-0.14.0/src/univalue/include</pElem>
+          </incDir>
+          <preprocessorList>
+            <Elem>HAVE_BUILD_INFO</Elem>
+            <Elem>_FORTIFY_SOURCE=2</Elem>
+            <Elem>__STDC_FORMAT_MACROS</Elem>
+          </preprocessorList>
+        </ccTool>
+      </item>
+      <item path="../../bitcoin-0.14.0/src/consensus/merkle.cpp"
+            ex="false"
+            tool="1"
+            flavor2="8">
+        <ccTool flags="3">
+        </ccTool>
+      </item>
+      <item path="../../bitcoin-0.14.0/src/core_read.cpp"
+            ex="false"
+            tool="1"
+            flavor2="8">
+        <ccTool flags="3">
+          <incDir>
+            <pElem>../../bitcoin-0.14.0/src</pElem>
+            <pElem>../../bitcoin-0.14.0/src/config</pElem>
+            <pElem>../../bitcoin-0.14.0/src/obj</pElem>
+            <pElem>/usr/include</pElem>
+            <pElem>../../bitcoin-0.14.0/src/leveldb/include</pElem>
+            <pElem>../../bitcoin-0.14.0/src/leveldb/helpers/memenv</pElem>
+            <pElem>../../bitcoin-0.14.0/src/secp256k1/include</pElem>
+            <pElem>../../bitcoin-0.14.0/src/univalue/include</pElem>
+          </incDir>
+          <preprocessorList>
+            <Elem>HAVE_BUILD_INFO</Elem>
+            <Elem>_FORTIFY_SOURCE=2</Elem>
+            <Elem>__STDC_FORMAT_MACROS</Elem>
+          </preprocessorList>
+        </ccTool>
+      </item>
+      <item path="../../bitcoin-0.14.0/src/core_write.cpp"
+            ex="false"
+            tool="1"
+            flavor2="8">
+        <ccTool flags="3">
+          <incDir>
+            <pElem>../../bitcoin-0.14.0/src</pElem>
+            <pElem>../../bitcoin-0.14.0/src/config</pElem>
+            <pElem>../../bitcoin-0.14.0/src/obj</pElem>
+            <pElem>/usr/include</pElem>
+            <pElem>../../bitcoin-0.14.0/src/leveldb/include</pElem>
+            <pElem>../../bitcoin-0.14.0/src/leveldb/helpers/memenv</pElem>
+            <pElem>../../bitcoin-0.14.0/src/secp256k1/include</pElem>
+            <pElem>../../bitcoin-0.14.0/src/univalue/include</pElem>
+          </incDir>
+          <preprocessorList>
+            <Elem>HAVE_BUILD_INFO</Elem>
+            <Elem>_FORTIFY_SOURCE=2</Elem>
+            <Elem>__STDC_FORMAT_MACROS</Elem>
+          </preprocessorList>
+        </ccTool>
+      </item>
+      <item path="../../bitcoin-0.14.0/src/crypto/aes.cpp"
+            ex="false"
+            tool="1"
+            flavor2="8">
+        <ccTool flags="2">
+        </ccTool>
+      </item>
+      <item path="../../bitcoin-0.14.0/src/crypto/ctaes/ctaes.c"
+            ex="true"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="../../bitcoin-0.14.0/src/crypto/hmac_sha256.cpp"
+            ex="false"
+            tool="1"
+            flavor2="8">
+        <ccTool flags="2">
+        </ccTool>
+      </item>
+      <item path="../../bitcoin-0.14.0/src/crypto/hmac_sha512.cpp"
+            ex="false"
+            tool="1"
+            flavor2="8">
+        <ccTool flags="2">
+        </ccTool>
+      </item>
+      <item path="../../bitcoin-0.14.0/src/crypto/ripemd160.cpp"
+            ex="false"
+            tool="1"
+            flavor2="8">
+        <ccTool flags="2">
+        </ccTool>
+      </item>
+      <item path="../../bitcoin-0.14.0/src/crypto/sha1.cpp"
+            ex="false"
+            tool="1"
+            flavor2="8">
+        <ccTool flags="2">
+        </ccTool>
+      </item>
+      <item path="../../bitcoin-0.14.0/src/crypto/sha256.cpp"
+            ex="false"
+            tool="1"
+            flavor2="8">
+        <ccTool flags="2">
+        </ccTool>
+      </item>
+      <item path="../../bitcoin-0.14.0/src/crypto/sha512.cpp"
+            ex="false"
+            tool="1"
+            flavor2="8">
+        <ccTool flags="2">
+        </ccTool>
+      </item>
+      <item path="../../bitcoin-0.14.0/src/dbwrapper.cpp"
+            ex="false"
+            tool="1"
+            flavor2="8">
+        <ccTool flags="3">
+          <incDir>
+            <pElem>../../bitcoin-0.14.0/src</pElem>
+            <pElem>../../bitcoin-0.14.0/src/config</pElem>
+            <pElem>../../bitcoin-0.14.0/src/obj</pElem>
+            <pElem>/usr/include</pElem>
+            <pElem>../../bitcoin-0.14.0/src/leveldb/include</pElem>
+            <pElem>../../bitcoin-0.14.0/src/leveldb/helpers/memenv</pElem>
+            <pElem>../../bitcoin-0.14.0/src/secp256k1/include</pElem>
+            <pElem>../../bitcoin-0.14.0/src/univalue/include</pElem>
+          </incDir>
+          <preprocessorList>
+            <Elem>HAVE_BUILD_INFO</Elem>
+            <Elem>_FORTIFY_SOURCE=2</Elem>
+            <Elem>__STDC_FORMAT_MACROS</Elem>
+          </preprocessorList>
+        </ccTool>
+      </item>
+      <item path="../../bitcoin-0.14.0/src/hash.cpp" ex="false" tool="1" flavor2="8">
+        <ccTool flags="3">
+          <incDir>
+            <pElem>../../bitcoin-0.14.0/src</pElem>
+            <pElem>../../bitcoin-0.14.0/src/config</pElem>
+            <pElem>../../bitcoin-0.14.0/src/obj</pElem>
+            <pElem>/usr/include</pElem>
+            <pElem>../../bitcoin-0.14.0/src/leveldb/include</pElem>
+            <pElem>../../bitcoin-0.14.0/src/leveldb/helpers/memenv</pElem>
+            <pElem>../../bitcoin-0.14.0/src/secp256k1/include</pElem>
+            <pElem>../../bitcoin-0.14.0/src/univalue/include</pElem>
+          </incDir>
+          <preprocessorList>
+            <Elem>HAVE_BUILD_INFO</Elem>
+            <Elem>_FORTIFY_SOURCE=2</Elem>
+            <Elem>__STDC_FORMAT_MACROS</Elem>
+          </preprocessorList>
+        </ccTool>
+      </item>
+      <item path="../../bitcoin-0.14.0/src/httprpc.cpp"
+            ex="false"
+            tool="1"
+            flavor2="8">
+        <ccTool flags="3">
+          <incDir>
+            <pElem>../../bitcoin-0.14.0/src</pElem>
+            <pElem>../../bitcoin-0.14.0/src/config</pElem>
+            <pElem>../../bitcoin-0.14.0/src/obj</pElem>
+            <pElem>/usr/include</pElem>
+            <pElem>../../bitcoin-0.14.0/src/leveldb/include</pElem>
+            <pElem>../../bitcoin-0.14.0/src/leveldb/helpers/memenv</pElem>
+            <pElem>../../bitcoin-0.14.0/src/secp256k1/include</pElem>
+            <pElem>../../bitcoin-0.14.0/src/univalue/include</pElem>
+          </incDir>
+          <preprocessorList>
+            <Elem>HAVE_BUILD_INFO</Elem>
+            <Elem>_FORTIFY_SOURCE=2</Elem>
+            <Elem>__STDC_FORMAT_MACROS</Elem>
+          </preprocessorList>
+        </ccTool>
+      </item>
+      <item path="../../bitcoin-0.14.0/src/httpserver.cpp"
+            ex="false"
+            tool="1"
+            flavor2="8">
+        <ccTool flags="3">
+          <incDir>
+            <pElem>../../bitcoin-0.14.0/src</pElem>
+            <pElem>../../bitcoin-0.14.0/src/config</pElem>
+            <pElem>../../bitcoin-0.14.0/src/obj</pElem>
+            <pElem>/usr/include</pElem>
+            <pElem>../../bitcoin-0.14.0/src/leveldb/include</pElem>
+            <pElem>../../bitcoin-0.14.0/src/leveldb/helpers/memenv</pElem>
+            <pElem>../../bitcoin-0.14.0/src/secp256k1/include</pElem>
+            <pElem>../../bitcoin-0.14.0/src/univalue/include</pElem>
+          </incDir>
+          <preprocessorList>
+            <Elem>HAVE_BUILD_INFO</Elem>
+            <Elem>_FORTIFY_SOURCE=2</Elem>
+            <Elem>__STDC_FORMAT_MACROS</Elem>
+          </preprocessorList>
+        </ccTool>
+      </item>
+      <item path="../../bitcoin-0.14.0/src/init.cpp" ex="false" tool="1" flavor2="8">
+        <ccTool flags="3">
+          <incDir>
+            <pElem>../../bitcoin-0.14.0/src</pElem>
+            <pElem>../../bitcoin-0.14.0/src/config</pElem>
+            <pElem>../../bitcoin-0.14.0/src/obj</pElem>
+            <pElem>/usr/include</pElem>
+            <pElem>../../bitcoin-0.14.0/src/leveldb/include</pElem>
+            <pElem>../../bitcoin-0.14.0/src/leveldb/helpers/memenv</pElem>
+            <pElem>../../bitcoin-0.14.0/src/secp256k1/include</pElem>
+            <pElem>../../bitcoin-0.14.0/src/univalue/include</pElem>
+          </incDir>
+          <preprocessorList>
+            <Elem>HAVE_BUILD_INFO</Elem>
+            <Elem>_FORTIFY_SOURCE=2</Elem>
+            <Elem>__STDC_FORMAT_MACROS</Elem>
+          </preprocessorList>
+        </ccTool>
+      </item>
+      <item path="../../bitcoin-0.14.0/src/key.cpp" ex="false" tool="1" flavor2="8">
+        <ccTool flags="3">
+          <incDir>
+            <pElem>../../bitcoin-0.14.0/src</pElem>
+            <pElem>../../bitcoin-0.14.0/src/config</pElem>
+            <pElem>../../bitcoin-0.14.0/src/obj</pElem>
+            <pElem>/usr/include</pElem>
+            <pElem>../../bitcoin-0.14.0/src/leveldb/include</pElem>
+            <pElem>../../bitcoin-0.14.0/src/leveldb/helpers/memenv</pElem>
+            <pElem>../../bitcoin-0.14.0/src/secp256k1/include</pElem>
+            <pElem>../../bitcoin-0.14.0/src/univalue/include</pElem>
+          </incDir>
+          <preprocessorList>
+            <Elem>HAVE_BUILD_INFO</Elem>
+            <Elem>_FORTIFY_SOURCE=2</Elem>
+            <Elem>__STDC_FORMAT_MACROS</Elem>
+          </preprocessorList>
+        </ccTool>
+      </item>
+      <item path="../../bitcoin-0.14.0/src/keystore.cpp"
+            ex="false"
+            tool="1"
+            flavor2="8">
+        <ccTool flags="3">
+          <incDir>
+            <pElem>../../bitcoin-0.14.0/src</pElem>
+            <pElem>../../bitcoin-0.14.0/src/config</pElem>
+            <pElem>../../bitcoin-0.14.0/src/obj</pElem>
+            <pElem>/usr/include</pElem>
+            <pElem>../../bitcoin-0.14.0/src/leveldb/include</pElem>
+            <pElem>../../bitcoin-0.14.0/src/leveldb/helpers/memenv</pElem>
+            <pElem>../../bitcoin-0.14.0/src/secp256k1/include</pElem>
+            <pElem>../../bitcoin-0.14.0/src/univalue/include</pElem>
+          </incDir>
+          <preprocessorList>
+            <Elem>HAVE_BUILD_INFO</Elem>
+            <Elem>_FORTIFY_SOURCE=2</Elem>
+            <Elem>__STDC_FORMAT_MACROS</Elem>
+          </preprocessorList>
+        </ccTool>
+      </item>
+      <item path="../../bitcoin-0.14.0/src/leveldb/db/builder.cc"
+            ex="false"
+            tool="1"
+            flavor2="8">
+        <ccTool flags="3">
+        </ccTool>
+      </item>
+      <item path="../../bitcoin-0.14.0/src/leveldb/db/c.cc"
+            ex="false"
+            tool="1"
+            flavor2="8">
+        <ccTool flags="3">
+        </ccTool>
+      </item>
+      <item path="../../bitcoin-0.14.0/src/leveldb/db/db_impl.cc"
+            ex="false"
+            tool="1"
+            flavor2="8">
+        <ccTool flags="3">
+        </ccTool>
+      </item>
+      <item path="../../bitcoin-0.14.0/src/leveldb/db/db_iter.cc"
+            ex="false"
+            tool="1"
+            flavor2="8">
+        <ccTool flags="3">
+        </ccTool>
+      </item>
+      <item path="../../bitcoin-0.14.0/src/leveldb/db/dbformat.cc"
+            ex="false"
+            tool="1"
+            flavor2="8">
+        <ccTool flags="3">
+        </ccTool>
+      </item>
+      <item path="../../bitcoin-0.14.0/src/leveldb/db/dumpfile.cc"
+            ex="false"
+            tool="1"
+            flavor2="8">
+        <ccTool flags="3">
+        </ccTool>
+      </item>
+      <item path="../../bitcoin-0.14.0/src/leveldb/db/filename.cc"
+            ex="false"
+            tool="1"
+            flavor2="8">
+        <ccTool flags="3">
+        </ccTool>
+      </item>
+      <item path="../../bitcoin-0.14.0/src/leveldb/db/log_reader.cc"
+            ex="false"
+            tool="1"
+            flavor2="8">
+        <ccTool flags="3">
+        </ccTool>
+      </item>
+      <item path="../../bitcoin-0.14.0/src/leveldb/db/log_writer.cc"
+            ex="false"
+            tool="1"
+            flavor2="8">
+        <ccTool flags="3">
+        </ccTool>
+      </item>
+      <item path="../../bitcoin-0.14.0/src/leveldb/db/memtable.cc"
+            ex="false"
+            tool="1"
+            flavor2="8">
+        <ccTool flags="3">
+        </ccTool>
+      </item>
+      <item path="../../bitcoin-0.14.0/src/leveldb/db/repair.cc"
+            ex="false"
+            tool="1"
+            flavor2="8">
+        <ccTool flags="3">
+        </ccTool>
+      </item>
+      <item path="../../bitcoin-0.14.0/src/leveldb/db/table_cache.cc"
+            ex="false"
+            tool="1"
+            flavor2="8">
+        <ccTool flags="3">
+        </ccTool>
+      </item>
+      <item path="../../bitcoin-0.14.0/src/leveldb/db/version_edit.cc"
+            ex="false"
+            tool="1"
+            flavor2="8">
+        <ccTool flags="3">
+        </ccTool>
+      </item>
+      <item path="../../bitcoin-0.14.0/src/leveldb/db/version_set.cc"
+            ex="false"
+            tool="1"
+            flavor2="8">
+        <ccTool flags="3">
+        </ccTool>
+      </item>
+      <item path="../../bitcoin-0.14.0/src/leveldb/db/write_batch.cc"
+            ex="false"
+            tool="1"
+            flavor2="8">
+        <ccTool flags="3">
+        </ccTool>
+      </item>
+      <item path="../../bitcoin-0.14.0/src/leveldb/helpers/memenv/memenv.cc"
+            ex="false"
+            tool="1"
+            flavor2="8">
+        <ccTool flags="3">
+        </ccTool>
+      </item>
+      <item path="../../bitcoin-0.14.0/src/leveldb/port/port_posix.cc"
+            ex="false"
+            tool="1"
+            flavor2="8">
+        <ccTool flags="3">
+        </ccTool>
+      </item>
+      <item path="../../bitcoin-0.14.0/src/leveldb/table/block.cc"
+            ex="false"
+            tool="1"
+            flavor2="8">
+        <ccTool flags="3">
+        </ccTool>
+      </item>
+      <item path="../../bitcoin-0.14.0/src/leveldb/table/block_builder.cc"
+            ex="false"
+            tool="1"
+            flavor2="8">
+        <ccTool flags="3">
+        </ccTool>
+      </item>
+      <item path="../../bitcoin-0.14.0/src/leveldb/table/filter_block.cc"
+            ex="false"
+            tool="1"
+            flavor2="8">
+        <ccTool flags="3">
+        </ccTool>
+      </item>
+      <item path="../../bitcoin-0.14.0/src/leveldb/table/format.cc"
+            ex="false"
+            tool="1"
+            flavor2="8">
+        <ccTool flags="3">
+        </ccTool>
+      </item>
+      <item path="../../bitcoin-0.14.0/src/leveldb/table/iterator.cc"
+            ex="false"
+            tool="1"
+            flavor2="8">
+        <ccTool flags="3">
+        </ccTool>
+      </item>
+      <item path="../../bitcoin-0.14.0/src/leveldb/table/merger.cc"
+            ex="false"
+            tool="1"
+            flavor2="8">
+        <ccTool flags="3">
+        </ccTool>
+      </item>
+      <item path="../../bitcoin-0.14.0/src/leveldb/table/table.cc"
+            ex="false"
+            tool="1"
+            flavor2="8">
+        <ccTool flags="3">
+        </ccTool>
+      </item>
+      <item path="../../bitcoin-0.14.0/src/leveldb/table/table_builder.cc"
+            ex="false"
+            tool="1"
+            flavor2="8">
+        <ccTool flags="3">
+        </ccTool>
+      </item>
+      <item path="../../bitcoin-0.14.0/src/leveldb/table/two_level_iterator.cc"
+            ex="false"
+            tool="1"
+            flavor2="8">
+        <ccTool flags="3">
+        </ccTool>
+      </item>
+      <item path="../../bitcoin-0.14.0/src/leveldb/util/arena.cc"
+            ex="false"
+            tool="1"
+            flavor2="8">
+        <ccTool flags="3">
+        </ccTool>
+      </item>
+      <item path="../../bitcoin-0.14.0/src/leveldb/util/bloom.cc"
+            ex="false"
+            tool="1"
+            flavor2="8">
+        <ccTool flags="3">
+        </ccTool>
+      </item>
+      <item path="../../bitcoin-0.14.0/src/leveldb/util/cache.cc"
+            ex="false"
+            tool="1"
+            flavor2="8">
+        <ccTool flags="3">
+        </ccTool>
+      </item>
+      <item path="../../bitcoin-0.14.0/src/leveldb/util/coding.cc"
+            ex="false"
+            tool="1"
+            flavor2="8">
+        <ccTool flags="3">
+        </ccTool>
+      </item>
+      <item path="../../bitcoin-0.14.0/src/leveldb/util/comparator.cc"
+            ex="false"
+            tool="1"
+            flavor2="8">
+        <ccTool flags="3">
+        </ccTool>
+      </item>
+      <item path="../../bitcoin-0.14.0/src/leveldb/util/crc32c.cc"
+            ex="false"
+            tool="1"
+            flavor2="8">
+        <ccTool flags="3">
+        </ccTool>
+      </item>
+      <item path="../../bitcoin-0.14.0/src/leveldb/util/env.cc"
+            ex="false"
+            tool="1"
+            flavor2="8">
+        <ccTool flags="3">
+        </ccTool>
+      </item>
+      <item path="../../bitcoin-0.14.0/src/leveldb/util/env_posix.cc"
+            ex="false"
+            tool="1"
+            flavor2="8">
+        <ccTool flags="3">
+        </ccTool>
+      </item>
+      <item path="../../bitcoin-0.14.0/src/leveldb/util/filter_policy.cc"
+            ex="false"
+            tool="1"
+            flavor2="8">
+        <ccTool flags="3">
+        </ccTool>
+      </item>
+      <item path="../../bitcoin-0.14.0/src/leveldb/util/hash.cc"
+            ex="false"
+            tool="1"
+            flavor2="8">
+        <ccTool flags="3">
+        </ccTool>
+      </item>
+      <item path="../../bitcoin-0.14.0/src/leveldb/util/histogram.cc"
+            ex="false"
+            tool="1"
+            flavor2="8">
+        <ccTool flags="3">
+        </ccTool>
+      </item>
+      <item path="../../bitcoin-0.14.0/src/leveldb/util/logging.cc"
+            ex="false"
+            tool="1"
+            flavor2="8">
+        <ccTool flags="3">
+        </ccTool>
+      </item>
+      <item path="../../bitcoin-0.14.0/src/leveldb/util/options.cc"
+            ex="false"
+            tool="1"
+            flavor2="8">
+        <ccTool flags="3">
+        </ccTool>
+      </item>
+      <item path="../../bitcoin-0.14.0/src/leveldb/util/status.cc"
+            ex="false"
+            tool="1"
+            flavor2="8">
+        <ccTool flags="3">
+        </ccTool>
+      </item>
+      <item path="../../bitcoin-0.14.0/src/merkleblock.cpp"
+            ex="false"
+            tool="1"
+            flavor2="8">
+        <ccTool flags="3">
+          <incDir>
+            <pElem>../../bitcoin-0.14.0/src</pElem>
+            <pElem>../../bitcoin-0.14.0/src/config</pElem>
+            <pElem>../../bitcoin-0.14.0/src/obj</pElem>
+            <pElem>/usr/include</pElem>
+            <pElem>../../bitcoin-0.14.0/src/leveldb/include</pElem>
+            <pElem>../../bitcoin-0.14.0/src/leveldb/helpers/memenv</pElem>
+            <pElem>../../bitcoin-0.14.0/src/secp256k1/include</pElem>
+            <pElem>../../bitcoin-0.14.0/src/univalue/include</pElem>
+          </incDir>
+          <preprocessorList>
+            <Elem>HAVE_BUILD_INFO</Elem>
+            <Elem>_FORTIFY_SOURCE=2</Elem>
+            <Elem>__STDC_FORMAT_MACROS</Elem>
+          </preprocessorList>
+        </ccTool>
+      </item>
+      <item path="../../bitcoin-0.14.0/src/miner.cpp" ex="false" tool="1" flavor2="8">
+        <ccTool flags="3">
+          <incDir>
+            <pElem>../../bitcoin-0.14.0/src</pElem>
+            <pElem>../../bitcoin-0.14.0/src/config</pElem>
+            <pElem>../../bitcoin-0.14.0/src/obj</pElem>
+            <pElem>/usr/include</pElem>
+            <pElem>../../bitcoin-0.14.0/src/leveldb/include</pElem>
+            <pElem>../../bitcoin-0.14.0/src/leveldb/helpers/memenv</pElem>
+            <pElem>../../bitcoin-0.14.0/src/secp256k1/include</pElem>
+            <pElem>../../bitcoin-0.14.0/src/univalue/include</pElem>
+          </incDir>
+          <preprocessorList>
+            <Elem>HAVE_BUILD_INFO</Elem>
+            <Elem>_FORTIFY_SOURCE=2</Elem>
+            <Elem>__STDC_FORMAT_MACROS</Elem>
+          </preprocessorList>
+        </ccTool>
+      </item>
+      <item path="../../bitcoin-0.14.0/src/net.cpp" ex="false" tool="1" flavor2="8">
+        <ccTool flags="3">
+          <incDir>
+            <pElem>../../bitcoin-0.14.0/src</pElem>
+            <pElem>../../bitcoin-0.14.0/src/config</pElem>
+            <pElem>../../bitcoin-0.14.0/src/obj</pElem>
+            <pElem>/usr/include</pElem>
+            <pElem>../../bitcoin-0.14.0/src/leveldb/include</pElem>
+            <pElem>../../bitcoin-0.14.0/src/leveldb/helpers/memenv</pElem>
+            <pElem>../../bitcoin-0.14.0/src/secp256k1/include</pElem>
+            <pElem>../../bitcoin-0.14.0/src/univalue/include</pElem>
+          </incDir>
+          <preprocessorList>
+            <Elem>HAVE_BUILD_INFO</Elem>
+            <Elem>_FORTIFY_SOURCE=2</Elem>
+            <Elem>__STDC_FORMAT_MACROS</Elem>
+          </preprocessorList>
+        </ccTool>
+      </item>
+      <item path="../../bitcoin-0.14.0/src/net_processing.cpp"
+            ex="false"
+            tool="1"
+            flavor2="8">
+        <ccTool flags="3">
+          <incDir>
+            <pElem>../../bitcoin-0.14.0/src</pElem>
+            <pElem>../../bitcoin-0.14.0/src/config</pElem>
+            <pElem>../../bitcoin-0.14.0/src/obj</pElem>
+            <pElem>/usr/include</pElem>
+            <pElem>../../bitcoin-0.14.0/src/leveldb/include</pElem>
+            <pElem>../../bitcoin-0.14.0/src/leveldb/helpers/memenv</pElem>
+            <pElem>../../bitcoin-0.14.0/src/secp256k1/include</pElem>
+            <pElem>../../bitcoin-0.14.0/src/univalue/include</pElem>
+          </incDir>
+          <preprocessorList>
+            <Elem>HAVE_BUILD_INFO</Elem>
+            <Elem>_FORTIFY_SOURCE=2</Elem>
+            <Elem>__STDC_FORMAT_MACROS</Elem>
+          </preprocessorList>
+        </ccTool>
+      </item>
+      <item path="../../bitcoin-0.14.0/src/netaddress.cpp"
+            ex="false"
+            tool="1"
+            flavor2="8">
+        <ccTool flags="3">
+          <incDir>
+            <pElem>../../bitcoin-0.14.0/src</pElem>
+            <pElem>../../bitcoin-0.14.0/src/config</pElem>
+            <pElem>../../bitcoin-0.14.0/src/obj</pElem>
+            <pElem>/usr/include</pElem>
+            <pElem>../../bitcoin-0.14.0/src/leveldb/include</pElem>
+            <pElem>../../bitcoin-0.14.0/src/leveldb/helpers/memenv</pElem>
+            <pElem>../../bitcoin-0.14.0/src/secp256k1/include</pElem>
+            <pElem>../../bitcoin-0.14.0/src/univalue/include</pElem>
+          </incDir>
+          <preprocessorList>
+            <Elem>HAVE_BUILD_INFO</Elem>
+            <Elem>_FORTIFY_SOURCE=2</Elem>
+            <Elem>__STDC_FORMAT_MACROS</Elem>
+          </preprocessorList>
+        </ccTool>
+      </item>
+      <item path="../../bitcoin-0.14.0/src/netbase.cpp"
+            ex="false"
+            tool="1"
+            flavor2="8">
+        <ccTool flags="3">
+          <incDir>
+            <pElem>../../bitcoin-0.14.0/src</pElem>
+            <pElem>../../bitcoin-0.14.0/src/config</pElem>
+            <pElem>../../bitcoin-0.14.0/src/obj</pElem>
+            <pElem>/usr/include</pElem>
+            <pElem>../../bitcoin-0.14.0/src/leveldb/include</pElem>
+            <pElem>../../bitcoin-0.14.0/src/leveldb/helpers/memenv</pElem>
+            <pElem>../../bitcoin-0.14.0/src/secp256k1/include</pElem>
+            <pElem>../../bitcoin-0.14.0/src/univalue/include</pElem>
+          </incDir>
+          <preprocessorList>
+            <Elem>HAVE_BUILD_INFO</Elem>
+            <Elem>_FORTIFY_SOURCE=2</Elem>
+            <Elem>__STDC_FORMAT_MACROS</Elem>
+          </preprocessorList>
+        </ccTool>
+      </item>
+      <item path="../../bitcoin-0.14.0/src/noui.cpp" ex="false" tool="1" flavor2="8">
+        <ccTool flags="3">
+          <incDir>
+            <pElem>../../bitcoin-0.14.0/src</pElem>
+            <pElem>../../bitcoin-0.14.0/src/config</pElem>
+            <pElem>../../bitcoin-0.14.0/src/obj</pElem>
+            <pElem>/usr/include</pElem>
+            <pElem>../../bitcoin-0.14.0/src/leveldb/include</pElem>
+            <pElem>../../bitcoin-0.14.0/src/leveldb/helpers/memenv</pElem>
+            <pElem>../../bitcoin-0.14.0/src/secp256k1/include</pElem>
+            <pElem>../../bitcoin-0.14.0/src/univalue/include</pElem>
+          </incDir>
+          <preprocessorList>
+            <Elem>HAVE_BUILD_INFO</Elem>
+            <Elem>_FORTIFY_SOURCE=2</Elem>
+            <Elem>__STDC_FORMAT_MACROS</Elem>
+          </preprocessorList>
+        </ccTool>
+      </item>
+      <item path="../../bitcoin-0.14.0/src/policy/fees.cpp"
+            ex="false"
+            tool="1"
+            flavor2="8">
+        <ccTool flags="3">
+        </ccTool>
+      </item>
+      <item path="../../bitcoin-0.14.0/src/policy/policy.cpp"
+            ex="false"
+            tool="1"
+            flavor2="8">
+        <ccTool flags="3">
+        </ccTool>
+      </item>
+      <item path="../../bitcoin-0.14.0/src/policy/rbf.cpp"
+            ex="false"
+            tool="1"
+            flavor2="8">
+        <ccTool flags="3">
+        </ccTool>
+      </item>
+      <item path="../../bitcoin-0.14.0/src/pow.cpp" ex="false" tool="1" flavor2="8">
+        <ccTool flags="3">
+          <incDir>
+            <pElem>../../bitcoin-0.14.0/src</pElem>
+            <pElem>../../bitcoin-0.14.0/src/config</pElem>
+            <pElem>../../bitcoin-0.14.0/src/obj</pElem>
+            <pElem>/usr/include</pElem>
+            <pElem>../../bitcoin-0.14.0/src/leveldb/include</pElem>
+            <pElem>../../bitcoin-0.14.0/src/leveldb/helpers/memenv</pElem>
+            <pElem>../../bitcoin-0.14.0/src/secp256k1/include</pElem>
+            <pElem>../../bitcoin-0.14.0/src/univalue/include</pElem>
+          </incDir>
+          <preprocessorList>
+            <Elem>HAVE_BUILD_INFO</Elem>
+            <Elem>_FORTIFY_SOURCE=2</Elem>
+            <Elem>__STDC_FORMAT_MACROS</Elem>
+          </preprocessorList>
+        </ccTool>
+      </item>
+      <item path="../../bitcoin-0.14.0/src/primitives/block.cpp"
+            ex="false"
+            tool="1"
+            flavor2="8">
+        <ccTool flags="3">
+        </ccTool>
+      </item>
+      <item path="../../bitcoin-0.14.0/src/primitives/transaction.cpp"
+            ex="false"
+            tool="1"
+            flavor2="8">
+        <ccTool flags="3">
+        </ccTool>
+      </item>
+      <item path="../../bitcoin-0.14.0/src/protocol.cpp"
+            ex="false"
+            tool="1"
+            flavor2="8">
+        <ccTool flags="3">
+          <incDir>
+            <pElem>../../bitcoin-0.14.0/src</pElem>
+            <pElem>../../bitcoin-0.14.0/src/config</pElem>
+            <pElem>../../bitcoin-0.14.0/src/obj</pElem>
+            <pElem>/usr/include</pElem>
+            <pElem>../../bitcoin-0.14.0/src/leveldb/include</pElem>
+            <pElem>../../bitcoin-0.14.0/src/leveldb/helpers/memenv</pElem>
+            <pElem>../../bitcoin-0.14.0/src/secp256k1/include</pElem>
+            <pElem>../../bitcoin-0.14.0/src/univalue/include</pElem>
+          </incDir>
+          <preprocessorList>
+            <Elem>HAVE_BUILD_INFO</Elem>
+            <Elem>_FORTIFY_SOURCE=2</Elem>
+            <Elem>__STDC_FORMAT_MACROS</Elem>
+          </preprocessorList>
+        </ccTool>
+      </item>
+      <item path="../../bitcoin-0.14.0/src/pubkey.cpp"
+            ex="false"
+            tool="1"
+            flavor2="8">
+        <ccTool flags="3">
+          <incDir>
+            <pElem>../../bitcoin-0.14.0/src</pElem>
+            <pElem>../../bitcoin-0.14.0/src/config</pElem>
+            <pElem>../../bitcoin-0.14.0/src/obj</pElem>
+            <pElem>/usr/include</pElem>
+            <pElem>../../bitcoin-0.14.0/src/leveldb/include</pElem>
+            <pElem>../../bitcoin-0.14.0/src/leveldb/helpers/memenv</pElem>
+            <pElem>../../bitcoin-0.14.0/src/secp256k1/include</pElem>
+            <pElem>../../bitcoin-0.14.0/src/univalue/include</pElem>
+          </incDir>
+          <preprocessorList>
+            <Elem>HAVE_BUILD_INFO</Elem>
+            <Elem>_FORTIFY_SOURCE=2</Elem>
+            <Elem>__STDC_FORMAT_MACROS</Elem>
+          </preprocessorList>
+        </ccTool>
+      </item>
+      <item path="../../bitcoin-0.14.0/src/qt/addressbookpage.cpp"
+            ex="false"
+            tool="1"
+            flavor2="8">
+        <ccTool flags="2">
+          <incDir>
+            <pElem>/usr/include/x86_64-linux-gnu/qt5/QtDBus</pElem>
+          </incDir>
+        </ccTool>
+      </item>
+      <item path="../../bitcoin-0.14.0/src/qt/addresstablemodel.cpp"
+            ex="false"
+            tool="1"
+            flavor2="8">
+        <ccTool flags="2">
+          <incDir>
+            <pElem>/usr/include/x86_64-linux-gnu/qt5/QtDBus</pElem>
+          </incDir>
+        </ccTool>
+      </item>
+      <item path="../../bitcoin-0.14.0/src/qt/askpassphrasedialog.cpp"
+            ex="false"
+            tool="1"
+            flavor2="8">
+        <ccTool flags="2">
+          <incDir>
+            <pElem>/usr/include/x86_64-linux-gnu/qt5/QtDBus</pElem>
+          </incDir>
+        </ccTool>
+      </item>
+      <item path="../../bitcoin-0.14.0/src/qt/bantablemodel.cpp"
+            ex="false"
+            tool="1"
+            flavor2="8">
+        <ccTool flags="2">
+          <incDir>
+            <pElem>/usr/include/x86_64-linux-gnu/qt5/QtDBus</pElem>
+          </incDir>
+        </ccTool>
+      </item>
+      <item path="../../bitcoin-0.14.0/src/qt/bitcoin.cpp"
+            ex="false"
+            tool="1"
+            flavor2="8">
+        <ccTool flags="2">
+        </ccTool>
+      </item>
+      <item path="../../bitcoin-0.14.0/src/qt/bitcoinaddressvalidator.cpp"
+            ex="false"
+            tool="1"
+            flavor2="8">
+        <ccTool flags="2">
+          <incDir>
+            <pElem>/usr/include/x86_64-linux-gnu/qt5/QtDBus</pElem>
+          </incDir>
+        </ccTool>
+      </item>
+      <item path="../../bitcoin-0.14.0/src/qt/bitcoinamountfield.cpp"
+            ex="false"
+            tool="1"
+            flavor2="8">
+        <ccTool flags="2">
+          <incDir>
+            <pElem>/usr/include/x86_64-linux-gnu/qt5/QtDBus</pElem>
+          </incDir>
+        </ccTool>
+      </item>
+      <item path="../../bitcoin-0.14.0/src/qt/bitcoingui.cpp"
+            ex="false"
+            tool="1"
+            flavor2="8">
+        <ccTool flags="2">
+          <incDir>
+            <pElem>/usr/include/x86_64-linux-gnu/qt5/QtDBus</pElem>
+          </incDir>
+        </ccTool>
+      </item>
+      <item path="../../bitcoin-0.14.0/src/qt/bitcoinunits.cpp"
+            ex="false"
+            tool="1"
+            flavor2="8">
+        <ccTool flags="2">
+          <incDir>
+            <pElem>/usr/include/x86_64-linux-gnu/qt5/QtDBus</pElem>
+          </incDir>
+        </ccTool>
+      </item>
+      <item path="../../bitcoin-0.14.0/src/qt/clientmodel.cpp"
+            ex="false"
+            tool="1"
+            flavor2="8">
+        <ccTool flags="2">
+          <incDir>
+            <pElem>/usr/include/x86_64-linux-gnu/qt5/QtDBus</pElem>
+          </incDir>
+        </ccTool>
+      </item>
+      <item path="../../bitcoin-0.14.0/src/qt/coincontroldialog.cpp"
+            ex="false"
+            tool="1"
+            flavor2="8">
+        <ccTool flags="2">
+          <incDir>
+            <pElem>/usr/include/x86_64-linux-gnu/qt5/QtDBus</pElem>
+          </incDir>
+        </ccTool>
+      </item>
+      <item path="../../bitcoin-0.14.0/src/qt/coincontroltreewidget.cpp"
+            ex="false"
+            tool="1"
+            flavor2="8">
+        <ccTool flags="2">
+          <incDir>
+            <pElem>/usr/include/x86_64-linux-gnu/qt5/QtDBus</pElem>
+          </incDir>
+        </ccTool>
+      </item>
+      <item path="../../bitcoin-0.14.0/src/qt/csvmodelwriter.cpp"
+            ex="false"
+            tool="1"
+            flavor2="8">
+        <ccTool flags="2">
+          <incDir>
+            <pElem>/usr/include/x86_64-linux-gnu/qt5/QtDBus</pElem>
+          </incDir>
+        </ccTool>
+      </item>
+      <item path="../../bitcoin-0.14.0/src/qt/editaddressdialog.cpp"
+            ex="false"
+            tool="1"
+            flavor2="8">
+        <ccTool flags="2">
+          <incDir>
+            <pElem>/usr/include/x86_64-linux-gnu/qt5/QtDBus</pElem>
+          </incDir>
+        </ccTool>
+      </item>
+      <item path="../../bitcoin-0.14.0/src/qt/guiutil.cpp"
+            ex="false"
+            tool="1"
+            flavor2="8">
+        <ccTool flags="2">
+          <incDir>
+            <pElem>/usr/include/x86_64-linux-gnu/qt5/QtDBus</pElem>
+          </incDir>
+        </ccTool>
+      </item>
+      <item path="../../bitcoin-0.14.0/src/qt/intro.cpp"
+            ex="false"
+            tool="1"
+            flavor2="8">
+        <ccTool flags="2">
+          <incDir>
+            <pElem>/usr/include/x86_64-linux-gnu/qt5/QtDBus</pElem>
+          </incDir>
+        </ccTool>
+      </item>
+      <item path="../../bitcoin-0.14.0/src/qt/moc_addressbookpage.cpp"
+            ex="false"
+            tool="1"
+            flavor2="8">
+        <ccTool flags="2">
+          <incDir>
+            <pElem>/usr/include/x86_64-linux-gnu/qt5/QtDBus</pElem>
+          </incDir>
+        </ccTool>
+      </item>
+      <item path="../../bitcoin-0.14.0/src/qt/moc_addresstablemodel.cpp"
+            ex="false"
+            tool="1"
+            flavor2="8">
+        <ccTool flags="2">
+          <incDir>
+            <pElem>/usr/include/x86_64-linux-gnu/qt5/QtDBus</pElem>
+          </incDir>
+        </ccTool>
+      </item>
+      <item path="../../bitcoin-0.14.0/src/qt/moc_askpassphrasedialog.cpp"
+            ex="false"
+            tool="1"
+            flavor2="8">
+        <ccTool flags="2">
+          <incDir>
+            <pElem>/usr/include/x86_64-linux-gnu/qt5/QtDBus</pElem>
+          </incDir>
+        </ccTool>
+      </item>
+      <item path="../../bitcoin-0.14.0/src/qt/moc_bantablemodel.cpp"
+            ex="false"
+            tool="1"
+            flavor2="8">
+        <ccTool flags="2">
+          <incDir>
+            <pElem>/usr/include/x86_64-linux-gnu/qt5/QtDBus</pElem>
+          </incDir>
+        </ccTool>
+      </item>
+      <item path="../../bitcoin-0.14.0/src/qt/moc_bitcoinaddressvalidator.cpp"
+            ex="false"
+            tool="1"
+            flavor2="8">
+        <ccTool flags="2">
+          <incDir>
+            <pElem>/usr/include/x86_64-linux-gnu/qt5/QtDBus</pElem>
+          </incDir>
+        </ccTool>
+      </item>
+      <item path="../../bitcoin-0.14.0/src/qt/moc_bitcoinamountfield.cpp"
+            ex="false"
+            tool="1"
+            flavor2="8">
+        <ccTool flags="2">
+          <incDir>
+            <pElem>/usr/include/x86_64-linux-gnu/qt5/QtDBus</pElem>
+          </incDir>
+        </ccTool>
+      </item>
+      <item path="../../bitcoin-0.14.0/src/qt/moc_bitcoingui.cpp"
+            ex="false"
+            tool="1"
+            flavor2="8">
+        <ccTool flags="2">
+          <incDir>
+            <pElem>/usr/include/x86_64-linux-gnu/qt5/QtDBus</pElem>
+          </incDir>
+        </ccTool>
+      </item>
+      <item path="../../bitcoin-0.14.0/src/qt/moc_bitcoinunits.cpp"
+            ex="false"
+            tool="1"
+            flavor2="8">
+        <ccTool flags="2">
+          <incDir>
+            <pElem>/usr/include/x86_64-linux-gnu/qt5/QtDBus</pElem>
+          </incDir>
+        </ccTool>
+      </item>
+      <item path="../../bitcoin-0.14.0/src/qt/moc_clientmodel.cpp"
+            ex="false"
+            tool="1"
+            flavor2="8">
+        <ccTool flags="2">
+          <incDir>
+            <pElem>/usr/include/x86_64-linux-gnu/qt5/QtDBus</pElem>
+          </incDir>
+        </ccTool>
+      </item>
+      <item path="../../bitcoin-0.14.0/src/qt/moc_coincontroldialog.cpp"
+            ex="false"
+            tool="1"
+            flavor2="8">
+        <ccTool flags="2">
+          <incDir>
+            <pElem>/usr/include/x86_64-linux-gnu/qt5/QtDBus</pElem>
+          </incDir>
+        </ccTool>
+      </item>
+      <item path="../../bitcoin-0.14.0/src/qt/moc_coincontroltreewidget.cpp"
+            ex="false"
+            tool="1"
+            flavor2="8">
+        <ccTool flags="2">
+          <incDir>
+            <pElem>/usr/include/x86_64-linux-gnu/qt5/QtDBus</pElem>
+          </incDir>
+        </ccTool>
+      </item>
+      <item path="../../bitcoin-0.14.0/src/qt/moc_csvmodelwriter.cpp"
+            ex="false"
+            tool="1"
+            flavor2="8">
+        <ccTool flags="2">
+          <incDir>
+            <pElem>/usr/include/x86_64-linux-gnu/qt5/QtDBus</pElem>
+          </incDir>
+        </ccTool>
+      </item>
+      <item path="../../bitcoin-0.14.0/src/qt/moc_editaddressdialog.cpp"
+            ex="false"
+            tool="1"
+            flavor2="8">
+        <ccTool flags="2">
+          <incDir>
+            <pElem>/usr/include/x86_64-linux-gnu/qt5/QtDBus</pElem>
+          </incDir>
+        </ccTool>
+      </item>
+      <item path="../../bitcoin-0.14.0/src/qt/moc_guiutil.cpp"
+            ex="false"
+            tool="1"
+            flavor2="8">
+        <ccTool flags="2">
+          <incDir>
+            <pElem>/usr/include/x86_64-linux-gnu/qt5/QtDBus</pElem>
+          </incDir>
+        </ccTool>
+      </item>
+      <item path="../../bitcoin-0.14.0/src/qt/moc_intro.cpp"
+            ex="false"
+            tool="1"
+            flavor2="8">
+        <ccTool flags="2">
+          <incDir>
+            <pElem>/usr/include/x86_64-linux-gnu/qt5/QtDBus</pElem>
+          </incDir>
+        </ccTool>
+      </item>
+      <item path="../../bitcoin-0.14.0/src/qt/moc_macdockiconhandler.cpp"
+            ex="false"
+            tool="1"
+            flavor2="8">
+        <ccTool flags="2">
+          <incDir>
+            <pElem>/usr/include/x86_64-linux-gnu/qt5/QtDBus</pElem>
+          </incDir>
+        </ccTool>
+      </item>
+      <item path="../../bitcoin-0.14.0/src/qt/moc_macnotificationhandler.cpp"
+            ex="false"
+            tool="1"
+            flavor2="8">
+        <ccTool flags="2">
+          <incDir>
+            <pElem>/usr/include/x86_64-linux-gnu/qt5/QtDBus</pElem>
+          </incDir>
+        </ccTool>
+      </item>
+      <item path="../../bitcoin-0.14.0/src/qt/moc_modaloverlay.cpp"
+            ex="false"
+            tool="1"
+            flavor2="8">
+        <ccTool flags="2">
+          <incDir>
+            <pElem>/usr/include/x86_64-linux-gnu/qt5/QtDBus</pElem>
+          </incDir>
+        </ccTool>
+      </item>
+      <item path="../../bitcoin-0.14.0/src/qt/moc_notificator.cpp"
+            ex="false"
+            tool="1"
+            flavor2="8">
+        <ccTool flags="2">
+          <incDir>
+            <pElem>/usr/include/x86_64-linux-gnu/qt5/QtDBus</pElem>
+          </incDir>
+        </ccTool>
+      </item>
+      <item path="../../bitcoin-0.14.0/src/qt/moc_openuridialog.cpp"
+            ex="false"
+            tool="1"
+            flavor2="8">
+        <ccTool flags="2">
+          <incDir>
+            <pElem>/usr/include/x86_64-linux-gnu/qt5/QtDBus</pElem>
+          </incDir>
+        </ccTool>
+      </item>
+      <item path="../../bitcoin-0.14.0/src/qt/moc_optionsdialog.cpp"
+            ex="false"
+            tool="1"
+            flavor2="8">
+        <ccTool flags="2">
+          <incDir>
+            <pElem>/usr/include/x86_64-linux-gnu/qt5/QtDBus</pElem>
+          </incDir>
+        </ccTool>
+      </item>
+      <item path="../../bitcoin-0.14.0/src/qt/moc_optionsmodel.cpp"
+            ex="false"
+            tool="1"
+            flavor2="8">
+        <ccTool flags="2">
+          <incDir>
+            <pElem>/usr/include/x86_64-linux-gnu/qt5/QtDBus</pElem>
+          </incDir>
+        </ccTool>
+      </item>
+      <item path="../../bitcoin-0.14.0/src/qt/moc_overviewpage.cpp"
+            ex="false"
+            tool="1"
+            flavor2="8">
+        <ccTool flags="2">
+          <incDir>
+            <pElem>/usr/include/x86_64-linux-gnu/qt5/QtDBus</pElem>
+          </incDir>
+        </ccTool>
+      </item>
+      <item path="../../bitcoin-0.14.0/src/qt/moc_paymentserver.cpp"
+            ex="false"
+            tool="1"
+            flavor2="8">
+        <ccTool flags="2">
+          <incDir>
+            <pElem>/usr/include/x86_64-linux-gnu/qt5/QtDBus</pElem>
+          </incDir>
+        </ccTool>
+      </item>
+      <item path="../../bitcoin-0.14.0/src/qt/moc_peertablemodel.cpp"
+            ex="false"
+            tool="1"
+            flavor2="8">
+        <ccTool flags="2">
+          <incDir>
+            <pElem>/usr/include/x86_64-linux-gnu/qt5/QtDBus</pElem>
+          </incDir>
+        </ccTool>
+      </item>
+      <item path="../../bitcoin-0.14.0/src/qt/moc_qvalidatedlineedit.cpp"
+            ex="false"
+            tool="1"
+            flavor2="8">
+        <ccTool flags="2">
+          <incDir>
+            <pElem>/usr/include/x86_64-linux-gnu/qt5/QtDBus</pElem>
+          </incDir>
+        </ccTool>
+      </item>
+      <item path="../../bitcoin-0.14.0/src/qt/moc_qvaluecombobox.cpp"
+            ex="false"
+            tool="1"
+            flavor2="8">
+        <ccTool flags="2">
+          <incDir>
+            <pElem>/usr/include/x86_64-linux-gnu/qt5/QtDBus</pElem>
+          </incDir>
+        </ccTool>
+      </item>
+      <item path="../../bitcoin-0.14.0/src/qt/moc_receivecoinsdialog.cpp"
+            ex="false"
+            tool="1"
+            flavor2="8">
+        <ccTool flags="2">
+          <incDir>
+            <pElem>/usr/include/x86_64-linux-gnu/qt5/QtDBus</pElem>
+          </incDir>
+        </ccTool>
+      </item>
+      <item path="../../bitcoin-0.14.0/src/qt/moc_receiverequestdialog.cpp"
+            ex="false"
+            tool="1"
+            flavor2="8">
+        <ccTool flags="2">
+          <incDir>
+            <pElem>/usr/include/x86_64-linux-gnu/qt5/QtDBus</pElem>
+          </incDir>
+        </ccTool>
+      </item>
+      <item path="../../bitcoin-0.14.0/src/qt/moc_recentrequeststablemodel.cpp"
+            ex="false"
+            tool="1"
+            flavor2="8">
+        <ccTool flags="2">
+          <incDir>
+            <pElem>/usr/include/x86_64-linux-gnu/qt5/QtDBus</pElem>
+          </incDir>
+        </ccTool>
+      </item>
+      <item path="../../bitcoin-0.14.0/src/qt/moc_rpcconsole.cpp"
+            ex="false"
+            tool="1"
+            flavor2="8">
+        <ccTool flags="2">
+          <incDir>
+            <pElem>/usr/include/x86_64-linux-gnu/qt5/QtDBus</pElem>
+          </incDir>
+        </ccTool>
+      </item>
+      <item path="../../bitcoin-0.14.0/src/qt/moc_sendcoinsdialog.cpp"
+            ex="false"
+            tool="1"
+            flavor2="8">
+        <ccTool flags="2">
+          <incDir>
+            <pElem>/usr/include/x86_64-linux-gnu/qt5/QtDBus</pElem>
+          </incDir>
+        </ccTool>
+      </item>
+      <item path="../../bitcoin-0.14.0/src/qt/moc_sendcoinsentry.cpp"
+            ex="false"
+            tool="1"
+            flavor2="8">
+        <ccTool flags="2">
+          <incDir>
+            <pElem>/usr/include/x86_64-linux-gnu/qt5/QtDBus</pElem>
+          </incDir>
+        </ccTool>
+      </item>
+      <item path="../../bitcoin-0.14.0/src/qt/moc_signverifymessagedialog.cpp"
+            ex="false"
+            tool="1"
+            flavor2="8">
+        <ccTool flags="2">
+          <incDir>
+            <pElem>/usr/include/x86_64-linux-gnu/qt5/QtDBus</pElem>
+          </incDir>
+        </ccTool>
+      </item>
+      <item path="../../bitcoin-0.14.0/src/qt/moc_splashscreen.cpp"
+            ex="false"
+            tool="1"
+            flavor2="8">
+        <ccTool flags="2">
+          <incDir>
+            <pElem>/usr/include/x86_64-linux-gnu/qt5/QtDBus</pElem>
+          </incDir>
+        </ccTool>
+      </item>
+      <item path="../../bitcoin-0.14.0/src/qt/moc_trafficgraphwidget.cpp"
+            ex="false"
+            tool="1"
+            flavor2="8">
+        <ccTool flags="2">
+          <incDir>
+            <pElem>/usr/include/x86_64-linux-gnu/qt5/QtDBus</pElem>
+          </incDir>
+        </ccTool>
+      </item>
+      <item path="../../bitcoin-0.14.0/src/qt/moc_transactiondesc.cpp"
+            ex="false"
+            tool="1"
+            flavor2="8">
+        <ccTool flags="2">
+          <incDir>
+            <pElem>/usr/include/x86_64-linux-gnu/qt5/QtDBus</pElem>
+          </incDir>
+        </ccTool>
+      </item>
+      <item path="../../bitcoin-0.14.0/src/qt/moc_transactiondescdialog.cpp"
+            ex="false"
+            tool="1"
+            flavor2="8">
+        <ccTool flags="2">
+          <incDir>
+            <pElem>/usr/include/x86_64-linux-gnu/qt5/QtDBus</pElem>
+          </incDir>
+        </ccTool>
+      </item>
+      <item path="../../bitcoin-0.14.0/src/qt/moc_transactionfilterproxy.cpp"
+            ex="false"
+            tool="1"
+            flavor2="8">
+        <ccTool flags="2">
+          <incDir>
+            <pElem>/usr/include/x86_64-linux-gnu/qt5/QtDBus</pElem>
+          </incDir>
+        </ccTool>
+      </item>
+      <item path="../../bitcoin-0.14.0/src/qt/moc_transactiontablemodel.cpp"
+            ex="false"
+            tool="1"
+            flavor2="8">
+        <ccTool flags="2">
+          <incDir>
+            <pElem>/usr/include/x86_64-linux-gnu/qt5/QtDBus</pElem>
+          </incDir>
+        </ccTool>
+      </item>
+      <item path="../../bitcoin-0.14.0/src/qt/moc_transactionview.cpp"
+            ex="false"
+            tool="1"
+            flavor2="8">
+        <ccTool flags="2">
+          <incDir>
+            <pElem>/usr/include/x86_64-linux-gnu/qt5/QtDBus</pElem>
+          </incDir>
+        </ccTool>
+      </item>
+      <item path="../../bitcoin-0.14.0/src/qt/moc_utilitydialog.cpp"
+            ex="false"
+            tool="1"
+            flavor2="8">
+        <ccTool flags="2">
+          <incDir>
+            <pElem>/usr/include/x86_64-linux-gnu/qt5/QtDBus</pElem>
+          </incDir>
+        </ccTool>
+      </item>
+      <item path="../../bitcoin-0.14.0/src/qt/moc_walletframe.cpp"
+            ex="false"
+            tool="1"
+            flavor2="8">
+        <ccTool flags="2">
+          <incDir>
+            <pElem>/usr/include/x86_64-linux-gnu/qt5/QtDBus</pElem>
+          </incDir>
+        </ccTool>
+      </item>
+      <item path="../../bitcoin-0.14.0/src/qt/moc_walletmodel.cpp"
+            ex="false"
+            tool="1"
+            flavor2="8">
+        <ccTool flags="2">
+          <incDir>
+            <pElem>/usr/include/x86_64-linux-gnu/qt5/QtDBus</pElem>
+          </incDir>
+        </ccTool>
+      </item>
+      <item path="../../bitcoin-0.14.0/src/qt/moc_walletview.cpp"
+            ex="false"
+            tool="1"
+            flavor2="8">
+        <ccTool flags="2">
+          <incDir>
+            <pElem>/usr/include/x86_64-linux-gnu/qt5/QtDBus</pElem>
+          </incDir>
+        </ccTool>
+      </item>
+      <item path="../../bitcoin-0.14.0/src/qt/modaloverlay.cpp"
+            ex="false"
+            tool="1"
+            flavor2="8">
+        <ccTool flags="2">
+          <incDir>
+            <pElem>/usr/include/x86_64-linux-gnu/qt5/QtDBus</pElem>
+          </incDir>
+        </ccTool>
+      </item>
+      <item path="../../bitcoin-0.14.0/src/qt/networkstyle.cpp"
+            ex="false"
+            tool="1"
+            flavor2="8">
+        <ccTool flags="2">
+          <incDir>
+            <pElem>/usr/include/x86_64-linux-gnu/qt5/QtDBus</pElem>
+          </incDir>
+        </ccTool>
+      </item>
+      <item path="../../bitcoin-0.14.0/src/qt/notificator.cpp"
+            ex="false"
+            tool="1"
+            flavor2="8">
+        <ccTool flags="2">
+          <incDir>
+            <pElem>/usr/include/x86_64-linux-gnu/qt5/QtDBus</pElem>
+          </incDir>
+        </ccTool>
+      </item>
+      <item path="../../bitcoin-0.14.0/src/qt/openuridialog.cpp"
+            ex="false"
+            tool="1"
+            flavor2="8">
+        <ccTool flags="2">
+          <incDir>
+            <pElem>/usr/include/x86_64-linux-gnu/qt5/QtDBus</pElem>
+          </incDir>
+        </ccTool>
+      </item>
+      <item path="../../bitcoin-0.14.0/src/qt/optionsdialog.cpp"
+            ex="false"
+            tool="1"
+            flavor2="8">
+        <ccTool flags="2">
+          <incDir>
+            <pElem>/usr/include/x86_64-linux-gnu/qt5/QtDBus</pElem>
+          </incDir>
+        </ccTool>
+      </item>
+      <item path="../../bitcoin-0.14.0/src/qt/optionsmodel.cpp"
+            ex="false"
+            tool="1"
+            flavor2="8">
+        <ccTool flags="2">
+          <incDir>
+            <pElem>/usr/include/x86_64-linux-gnu/qt5/QtDBus</pElem>
+          </incDir>
+        </ccTool>
+      </item>
+      <item path="../../bitcoin-0.14.0/src/qt/overviewpage.cpp"
+            ex="false"
+            tool="1"
+            flavor2="8">
+        <ccTool flags="2">
+          <incDir>
+            <pElem>/usr/include/x86_64-linux-gnu/qt5/QtDBus</pElem>
+          </incDir>
+        </ccTool>
+      </item>
+      <item path="../../bitcoin-0.14.0/src/qt/paymentrequest.pb.cc"
+            ex="false"
+            tool="1"
+            flavor2="8">
+        <ccTool flags="2">
+          <incDir>
+            <pElem>/usr/include/x86_64-linux-gnu/qt5/QtDBus</pElem>
+          </incDir>
+        </ccTool>
+      </item>
+      <item path="../../bitcoin-0.14.0/src/qt/paymentrequestplus.cpp"
+            ex="false"
+            tool="1"
+            flavor2="8">
+        <ccTool flags="2">
+          <incDir>
+            <pElem>/usr/include/x86_64-linux-gnu/qt5/QtDBus</pElem>
+          </incDir>
+        </ccTool>
+      </item>
+      <item path="../../bitcoin-0.14.0/src/qt/paymentserver.cpp"
+            ex="false"
+            tool="1"
+            flavor2="8">
+        <ccTool flags="2">
+          <incDir>
+            <pElem>/usr/include/x86_64-linux-gnu/qt5/QtDBus</pElem>
+          </incDir>
+        </ccTool>
+      </item>
+      <item path="../../bitcoin-0.14.0/src/qt/peertablemodel.cpp"
+            ex="false"
+            tool="1"
+            flavor2="8">
+        <ccTool flags="2">
+          <incDir>
+            <pElem>/usr/include/x86_64-linux-gnu/qt5/QtDBus</pElem>
+          </incDir>
+        </ccTool>
+      </item>
+      <item path="../../bitcoin-0.14.0/src/qt/platformstyle.cpp"
+            ex="false"
+            tool="1"
+            flavor2="8">
+        <ccTool flags="2">
+          <incDir>
+            <pElem>/usr/include/x86_64-linux-gnu/qt5/QtDBus</pElem>
+          </incDir>
+        </ccTool>
+      </item>
+      <item path="../../bitcoin-0.14.0/src/qt/qrc_bitcoin.cpp"
+            ex="false"
+            tool="1"
+            flavor2="8">
+        <ccTool flags="2">
+          <incDir>
+            <pElem>/usr/include/x86_64-linux-gnu/qt5/QtDBus</pElem>
+          </incDir>
+        </ccTool>
+      </item>
+      <item path="../../bitcoin-0.14.0/src/qt/qrc_bitcoin_locale.cpp"
+            ex="false"
+            tool="1"
+            flavor2="8">
+        <ccTool flags="2">
+          <incDir>
+            <pElem>/usr/include/x86_64-linux-gnu/qt5/QtDBus</pElem>
+          </incDir>
+        </ccTool>
+      </item>
+      <item path="../../bitcoin-0.14.0/src/qt/qvalidatedlineedit.cpp"
+            ex="false"
+            tool="1"
+            flavor2="8">
+        <ccTool flags="2">
+          <incDir>
+            <pElem>/usr/include/x86_64-linux-gnu/qt5/QtDBus</pElem>
+          </incDir>
+        </ccTool>
+      </item>
+      <item path="../../bitcoin-0.14.0/src/qt/qvaluecombobox.cpp"
+            ex="false"
+            tool="1"
+            flavor2="8">
+        <ccTool flags="2">
+          <incDir>
+            <pElem>/usr/include/x86_64-linux-gnu/qt5/QtDBus</pElem>
+          </incDir>
+        </ccTool>
+      </item>
+      <item path="../../bitcoin-0.14.0/src/qt/receivecoinsdialog.cpp"
+            ex="false"
+            tool="1"
+            flavor2="8">
+        <ccTool flags="2">
+          <incDir>
+            <pElem>/usr/include/x86_64-linux-gnu/qt5/QtDBus</pElem>
+          </incDir>
+        </ccTool>
+      </item>
+      <item path="../../bitcoin-0.14.0/src/qt/receiverequestdialog.cpp"
+            ex="false"
+            tool="1"
+            flavor2="8">
+        <ccTool flags="2">
+          <incDir>
+            <pElem>/usr/include/x86_64-linux-gnu/qt5/QtDBus</pElem>
+          </incDir>
+        </ccTool>
+      </item>
+      <item path="../../bitcoin-0.14.0/src/qt/recentrequeststablemodel.cpp"
+            ex="false"
+            tool="1"
+            flavor2="8">
+        <ccTool flags="2">
+          <incDir>
+            <pElem>/usr/include/x86_64-linux-gnu/qt5/QtDBus</pElem>
+          </incDir>
+        </ccTool>
+      </item>
+      <item path="../../bitcoin-0.14.0/src/qt/rpcconsole.cpp"
+            ex="false"
+            tool="1"
+            flavor2="8">
+        <ccTool flags="2">
+          <incDir>
+            <pElem>/usr/include/x86_64-linux-gnu/qt5/QtDBus</pElem>
+          </incDir>
+        </ccTool>
+      </item>
+      <item path="../../bitcoin-0.14.0/src/qt/sendcoinsdialog.cpp"
+            ex="false"
+            tool="1"
+            flavor2="8">
+        <ccTool flags="2">
+          <incDir>
+            <pElem>/usr/include/x86_64-linux-gnu/qt5/QtDBus</pElem>
+          </incDir>
+        </ccTool>
+      </item>
+      <item path="../../bitcoin-0.14.0/src/qt/sendcoinsentry.cpp"
+            ex="false"
+            tool="1"
+            flavor2="8">
+        <ccTool flags="2">
+          <incDir>
+            <pElem>/usr/include/x86_64-linux-gnu/qt5/QtDBus</pElem>
+          </incDir>
+        </ccTool>
+      </item>
+      <item path="../../bitcoin-0.14.0/src/qt/signverifymessagedialog.cpp"
+            ex="false"
+            tool="1"
+            flavor2="8">
+        <ccTool flags="2">
+          <incDir>
+            <pElem>/usr/include/x86_64-linux-gnu/qt5/QtDBus</pElem>
+          </incDir>
+        </ccTool>
+      </item>
+      <item path="../../bitcoin-0.14.0/src/qt/splashscreen.cpp"
+            ex="false"
+            tool="1"
+            flavor2="8">
+        <ccTool flags="2">
+          <incDir>
+            <pElem>/usr/include/x86_64-linux-gnu/qt5/QtDBus</pElem>
+          </incDir>
+        </ccTool>
+      </item>
+      <item path="../../bitcoin-0.14.0/src/qt/test/compattests.cpp"
+            ex="false"
+            tool="1"
+            flavor2="8">
+        <ccTool flags="2">
+        </ccTool>
+      </item>
+      <item path="../../bitcoin-0.14.0/src/qt/test/moc_compattests.cpp"
+            ex="false"
+            tool="1"
+            flavor2="8">
+        <ccTool flags="2">
+        </ccTool>
+      </item>
+      <item path="../../bitcoin-0.14.0/src/qt/test/moc_paymentservertests.cpp"
+            ex="false"
+            tool="1"
+            flavor2="8">
+        <ccTool flags="2">
+        </ccTool>
+      </item>
+      <item path="../../bitcoin-0.14.0/src/qt/test/moc_rpcnestedtests.cpp"
+            ex="false"
+            tool="1"
+            flavor2="8">
+        <ccTool flags="2">
+        </ccTool>
+      </item>
+      <item path="../../bitcoin-0.14.0/src/qt/test/moc_uritests.cpp"
+            ex="false"
+            tool="1"
+            flavor2="8">
+        <ccTool flags="2">
+        </ccTool>
+      </item>
+      <item path="../../bitcoin-0.14.0/src/qt/test/paymentservertests.cpp"
+            ex="false"
+            tool="1"
+            flavor2="8">
+        <ccTool flags="2">
+        </ccTool>
+      </item>
+      <item path="../../bitcoin-0.14.0/src/qt/test/rpcnestedtests.cpp"
+            ex="false"
+            tool="1"
+            flavor2="8">
+        <ccTool flags="2">
+        </ccTool>
+      </item>
+      <item path="../../bitcoin-0.14.0/src/qt/test/test_main.cpp"
+            ex="false"
+            tool="1"
+            flavor2="8">
+        <ccTool flags="2">
+        </ccTool>
+      </item>
+      <item path="../../bitcoin-0.14.0/src/qt/test/uritests.cpp"
+            ex="false"
+            tool="1"
+            flavor2="8">
+        <ccTool flags="2">
+        </ccTool>
+      </item>
+      <item path="../../bitcoin-0.14.0/src/qt/trafficgraphwidget.cpp"
+            ex="false"
+            tool="1"
+            flavor2="8">
+        <ccTool flags="2">
+          <incDir>
+            <pElem>/usr/include/x86_64-linux-gnu/qt5/QtDBus</pElem>
+          </incDir>
+        </ccTool>
+      </item>
+      <item path="../../bitcoin-0.14.0/src/qt/transactiondesc.cpp"
+            ex="false"
+            tool="1"
+            flavor2="8">
+        <ccTool flags="2">
+          <incDir>
+            <pElem>/usr/include/x86_64-linux-gnu/qt5/QtDBus</pElem>
+          </incDir>
+        </ccTool>
+      </item>
+      <item path="../../bitcoin-0.14.0/src/qt/transactiondescdialog.cpp"
+            ex="false"
+            tool="1"
+            flavor2="8">
+        <ccTool flags="2">
+          <incDir>
+            <pElem>/usr/include/x86_64-linux-gnu/qt5/QtDBus</pElem>
+          </incDir>
+        </ccTool>
+      </item>
+      <item path="../../bitcoin-0.14.0/src/qt/transactionfilterproxy.cpp"
+            ex="false"
+            tool="1"
+            flavor2="8">
+        <ccTool flags="2">
+          <incDir>
+            <pElem>/usr/include/x86_64-linux-gnu/qt5/QtDBus</pElem>
+          </incDir>
+        </ccTool>
+      </item>
+      <item path="../../bitcoin-0.14.0/src/qt/transactionrecord.cpp"
+            ex="false"
+            tool="1"
+            flavor2="8">
+        <ccTool flags="2">
+          <incDir>
+            <pElem>/usr/include/x86_64-linux-gnu/qt5/QtDBus</pElem>
+          </incDir>
+        </ccTool>
+      </item>
+      <item path="../../bitcoin-0.14.0/src/qt/transactiontablemodel.cpp"
+            ex="false"
+            tool="1"
+            flavor2="8">
+        <ccTool flags="2">
+          <incDir>
+            <pElem>/usr/include/x86_64-linux-gnu/qt5/QtDBus</pElem>
+          </incDir>
+        </ccTool>
+      </item>
+      <item path="../../bitcoin-0.14.0/src/qt/transactionview.cpp"
+            ex="false"
+            tool="1"
+            flavor2="8">
+        <ccTool flags="2">
+          <incDir>
+            <pElem>/usr/include/x86_64-linux-gnu/qt5/QtDBus</pElem>
+          </incDir>
+        </ccTool>
+      </item>
+      <item path="../../bitcoin-0.14.0/src/qt/utilitydialog.cpp"
+            ex="false"
+            tool="1"
+            flavor2="8">
+        <ccTool flags="2">
+          <incDir>
+            <pElem>/usr/include/x86_64-linux-gnu/qt5/QtDBus</pElem>
+          </incDir>
+        </ccTool>
+      </item>
+      <item path="../../bitcoin-0.14.0/src/qt/walletframe.cpp"
+            ex="false"
+            tool="1"
+            flavor2="8">
+        <ccTool flags="2">
+          <incDir>
+            <pElem>/usr/include/x86_64-linux-gnu/qt5/QtDBus</pElem>
+          </incDir>
+        </ccTool>
+      </item>
+      <item path="../../bitcoin-0.14.0/src/qt/walletmodel.cpp"
+            ex="false"
+            tool="1"
+            flavor2="8">
+        <ccTool flags="2">
+          <incDir>
+            <pElem>/usr/include/x86_64-linux-gnu/qt5/QtDBus</pElem>
+          </incDir>
+        </ccTool>
+      </item>
+      <item path="../../bitcoin-0.14.0/src/qt/walletmodeltransaction.cpp"
+            ex="false"
+            tool="1"
+            flavor2="8">
+        <ccTool flags="2">
+          <incDir>
+            <pElem>/usr/include/x86_64-linux-gnu/qt5/QtDBus</pElem>
+          </incDir>
+        </ccTool>
+      </item>
+      <item path="../../bitcoin-0.14.0/src/qt/walletview.cpp"
+            ex="false"
+            tool="1"
+            flavor2="8">
+        <ccTool flags="2">
+          <incDir>
+            <pElem>/usr/include/x86_64-linux-gnu/qt5/QtDBus</pElem>
+          </incDir>
+        </ccTool>
+      </item>
+      <item path="../../bitcoin-0.14.0/src/random.cpp"
+            ex="false"
+            tool="1"
+            flavor2="8">
+        <ccTool flags="3">
+          <incDir>
+            <pElem>../../bitcoin-0.14.0/src</pElem>
+            <pElem>../../bitcoin-0.14.0/src/config</pElem>
+            <pElem>../../bitcoin-0.14.0/src/obj</pElem>
+            <pElem>/usr/include</pElem>
+            <pElem>../../bitcoin-0.14.0/src/leveldb/include</pElem>
+            <pElem>../../bitcoin-0.14.0/src/leveldb/helpers/memenv</pElem>
+            <pElem>../../bitcoin-0.14.0/src/secp256k1/include</pElem>
+            <pElem>../../bitcoin-0.14.0/src/univalue/include</pElem>
+          </incDir>
+          <preprocessorList>
+            <Elem>HAVE_BUILD_INFO</Elem>
+            <Elem>_FORTIFY_SOURCE=2</Elem>
+            <Elem>__STDC_FORMAT_MACROS</Elem>
+          </preprocessorList>
+        </ccTool>
+      </item>
+      <item path="../../bitcoin-0.14.0/src/rest.cpp" ex="false" tool="1" flavor2="8">
+        <ccTool flags="3">
+          <incDir>
+            <pElem>../../bitcoin-0.14.0/src</pElem>
+            <pElem>../../bitcoin-0.14.0/src/config</pElem>
+            <pElem>../../bitcoin-0.14.0/src/obj</pElem>
+            <pElem>/usr/include</pElem>
+            <pElem>../../bitcoin-0.14.0/src/leveldb/include</pElem>
+            <pElem>../../bitcoin-0.14.0/src/leveldb/helpers/memenv</pElem>
+            <pElem>../../bitcoin-0.14.0/src/secp256k1/include</pElem>
+            <pElem>../../bitcoin-0.14.0/src/univalue/include</pElem>
+          </incDir>
+          <preprocessorList>
+            <Elem>HAVE_BUILD_INFO</Elem>
+            <Elem>_FORTIFY_SOURCE=2</Elem>
+            <Elem>__STDC_FORMAT_MACROS</Elem>
+          </preprocessorList>
+        </ccTool>
+      </item>
+      <item path="../../bitcoin-0.14.0/src/rpc/blockchain.cpp"
+            ex="false"
+            tool="1"
+            flavor2="8">
+        <ccTool flags="3">
+        </ccTool>
+      </item>
+      <item path="../../bitcoin-0.14.0/src/rpc/client.cpp"
+            ex="false"
+            tool="1"
+            flavor2="8">
+        <ccTool flags="3">
+        </ccTool>
+      </item>
+      <item path="../../bitcoin-0.14.0/src/rpc/mining.cpp"
+            ex="false"
+            tool="1"
+            flavor2="8">
+        <ccTool flags="3">
+        </ccTool>
+      </item>
+      <item path="../../bitcoin-0.14.0/src/rpc/misc.cpp"
+            ex="false"
+            tool="1"
+            flavor2="8">
+        <ccTool flags="3">
+        </ccTool>
+      </item>
+      <item path="../../bitcoin-0.14.0/src/rpc/net.cpp"
+            ex="false"
+            tool="1"
+            flavor2="8">
+        <ccTool flags="3">
+        </ccTool>
+      </item>
+      <item path="../../bitcoin-0.14.0/src/rpc/protocol.cpp"
+            ex="false"
+            tool="1"
+            flavor2="8">
+        <ccTool flags="3">
+        </ccTool>
+      </item>
+      <item path="../../bitcoin-0.14.0/src/rpc/rawtransaction.cpp"
+            ex="false"
+            tool="1"
+            flavor2="8">
+        <ccTool flags="3">
+        </ccTool>
+      </item>
+      <item path="../../bitcoin-0.14.0/src/rpc/server.cpp"
+            ex="false"
+            tool="1"
+            flavor2="8">
+        <ccTool flags="3">
+        </ccTool>
+      </item>
+      <item path="../../bitcoin-0.14.0/src/scheduler.cpp"
+            ex="false"
+            tool="1"
+            flavor2="8">
+        <ccTool flags="3">
+          <incDir>
+            <pElem>../../bitcoin-0.14.0/src</pElem>
+            <pElem>../../bitcoin-0.14.0/src/config</pElem>
+            <pElem>../../bitcoin-0.14.0/src/obj</pElem>
+            <pElem>/usr/include</pElem>
+            <pElem>../../bitcoin-0.14.0/src/leveldb/include</pElem>
+            <pElem>../../bitcoin-0.14.0/src/leveldb/helpers/memenv</pElem>
+            <pElem>../../bitcoin-0.14.0/src/secp256k1/include</pElem>
+            <pElem>../../bitcoin-0.14.0/src/univalue/include</pElem>
+          </incDir>
+          <preprocessorList>
+            <Elem>HAVE_BUILD_INFO</Elem>
+            <Elem>_FORTIFY_SOURCE=2</Elem>
+            <Elem>__STDC_FORMAT_MACROS</Elem>
+          </preprocessorList>
+        </ccTool>
+      </item>
+      <item path="../../bitcoin-0.14.0/src/script/bitcoinconsensus.cpp"
+            ex="false"
+            tool="1"
+            flavor2="8">
+        <ccTool flags="3">
+        </ccTool>
+      </item>
+      <item path="../../bitcoin-0.14.0/src/script/interpreter.cpp"
+            ex="false"
+            tool="1"
+            flavor2="8">
+        <ccTool flags="3">
+        </ccTool>
+      </item>
+      <item path="../../bitcoin-0.14.0/src/script/ismine.cpp"
+            ex="false"
+            tool="1"
+            flavor2="8">
+        <ccTool flags="3">
+        </ccTool>
+      </item>
+      <item path="../../bitcoin-0.14.0/src/script/script.cpp"
+            ex="false"
+            tool="1"
+            flavor2="8">
+        <ccTool flags="3">
+        </ccTool>
+      </item>
+      <item path="../../bitcoin-0.14.0/src/script/script_error.cpp"
+            ex="false"
+            tool="1"
+            flavor2="8">
+        <ccTool flags="3">
+        </ccTool>
+      </item>
+      <item path="../../bitcoin-0.14.0/src/script/sigcache.cpp"
+            ex="false"
+            tool="1"
+            flavor2="8">
+        <ccTool flags="3">
+        </ccTool>
+      </item>
+      <item path="../../bitcoin-0.14.0/src/script/sign.cpp"
+            ex="false"
+            tool="1"
+            flavor2="8">
+        <ccTool flags="3">
+        </ccTool>
+      </item>
+      <item path="../../bitcoin-0.14.0/src/script/standard.cpp"
+            ex="false"
+            tool="1"
+            flavor2="8">
+        <ccTool flags="3">
+        </ccTool>
+      </item>
+      <item path="../../bitcoin-0.14.0/src/secp256k1/src/gen_context.c"
+            ex="false"
+            tool="0"
+            flavor2="3">
+        <cTool flags="1">
+        </cTool>
+      </item>
+      <item path="../../bitcoin-0.14.0/src/secp256k1/src/secp256k1.c"
+            ex="false"
+            tool="0"
+            flavor2="2">
+        <cTool flags="4">
+          <incDir>
+            <pElem>../../bitcoin-0.14.0/src/secp256k1/src</pElem>
+            <pElem>../../bitcoin-0.14.0/src/secp256k1/include</pElem>
+          </incDir>
+          <preprocessorList>
+            <Elem>HAVE_CONFIG_H</Elem>
+            <Elem>PIC</Elem>
+            <Elem>SECP256K1_BUILD</Elem>
+          </preprocessorList>
+        </cTool>
+      </item>
+      <item path="../../bitcoin-0.14.0/src/support/cleanse.cpp"
+            ex="false"
+            tool="1"
+            flavor2="8">
+        <ccTool flags="3">
+        </ccTool>
+      </item>
+      <item path="../../bitcoin-0.14.0/src/support/lockedpool.cpp"
+            ex="false"
+            tool="1"
+            flavor2="8">
+        <ccTool flags="3">
+        </ccTool>
+      </item>
+      <item path="../../bitcoin-0.14.0/src/sync.cpp" ex="false" tool="1" flavor2="8">
+        <ccTool flags="3">
+          <incDir>
+            <pElem>../../bitcoin-0.14.0/src</pElem>
+            <pElem>../../bitcoin-0.14.0/src/config</pElem>
+            <pElem>../../bitcoin-0.14.0/src/obj</pElem>
+            <pElem>/usr/include</pElem>
+            <pElem>../../bitcoin-0.14.0/src/leveldb/include</pElem>
+            <pElem>../../bitcoin-0.14.0/src/leveldb/helpers/memenv</pElem>
+            <pElem>../../bitcoin-0.14.0/src/secp256k1/include</pElem>
+            <pElem>../../bitcoin-0.14.0/src/univalue/include</pElem>
+          </incDir>
+          <preprocessorList>
+            <Elem>HAVE_BUILD_INFO</Elem>
+            <Elem>_FORTIFY_SOURCE=2</Elem>
+            <Elem>__STDC_FORMAT_MACROS</Elem>
+          </preprocessorList>
+        </ccTool>
+      </item>
+      <item path="../../bitcoin-0.14.0/src/test/DoS_tests.cpp"
+            ex="false"
+            tool="1"
+            flavor2="8">
+        <ccTool flags="3">
+          <incDir>
+            <pElem>../../bitcoin-0.14.0/src/test</pElem>
+          </incDir>
+          <preprocessorList>
+            <Elem>BOOST_TEST_DYN_LINK</Elem>
+          </preprocessorList>
+        </ccTool>
+      </item>
+      <item path="../../bitcoin-0.14.0/src/test/addrman_tests.cpp"
+            ex="false"
+            tool="1"
+            flavor2="8">
+        <ccTool flags="3">
+          <incDir>
+            <pElem>../../bitcoin-0.14.0/src/test</pElem>
+          </incDir>
+          <preprocessorList>
+            <Elem>BOOST_TEST_DYN_LINK</Elem>
+          </preprocessorList>
+        </ccTool>
+      </item>
+      <item path="../../bitcoin-0.14.0/src/test/allocator_tests.cpp"
+            ex="false"
+            tool="1"
+            flavor2="8">
+        <ccTool flags="3">
+          <incDir>
+            <pElem>../../bitcoin-0.14.0/src/test</pElem>
+          </incDir>
+          <preprocessorList>
+            <Elem>BOOST_TEST_DYN_LINK</Elem>
+          </preprocessorList>
+        </ccTool>
+      </item>
+      <item path="../../bitcoin-0.14.0/src/test/amount_tests.cpp"
+            ex="false"
+            tool="1"
+            flavor2="8">
+        <ccTool flags="3">
+          <incDir>
+            <pElem>../../bitcoin-0.14.0/src/test</pElem>
+          </incDir>
+          <preprocessorList>
+            <Elem>BOOST_TEST_DYN_LINK</Elem>
+          </preprocessorList>
+        </ccTool>
+      </item>
+      <item path="../../bitcoin-0.14.0/src/test/arith_uint256_tests.cpp"
+            ex="false"
+            tool="1"
+            flavor2="8">
+        <ccTool flags="3">
+          <incDir>
+            <pElem>../../bitcoin-0.14.0/src/test</pElem>
+          </incDir>
+          <preprocessorList>
+            <Elem>BOOST_TEST_DYN_LINK</Elem>
+          </preprocessorList>
+        </ccTool>
+      </item>
+      <item path="../../bitcoin-0.14.0/src/test/base32_tests.cpp"
+            ex="false"
+            tool="1"
+            flavor2="8">
+        <ccTool flags="3">
+          <incDir>
+            <pElem>../../bitcoin-0.14.0/src/test</pElem>
+          </incDir>
+          <preprocessorList>
+            <Elem>BOOST_TEST_DYN_LINK</Elem>
+          </preprocessorList>
+        </ccTool>
+      </item>
+      <item path="../../bitcoin-0.14.0/src/test/base58_tests.cpp"
+            ex="false"
+            tool="1"
+            flavor2="8">
+        <ccTool flags="3">
+          <incDir>
+            <pElem>../../bitcoin-0.14.0/src/test</pElem>
+          </incDir>
+          <preprocessorList>
+            <Elem>BOOST_TEST_DYN_LINK</Elem>
+          </preprocessorList>
+        </ccTool>
+      </item>
+      <item path="../../bitcoin-0.14.0/src/test/base64_tests.cpp"
+            ex="false"
+            tool="1"
+            flavor2="8">
+        <ccTool flags="3">
+          <incDir>
+            <pElem>../../bitcoin-0.14.0/src/test</pElem>
+          </incDir>
+          <preprocessorList>
+            <Elem>BOOST_TEST_DYN_LINK</Elem>
+          </preprocessorList>
+        </ccTool>
+      </item>
+      <item path="../../bitcoin-0.14.0/src/test/bip32_tests.cpp"
+            ex="false"
+            tool="1"
+            flavor2="8">
+        <ccTool flags="3">
+          <incDir>
+            <pElem>../../bitcoin-0.14.0/src/test</pElem>
+          </incDir>
+          <preprocessorList>
+            <Elem>BOOST_TEST_DYN_LINK</Elem>
+          </preprocessorList>
+        </ccTool>
+      </item>
+      <item path="../../bitcoin-0.14.0/src/test/blockencodings_tests.cpp"
+            ex="false"
+            tool="1"
+            flavor2="8">
+        <ccTool flags="3">
+          <incDir>
+            <pElem>../../bitcoin-0.14.0/src/test</pElem>
+          </incDir>
+          <preprocessorList>
+            <Elem>BOOST_TEST_DYN_LINK</Elem>
+          </preprocessorList>
+        </ccTool>
+      </item>
+      <item path="../../bitcoin-0.14.0/src/test/bloom_tests.cpp"
+            ex="false"
+            tool="1"
+            flavor2="8">
+        <ccTool flags="3">
+          <incDir>
+            <pElem>../../bitcoin-0.14.0/src/test</pElem>
+          </incDir>
+          <preprocessorList>
+            <Elem>BOOST_TEST_DYN_LINK</Elem>
+          </preprocessorList>
+        </ccTool>
+      </item>
+      <item path="../../bitcoin-0.14.0/src/test/bswap_tests.cpp"
+            ex="false"
+            tool="1"
+            flavor2="8">
+        <ccTool flags="3">
+          <incDir>
+            <pElem>../../bitcoin-0.14.0/src/test</pElem>
+          </incDir>
+          <preprocessorList>
+            <Elem>BOOST_TEST_DYN_LINK</Elem>
+          </preprocessorList>
+        </ccTool>
+      </item>
+      <item path="../../bitcoin-0.14.0/src/test/coins_tests.cpp"
+            ex="false"
+            tool="1"
+            flavor2="8">
+        <ccTool flags="3">
+          <incDir>
+            <pElem>../../bitcoin-0.14.0/src/test</pElem>
+          </incDir>
+          <preprocessorList>
+            <Elem>BOOST_TEST_DYN_LINK</Elem>
+          </preprocessorList>
+        </ccTool>
+      </item>
+      <item path="../../bitcoin-0.14.0/src/test/compress_tests.cpp"
+            ex="false"
+            tool="1"
+            flavor2="8">
+        <ccTool flags="3">
+          <incDir>
+            <pElem>../../bitcoin-0.14.0/src/test</pElem>
+          </incDir>
+          <preprocessorList>
+            <Elem>BOOST_TEST_DYN_LINK</Elem>
+          </preprocessorList>
+        </ccTool>
+      </item>
+      <item path="../../bitcoin-0.14.0/src/test/crypto_tests.cpp"
+            ex="false"
+            tool="1"
+            flavor2="8">
+        <ccTool flags="3">
+          <incDir>
+            <pElem>../../bitcoin-0.14.0/src/test</pElem>
+          </incDir>
+          <preprocessorList>
+            <Elem>BOOST_TEST_DYN_LINK</Elem>
+          </preprocessorList>
+        </ccTool>
+      </item>
+      <item path="../../bitcoin-0.14.0/src/test/cuckoocache_tests.cpp"
+            ex="false"
+            tool="1"
+            flavor2="8">
+        <ccTool flags="3">
+          <incDir>
+            <pElem>../../bitcoin-0.14.0/src/test</pElem>
+          </incDir>
+          <preprocessorList>
+            <Elem>BOOST_TEST_DYN_LINK</Elem>
+          </preprocessorList>
+        </ccTool>
+      </item>
+      <item path="../../bitcoin-0.14.0/src/test/dbwrapper_tests.cpp"
+            ex="false"
+            tool="1"
+            flavor2="8">
+        <ccTool flags="3">
+          <incDir>
+            <pElem>../../bitcoin-0.14.0/src/test</pElem>
+          </incDir>
+          <preprocessorList>
+            <Elem>BOOST_TEST_DYN_LINK</Elem>
+          </preprocessorList>
+        </ccTool>
+      </item>
+      <item path="../../bitcoin-0.14.0/src/test/getarg_tests.cpp"
+            ex="false"
+            tool="1"
+            flavor2="8">
+        <ccTool flags="3">
+          <incDir>
+            <pElem>../../bitcoin-0.14.0/src/test</pElem>
+          </incDir>
+          <preprocessorList>
+            <Elem>BOOST_TEST_DYN_LINK</Elem>
+          </preprocessorList>
+        </ccTool>
+      </item>
+      <item path="../../bitcoin-0.14.0/src/test/hash_tests.cpp"
+            ex="false"
+            tool="1"
+            flavor2="8">
+        <ccTool flags="3">
+          <incDir>
+            <pElem>../../bitcoin-0.14.0/src/test</pElem>
+          </incDir>
+          <preprocessorList>
+            <Elem>BOOST_TEST_DYN_LINK</Elem>
+          </preprocessorList>
+        </ccTool>
+      </item>
+      <item path="../../bitcoin-0.14.0/src/test/key_tests.cpp"
+            ex="false"
+            tool="1"
+            flavor2="8">
+        <ccTool flags="3">
+          <incDir>
+            <pElem>../../bitcoin-0.14.0/src/test</pElem>
+          </incDir>
+          <preprocessorList>
+            <Elem>BOOST_TEST_DYN_LINK</Elem>
+          </preprocessorList>
+        </ccTool>
+      </item>
+      <item path="../../bitcoin-0.14.0/src/test/limitedmap_tests.cpp"
+            ex="false"
+            tool="1"
+            flavor2="8">
+        <ccTool flags="3">
+          <incDir>
+            <pElem>../../bitcoin-0.14.0/src/test</pElem>
+          </incDir>
+          <preprocessorList>
+            <Elem>BOOST_TEST_DYN_LINK</Elem>
+          </preprocessorList>
+        </ccTool>
+      </item>
+      <item path="../../bitcoin-0.14.0/src/test/main_tests.cpp"
+            ex="false"
+            tool="1"
+            flavor2="8">
+        <ccTool flags="3">
+          <incDir>
+            <pElem>../../bitcoin-0.14.0/src/test</pElem>
+          </incDir>
+          <preprocessorList>
+            <Elem>BOOST_TEST_DYN_LINK</Elem>
+          </preprocessorList>
+        </ccTool>
+      </item>
+      <item path="../../bitcoin-0.14.0/src/test/mempool_tests.cpp"
+            ex="false"
+            tool="1"
+            flavor2="8">
+        <ccTool flags="3">
+          <incDir>
+            <pElem>../../bitcoin-0.14.0/src/test</pElem>
+          </incDir>
+          <preprocessorList>
+            <Elem>BOOST_TEST_DYN_LINK</Elem>
+          </preprocessorList>
+        </ccTool>
+      </item>
+      <item path="../../bitcoin-0.14.0/src/test/merkle_tests.cpp"
+            ex="false"
+            tool="1"
+            flavor2="8">
+        <ccTool flags="3">
+          <incDir>
+            <pElem>../../bitcoin-0.14.0/src/test</pElem>
+          </incDir>
+          <preprocessorList>
+            <Elem>BOOST_TEST_DYN_LINK</Elem>
+          </preprocessorList>
+        </ccTool>
+      </item>
+      <item path="../../bitcoin-0.14.0/src/test/miner_tests.cpp"
+            ex="false"
+            tool="1"
+            flavor2="8">
+        <ccTool flags="3">
+          <incDir>
+            <pElem>../../bitcoin-0.14.0/src/test</pElem>
+          </incDir>
+          <preprocessorList>
+            <Elem>BOOST_TEST_DYN_LINK</Elem>
+          </preprocessorList>
+        </ccTool>
+      </item>
+      <item path="../../bitcoin-0.14.0/src/test/multisig_tests.cpp"
+            ex="false"
+            tool="1"
+            flavor2="8">
+        <ccTool flags="3">
+          <incDir>
+            <pElem>../../bitcoin-0.14.0/src/test</pElem>
+          </incDir>
+          <preprocessorList>
+            <Elem>BOOST_TEST_DYN_LINK</Elem>
+          </preprocessorList>
+        </ccTool>
+      </item>
+      <item path="../../bitcoin-0.14.0/src/test/net_tests.cpp"
+            ex="false"
+            tool="1"
+            flavor2="8">
+        <ccTool flags="3">
+          <incDir>
+            <pElem>../../bitcoin-0.14.0/src/test</pElem>
+          </incDir>
+          <preprocessorList>
+            <Elem>BOOST_TEST_DYN_LINK</Elem>
+          </preprocessorList>
+        </ccTool>
+      </item>
+      <item path="../../bitcoin-0.14.0/src/test/netbase_tests.cpp"
+            ex="false"
+            tool="1"
+            flavor2="8">
+        <ccTool flags="3">
+          <incDir>
+            <pElem>../../bitcoin-0.14.0/src/test</pElem>
+          </incDir>
+          <preprocessorList>
+            <Elem>BOOST_TEST_DYN_LINK</Elem>
+          </preprocessorList>
+        </ccTool>
+      </item>
+      <item path="../../bitcoin-0.14.0/src/test/pmt_tests.cpp"
+            ex="false"
+            tool="1"
+            flavor2="8">
+        <ccTool flags="3">
+          <incDir>
+            <pElem>../../bitcoin-0.14.0/src/test</pElem>
+          </incDir>
+          <preprocessorList>
+            <Elem>BOOST_TEST_DYN_LINK</Elem>
+          </preprocessorList>
+        </ccTool>
+      </item>
+      <item path="../../bitcoin-0.14.0/src/test/policyestimator_tests.cpp"
+            ex="false"
+            tool="1"
+            flavor2="8">
+        <ccTool flags="3">
+          <incDir>
+            <pElem>../../bitcoin-0.14.0/src/test</pElem>
+          </incDir>
+          <preprocessorList>
+            <Elem>BOOST_TEST_DYN_LINK</Elem>
+          </preprocessorList>
+        </ccTool>
+      </item>
+      <item path="../../bitcoin-0.14.0/src/test/pow_tests.cpp"
+            ex="false"
+            tool="1"
+            flavor2="8">
+        <ccTool flags="3">
+          <incDir>
+            <pElem>../../bitcoin-0.14.0/src/test</pElem>
+          </incDir>
+          <preprocessorList>
+            <Elem>BOOST_TEST_DYN_LINK</Elem>
+          </preprocessorList>
+        </ccTool>
+      </item>
+      <item path="../../bitcoin-0.14.0/src/test/prevector_tests.cpp"
+            ex="false"
+            tool="1"
+            flavor2="8">
+        <ccTool flags="3">
+          <incDir>
+            <pElem>../../bitcoin-0.14.0/src/test</pElem>
+          </incDir>
+          <preprocessorList>
+            <Elem>BOOST_TEST_DYN_LINK</Elem>
+          </preprocessorList>
+        </ccTool>
+      </item>
+      <item path="../../bitcoin-0.14.0/src/test/raii_event_tests.cpp"
+            ex="false"
+            tool="1"
+            flavor2="8">
+        <ccTool flags="3">
+          <incDir>
+            <pElem>../../bitcoin-0.14.0/src/test</pElem>
+          </incDir>
+          <preprocessorList>
+            <Elem>BOOST_TEST_DYN_LINK</Elem>
+          </preprocessorList>
+        </ccTool>
+      </item>
+      <item path="../../bitcoin-0.14.0/src/test/reverselock_tests.cpp"
+            ex="false"
+            tool="1"
+            flavor2="8">
+        <ccTool flags="3">
+          <incDir>
+            <pElem>../../bitcoin-0.14.0/src/test</pElem>
+          </incDir>
+          <preprocessorList>
+            <Elem>BOOST_TEST_DYN_LINK</Elem>
+          </preprocessorList>
+        </ccTool>
+      </item>
+      <item path="../../bitcoin-0.14.0/src/test/rpc_tests.cpp"
+            ex="false"
+            tool="1"
+            flavor2="8">
+        <ccTool flags="3">
+          <incDir>
+            <pElem>../../bitcoin-0.14.0/src/test</pElem>
+          </incDir>
+          <preprocessorList>
+            <Elem>BOOST_TEST_DYN_LINK</Elem>
+          </preprocessorList>
+        </ccTool>
+      </item>
+      <item path="../../bitcoin-0.14.0/src/test/sanity_tests.cpp"
+            ex="false"
+            tool="1"
+            flavor2="8">
+        <ccTool flags="3">
+          <incDir>
+            <pElem>../../bitcoin-0.14.0/src/test</pElem>
+          </incDir>
+          <preprocessorList>
+            <Elem>BOOST_TEST_DYN_LINK</Elem>
+          </preprocessorList>
+        </ccTool>
+      </item>
+      <item path="../../bitcoin-0.14.0/src/test/scheduler_tests.cpp"
+            ex="false"
+            tool="1"
+            flavor2="8">
+        <ccTool flags="3">
+          <incDir>
+            <pElem>../../bitcoin-0.14.0/src/test</pElem>
+          </incDir>
+          <preprocessorList>
+            <Elem>BOOST_TEST_DYN_LINK</Elem>
+          </preprocessorList>
+        </ccTool>
+      </item>
+      <item path="../../bitcoin-0.14.0/src/test/script_P2SH_tests.cpp"
+            ex="false"
+            tool="1"
+            flavor2="8">
+        <ccTool flags="3">
+          <incDir>
+            <pElem>../../bitcoin-0.14.0/src/test</pElem>
+          </incDir>
+          <preprocessorList>
+            <Elem>BOOST_TEST_DYN_LINK</Elem>
+          </preprocessorList>
+        </ccTool>
+      </item>
+      <item path="../../bitcoin-0.14.0/src/test/script_tests.cpp"
+            ex="false"
+            tool="1"
+            flavor2="8">
+        <ccTool flags="3">
+          <incDir>
+            <pElem>../../bitcoin-0.14.0/src/test</pElem>
+          </incDir>
+          <preprocessorList>
+            <Elem>BOOST_TEST_DYN_LINK</Elem>
+          </preprocessorList>
+        </ccTool>
+      </item>
+      <item path="../../bitcoin-0.14.0/src/test/scriptnum_tests.cpp"
+            ex="false"
+            tool="1"
+            flavor2="8">
+        <ccTool flags="3">
+          <incDir>
+            <pElem>../../bitcoin-0.14.0/src/test</pElem>
+          </incDir>
+          <preprocessorList>
+            <Elem>BOOST_TEST_DYN_LINK</Elem>
+          </preprocessorList>
+        </ccTool>
+      </item>
+      <item path="../../bitcoin-0.14.0/src/test/serialize_tests.cpp"
+            ex="false"
+            tool="1"
+            flavor2="8">
+        <ccTool flags="3">
+          <incDir>
+            <pElem>../../bitcoin-0.14.0/src/test</pElem>
+          </incDir>
+          <preprocessorList>
+            <Elem>BOOST_TEST_DYN_LINK</Elem>
+          </preprocessorList>
+        </ccTool>
+      </item>
+      <item path="../../bitcoin-0.14.0/src/test/sighash_tests.cpp"
+            ex="false"
+            tool="1"
+            flavor2="8">
+        <ccTool flags="3">
+          <incDir>
+            <pElem>../../bitcoin-0.14.0/src/test</pElem>
+          </incDir>
+          <preprocessorList>
+            <Elem>BOOST_TEST_DYN_LINK</Elem>
+          </preprocessorList>
+        </ccTool>
+      </item>
+      <item path="../../bitcoin-0.14.0/src/test/sigopcount_tests.cpp"
+            ex="false"
+            tool="1"
+            flavor2="8">
+        <ccTool flags="3">
+          <incDir>
+            <pElem>../../bitcoin-0.14.0/src/test</pElem>
+          </incDir>
+          <preprocessorList>
+            <Elem>BOOST_TEST_DYN_LINK</Elem>
+          </preprocessorList>
+        </ccTool>
+      </item>
+      <item path="../../bitcoin-0.14.0/src/test/skiplist_tests.cpp"
+            ex="false"
+            tool="1"
+            flavor2="8">
+        <ccTool flags="3">
+          <incDir>
+            <pElem>../../bitcoin-0.14.0/src/test</pElem>
+          </incDir>
+          <preprocessorList>
+            <Elem>BOOST_TEST_DYN_LINK</Elem>
+          </preprocessorList>
+        </ccTool>
+      </item>
+      <item path="../../bitcoin-0.14.0/src/test/streams_tests.cpp"
+            ex="false"
+            tool="1"
+            flavor2="8">
+        <ccTool flags="3">
+          <incDir>
+            <pElem>../../bitcoin-0.14.0/src/test</pElem>
+          </incDir>
+          <preprocessorList>
+            <Elem>BOOST_TEST_DYN_LINK</Elem>
+          </preprocessorList>
+        </ccTool>
+      </item>
+      <item path="../../bitcoin-0.14.0/src/test/test_bitcoin.cpp"
+            ex="false"
+            tool="1"
+            flavor2="8">
+        <ccTool flags="3">
+          <incDir>
+            <pElem>../../bitcoin-0.14.0/src/test</pElem>
+          </incDir>
+          <preprocessorList>
+            <Elem>BOOST_TEST_DYN_LINK</Elem>
+          </preprocessorList>
+        </ccTool>
+      </item>
+      <item path="../../bitcoin-0.14.0/src/test/test_bitcoin_fuzzy.cpp"
+            ex="false"
+            tool="1"
+            flavor2="8">
+        <ccTool flags="3">
+        </ccTool>
+      </item>
+      <item path="../../bitcoin-0.14.0/src/test/testutil.cpp"
+            ex="false"
+            tool="1"
+            flavor2="8">
+        <ccTool flags="3">
+          <incDir>
+            <pElem>../../bitcoin-0.14.0/src/test</pElem>
+          </incDir>
+          <preprocessorList>
+            <Elem>BOOST_TEST_DYN_LINK</Elem>
+          </preprocessorList>
+        </ccTool>
+      </item>
+      <item path="../../bitcoin-0.14.0/src/test/timedata_tests.cpp"
+            ex="false"
+            tool="1"
+            flavor2="8">
+        <ccTool flags="3">
+          <incDir>
+            <pElem>../../bitcoin-0.14.0/src/test</pElem>
+          </incDir>
+          <preprocessorList>
+            <Elem>BOOST_TEST_DYN_LINK</Elem>
+          </preprocessorList>
+        </ccTool>
+      </item>
+      <item path="../../bitcoin-0.14.0/src/test/transaction_tests.cpp"
+            ex="false"
+            tool="1"
+            flavor2="8">
+        <ccTool flags="3">
+          <incDir>
+            <pElem>../../bitcoin-0.14.0/src/test</pElem>
+          </incDir>
+          <preprocessorList>
+            <Elem>BOOST_TEST_DYN_LINK</Elem>
+          </preprocessorList>
+        </ccTool>
+      </item>
+      <item path="../../bitcoin-0.14.0/src/test/txvalidationcache_tests.cpp"
+            ex="false"
+            tool="1"
+            flavor2="8">
+        <ccTool flags="3">
+          <incDir>
+            <pElem>../../bitcoin-0.14.0/src/test</pElem>
+          </incDir>
+          <preprocessorList>
+            <Elem>BOOST_TEST_DYN_LINK</Elem>
+          </preprocessorList>
+        </ccTool>
+      </item>
+      <item path="../../bitcoin-0.14.0/src/test/uint256_tests.cpp"
+            ex="false"
+            tool="1"
+            flavor2="8">
+        <ccTool flags="3">
+          <incDir>
+            <pElem>../../bitcoin-0.14.0/src/test</pElem>
+          </incDir>
+          <preprocessorList>
+            <Elem>BOOST_TEST_DYN_LINK</Elem>
+          </preprocessorList>
+        </ccTool>
+      </item>
+      <item path="../../bitcoin-0.14.0/src/test/univalue_tests.cpp"
+            ex="false"
+            tool="1"
+            flavor2="8">
+        <ccTool flags="3">
+          <incDir>
+            <pElem>../../bitcoin-0.14.0/src/test</pElem>
+          </incDir>
+          <preprocessorList>
+            <Elem>BOOST_TEST_DYN_LINK</Elem>
+          </preprocessorList>
+        </ccTool>
+      </item>
+      <item path="../../bitcoin-0.14.0/src/test/util_tests.cpp"
+            ex="false"
+            tool="1"
+            flavor2="8">
+        <ccTool flags="3">
+          <incDir>
+            <pElem>../../bitcoin-0.14.0/src/test</pElem>
+          </incDir>
+          <preprocessorList>
+            <Elem>BOOST_TEST_DYN_LINK</Elem>
+          </preprocessorList>
+        </ccTool>
+      </item>
+      <item path="../../bitcoin-0.14.0/src/test/versionbits_tests.cpp"
+            ex="false"
+            tool="1"
+            flavor2="8">
+        <ccTool flags="3">
+          <incDir>
+            <pElem>../../bitcoin-0.14.0/src/test</pElem>
+          </incDir>
+          <preprocessorList>
+            <Elem>BOOST_TEST_DYN_LINK</Elem>
+          </preprocessorList>
+        </ccTool>
+      </item>
+      <item path="../../bitcoin-0.14.0/src/threadinterrupt.cpp"
+            ex="false"
+            tool="1"
+            flavor2="8">
+        <ccTool flags="3">
+          <incDir>
+            <pElem>../../bitcoin-0.14.0/src</pElem>
+            <pElem>../../bitcoin-0.14.0/src/config</pElem>
+            <pElem>../../bitcoin-0.14.0/src/obj</pElem>
+            <pElem>/usr/include</pElem>
+            <pElem>../../bitcoin-0.14.0/src/leveldb/include</pElem>
+            <pElem>../../bitcoin-0.14.0/src/leveldb/helpers/memenv</pElem>
+            <pElem>../../bitcoin-0.14.0/src/secp256k1/include</pElem>
+            <pElem>../../bitcoin-0.14.0/src/univalue/include</pElem>
+          </incDir>
+          <preprocessorList>
+            <Elem>HAVE_BUILD_INFO</Elem>
+            <Elem>_FORTIFY_SOURCE=2</Elem>
+            <Elem>__STDC_FORMAT_MACROS</Elem>
+          </preprocessorList>
+        </ccTool>
+      </item>
+      <item path="../../bitcoin-0.14.0/src/timedata.cpp"
+            ex="false"
+            tool="1"
+            flavor2="8">
+        <ccTool flags="3">
+          <incDir>
+            <pElem>../../bitcoin-0.14.0/src</pElem>
+            <pElem>../../bitcoin-0.14.0/src/config</pElem>
+            <pElem>../../bitcoin-0.14.0/src/obj</pElem>
+            <pElem>/usr/include</pElem>
+            <pElem>../../bitcoin-0.14.0/src/leveldb/include</pElem>
+            <pElem>../../bitcoin-0.14.0/src/leveldb/helpers/memenv</pElem>
+            <pElem>../../bitcoin-0.14.0/src/secp256k1/include</pElem>
+            <pElem>../../bitcoin-0.14.0/src/univalue/include</pElem>
+          </incDir>
+          <preprocessorList>
+            <Elem>HAVE_BUILD_INFO</Elem>
+            <Elem>_FORTIFY_SOURCE=2</Elem>
+            <Elem>__STDC_FORMAT_MACROS</Elem>
+          </preprocessorList>
+        </ccTool>
+      </item>
+      <item path="../../bitcoin-0.14.0/src/torcontrol.cpp"
+            ex="false"
+            tool="1"
+            flavor2="8">
+        <ccTool flags="3">
+          <incDir>
+            <pElem>../../bitcoin-0.14.0/src</pElem>
+            <pElem>../../bitcoin-0.14.0/src/config</pElem>
+            <pElem>../../bitcoin-0.14.0/src/obj</pElem>
+            <pElem>/usr/include</pElem>
+            <pElem>../../bitcoin-0.14.0/src/leveldb/include</pElem>
+            <pElem>../../bitcoin-0.14.0/src/leveldb/helpers/memenv</pElem>
+            <pElem>../../bitcoin-0.14.0/src/secp256k1/include</pElem>
+            <pElem>../../bitcoin-0.14.0/src/univalue/include</pElem>
+          </incDir>
+          <preprocessorList>
+            <Elem>HAVE_BUILD_INFO</Elem>
+            <Elem>_FORTIFY_SOURCE=2</Elem>
+            <Elem>__STDC_FORMAT_MACROS</Elem>
+          </preprocessorList>
+        </ccTool>
+      </item>
+      <item path="../../bitcoin-0.14.0/src/txdb.cpp" ex="false" tool="1" flavor2="8">
+        <ccTool flags="3">
+          <incDir>
+            <pElem>../../bitcoin-0.14.0/src</pElem>
+            <pElem>../../bitcoin-0.14.0/src/config</pElem>
+            <pElem>../../bitcoin-0.14.0/src/obj</pElem>
+            <pElem>/usr/include</pElem>
+            <pElem>../../bitcoin-0.14.0/src/leveldb/include</pElem>
+            <pElem>../../bitcoin-0.14.0/src/leveldb/helpers/memenv</pElem>
+            <pElem>../../bitcoin-0.14.0/src/secp256k1/include</pElem>
+            <pElem>../../bitcoin-0.14.0/src/univalue/include</pElem>
+          </incDir>
+          <preprocessorList>
+            <Elem>HAVE_BUILD_INFO</Elem>
+            <Elem>_FORTIFY_SOURCE=2</Elem>
+            <Elem>__STDC_FORMAT_MACROS</Elem>
+          </preprocessorList>
+        </ccTool>
+      </item>
+      <item path="../../bitcoin-0.14.0/src/txmempool.cpp"
+            ex="false"
+            tool="1"
+            flavor2="8">
+        <ccTool flags="3">
+          <incDir>
+            <pElem>../../bitcoin-0.14.0/src</pElem>
+            <pElem>../../bitcoin-0.14.0/src/config</pElem>
+            <pElem>../../bitcoin-0.14.0/src/obj</pElem>
+            <pElem>/usr/include</pElem>
+            <pElem>../../bitcoin-0.14.0/src/leveldb/include</pElem>
+            <pElem>../../bitcoin-0.14.0/src/leveldb/helpers/memenv</pElem>
+            <pElem>../../bitcoin-0.14.0/src/secp256k1/include</pElem>
+            <pElem>../../bitcoin-0.14.0/src/univalue/include</pElem>
+          </incDir>
+          <preprocessorList>
+            <Elem>HAVE_BUILD_INFO</Elem>
+            <Elem>_FORTIFY_SOURCE=2</Elem>
+            <Elem>__STDC_FORMAT_MACROS</Elem>
+          </preprocessorList>
+        </ccTool>
+      </item>
+      <item path="../../bitcoin-0.14.0/src/ui_interface.cpp"
+            ex="false"
+            tool="1"
+            flavor2="8">
+        <ccTool flags="3">
+          <incDir>
+            <pElem>../../bitcoin-0.14.0/src</pElem>
+            <pElem>../../bitcoin-0.14.0/src/config</pElem>
+            <pElem>../../bitcoin-0.14.0/src/obj</pElem>
+            <pElem>/usr/include</pElem>
+            <pElem>../../bitcoin-0.14.0/src/leveldb/include</pElem>
+            <pElem>../../bitcoin-0.14.0/src/leveldb/helpers/memenv</pElem>
+            <pElem>../../bitcoin-0.14.0/src/secp256k1/include</pElem>
+            <pElem>../../bitcoin-0.14.0/src/univalue/include</pElem>
+          </incDir>
+          <preprocessorList>
+            <Elem>HAVE_BUILD_INFO</Elem>
+            <Elem>_FORTIFY_SOURCE=2</Elem>
+            <Elem>__STDC_FORMAT_MACROS</Elem>
+          </preprocessorList>
+        </ccTool>
+      </item>
+      <item path="../../bitcoin-0.14.0/src/uint256.cpp"
+            ex="false"
+            tool="1"
+            flavor2="8">
+        <ccTool flags="3">
+          <incDir>
+            <pElem>../../bitcoin-0.14.0/src</pElem>
+            <pElem>../../bitcoin-0.14.0/src/config</pElem>
+            <pElem>../../bitcoin-0.14.0/src/obj</pElem>
+            <pElem>/usr/include</pElem>
+            <pElem>../../bitcoin-0.14.0/src/leveldb/include</pElem>
+            <pElem>../../bitcoin-0.14.0/src/leveldb/helpers/memenv</pElem>
+            <pElem>../../bitcoin-0.14.0/src/secp256k1/include</pElem>
+            <pElem>../../bitcoin-0.14.0/src/univalue/include</pElem>
+          </incDir>
+          <preprocessorList>
+            <Elem>HAVE_BUILD_INFO</Elem>
+            <Elem>_FORTIFY_SOURCE=2</Elem>
+            <Elem>__STDC_FORMAT_MACROS</Elem>
+          </preprocessorList>
+        </ccTool>
+      </item>
+      <item path="../../bitcoin-0.14.0/src/univalue/lib/univalue.cpp"
+            ex="false"
+            tool="1"
+            flavor2="4">
+        <ccTool flags="0">
+        </ccTool>
+      </item>
+      <item path="../../bitcoin-0.14.0/src/univalue/lib/univalue_read.cpp"
+            ex="false"
+            tool="1"
+            flavor2="4">
+        <ccTool flags="0">
+        </ccTool>
+      </item>
+      <item path="../../bitcoin-0.14.0/src/univalue/lib/univalue_write.cpp"
+            ex="false"
+            tool="1"
+            flavor2="4">
+        <ccTool flags="0">
+        </ccTool>
+      </item>
+      <item path="../../bitcoin-0.14.0/src/util.cpp" ex="false" tool="1" flavor2="8">
+        <ccTool flags="3">
+          <incDir>
+            <pElem>../../bitcoin-0.14.0/src</pElem>
+            <pElem>../../bitcoin-0.14.0/src/config</pElem>
+            <pElem>../../bitcoin-0.14.0/src/obj</pElem>
+            <pElem>/usr/include</pElem>
+            <pElem>../../bitcoin-0.14.0/src/leveldb/include</pElem>
+            <pElem>../../bitcoin-0.14.0/src/leveldb/helpers/memenv</pElem>
+            <pElem>../../bitcoin-0.14.0/src/secp256k1/include</pElem>
+            <pElem>../../bitcoin-0.14.0/src/univalue/include</pElem>
+          </incDir>
+          <preprocessorList>
+            <Elem>HAVE_BUILD_INFO</Elem>
+            <Elem>_FORTIFY_SOURCE=2</Elem>
+            <Elem>__STDC_FORMAT_MACROS</Elem>
+          </preprocessorList>
+        </ccTool>
+      </item>
+      <item path="../../bitcoin-0.14.0/src/utilmoneystr.cpp"
+            ex="false"
+            tool="1"
+            flavor2="8">
+        <ccTool flags="3">
+          <incDir>
+            <pElem>../../bitcoin-0.14.0/src</pElem>
+            <pElem>../../bitcoin-0.14.0/src/config</pElem>
+            <pElem>../../bitcoin-0.14.0/src/obj</pElem>
+            <pElem>/usr/include</pElem>
+            <pElem>../../bitcoin-0.14.0/src/leveldb/include</pElem>
+            <pElem>../../bitcoin-0.14.0/src/leveldb/helpers/memenv</pElem>
+            <pElem>../../bitcoin-0.14.0/src/secp256k1/include</pElem>
+            <pElem>../../bitcoin-0.14.0/src/univalue/include</pElem>
+          </incDir>
+          <preprocessorList>
+            <Elem>HAVE_BUILD_INFO</Elem>
+            <Elem>_FORTIFY_SOURCE=2</Elem>
+            <Elem>__STDC_FORMAT_MACROS</Elem>
+          </preprocessorList>
+        </ccTool>
+      </item>
+      <item path="../../bitcoin-0.14.0/src/utilstrencodings.cpp"
+            ex="false"
+            tool="1"
+            flavor2="8">
+        <ccTool flags="3">
+          <incDir>
+            <pElem>../../bitcoin-0.14.0/src</pElem>
+            <pElem>../../bitcoin-0.14.0/src/config</pElem>
+            <pElem>../../bitcoin-0.14.0/src/obj</pElem>
+            <pElem>/usr/include</pElem>
+            <pElem>../../bitcoin-0.14.0/src/leveldb/include</pElem>
+            <pElem>../../bitcoin-0.14.0/src/leveldb/helpers/memenv</pElem>
+            <pElem>../../bitcoin-0.14.0/src/secp256k1/include</pElem>
+            <pElem>../../bitcoin-0.14.0/src/univalue/include</pElem>
+          </incDir>
+          <preprocessorList>
+            <Elem>HAVE_BUILD_INFO</Elem>
+            <Elem>_FORTIFY_SOURCE=2</Elem>
+            <Elem>__STDC_FORMAT_MACROS</Elem>
+          </preprocessorList>
+        </ccTool>
+      </item>
+      <item path="../../bitcoin-0.14.0/src/utiltime.cpp"
+            ex="false"
+            tool="1"
+            flavor2="8">
+        <ccTool flags="3">
+          <incDir>
+            <pElem>../../bitcoin-0.14.0/src</pElem>
+            <pElem>../../bitcoin-0.14.0/src/config</pElem>
+            <pElem>../../bitcoin-0.14.0/src/obj</pElem>
+            <pElem>/usr/include</pElem>
+            <pElem>../../bitcoin-0.14.0/src/leveldb/include</pElem>
+            <pElem>../../bitcoin-0.14.0/src/leveldb/helpers/memenv</pElem>
+            <pElem>../../bitcoin-0.14.0/src/secp256k1/include</pElem>
+            <pElem>../../bitcoin-0.14.0/src/univalue/include</pElem>
+          </incDir>
+          <preprocessorList>
+            <Elem>HAVE_BUILD_INFO</Elem>
+            <Elem>_FORTIFY_SOURCE=2</Elem>
+            <Elem>__STDC_FORMAT_MACROS</Elem>
+          </preprocessorList>
+        </ccTool>
+      </item>
+      <item path="../../bitcoin-0.14.0/src/validation.cpp"
+            ex="false"
+            tool="1"
+            flavor2="8">
+        <ccTool flags="3">
+          <incDir>
+            <pElem>../../bitcoin-0.14.0/src</pElem>
+            <pElem>../../bitcoin-0.14.0/src/config</pElem>
+            <pElem>../../bitcoin-0.14.0/src/obj</pElem>
+            <pElem>/usr/include</pElem>
+            <pElem>../../bitcoin-0.14.0/src/leveldb/include</pElem>
+            <pElem>../../bitcoin-0.14.0/src/leveldb/helpers/memenv</pElem>
+            <pElem>../../bitcoin-0.14.0/src/secp256k1/include</pElem>
+            <pElem>../../bitcoin-0.14.0/src/univalue/include</pElem>
+          </incDir>
+          <preprocessorList>
+            <Elem>HAVE_BUILD_INFO</Elem>
+            <Elem>_FORTIFY_SOURCE=2</Elem>
+            <Elem>__STDC_FORMAT_MACROS</Elem>
+          </preprocessorList>
+        </ccTool>
+      </item>
+      <item path="../../bitcoin-0.14.0/src/validationinterface.cpp"
+            ex="false"
+            tool="1"
+            flavor2="8">
+        <ccTool flags="3">
+          <incDir>
+            <pElem>../../bitcoin-0.14.0/src</pElem>
+            <pElem>../../bitcoin-0.14.0/src/config</pElem>
+            <pElem>../../bitcoin-0.14.0/src/obj</pElem>
+            <pElem>/usr/include</pElem>
+            <pElem>../../bitcoin-0.14.0/src/leveldb/include</pElem>
+            <pElem>../../bitcoin-0.14.0/src/leveldb/helpers/memenv</pElem>
+            <pElem>../../bitcoin-0.14.0/src/secp256k1/include</pElem>
+            <pElem>../../bitcoin-0.14.0/src/univalue/include</pElem>
+          </incDir>
+          <preprocessorList>
+            <Elem>HAVE_BUILD_INFO</Elem>
+            <Elem>_FORTIFY_SOURCE=2</Elem>
+            <Elem>__STDC_FORMAT_MACROS</Elem>
+          </preprocessorList>
+        </ccTool>
+      </item>
+      <item path="../../bitcoin-0.14.0/src/versionbits.cpp"
+            ex="false"
+            tool="1"
+            flavor2="8">
+        <ccTool flags="3">
+          <incDir>
+            <pElem>../../bitcoin-0.14.0/src</pElem>
+            <pElem>../../bitcoin-0.14.0/src/config</pElem>
+            <pElem>../../bitcoin-0.14.0/src/obj</pElem>
+            <pElem>/usr/include</pElem>
+            <pElem>../../bitcoin-0.14.0/src/leveldb/include</pElem>
+            <pElem>../../bitcoin-0.14.0/src/leveldb/helpers/memenv</pElem>
+            <pElem>../../bitcoin-0.14.0/src/secp256k1/include</pElem>
+            <pElem>../../bitcoin-0.14.0/src/univalue/include</pElem>
+          </incDir>
+          <preprocessorList>
+            <Elem>HAVE_BUILD_INFO</Elem>
+            <Elem>_FORTIFY_SOURCE=2</Elem>
+            <Elem>__STDC_FORMAT_MACROS</Elem>
+          </preprocessorList>
+        </ccTool>
+      </item>
+      <item path="../../bitcoin-0.14.0/src/wallet/crypter.cpp"
+            ex="false"
+            tool="1"
+            flavor2="8">
+        <ccTool flags="3">
+        </ccTool>
+      </item>
+      <item path="../../bitcoin-0.14.0/src/wallet/db.cpp"
+            ex="false"
+            tool="1"
+            flavor2="8">
+        <ccTool flags="3">
+        </ccTool>
+      </item>
+      <item path="../../bitcoin-0.14.0/src/wallet/rpcdump.cpp"
+            ex="false"
+            tool="1"
+            flavor2="8">
+        <ccTool flags="3">
+        </ccTool>
+      </item>
+      <item path="../../bitcoin-0.14.0/src/wallet/rpcwallet.cpp"
+            ex="false"
+            tool="1"
+            flavor2="8">
+        <ccTool flags="3">
+        </ccTool>
+      </item>
+      <item path="../../bitcoin-0.14.0/src/wallet/test/accounting_tests.cpp"
+            ex="false"
+            tool="1"
+            flavor2="8">
+        <ccTool flags="3">
+        </ccTool>
+      </item>
+      <item path="../../bitcoin-0.14.0/src/wallet/test/crypto_tests.cpp"
+            ex="false"
+            tool="1"
+            flavor2="8">
+        <ccTool flags="3">
+        </ccTool>
+      </item>
+      <item path="../../bitcoin-0.14.0/src/wallet/test/wallet_test_fixture.cpp"
+            ex="false"
+            tool="1"
+            flavor2="8">
+        <ccTool flags="3">
+        </ccTool>
+      </item>
+      <item path="../../bitcoin-0.14.0/src/wallet/test/wallet_tests.cpp"
+            ex="false"
+            tool="1"
+            flavor2="8">
+        <ccTool flags="3">
+        </ccTool>
+      </item>
+      <item path="../../bitcoin-0.14.0/src/wallet/wallet.cpp"
+            ex="false"
+            tool="1"
+            flavor2="8">
+        <ccTool flags="3">
+        </ccTool>
+      </item>
+      <item path="../../bitcoin-0.14.0/src/wallet/walletdb.cpp"
+            ex="false"
+            tool="1"
+            flavor2="8">
+        <ccTool flags="3">
+        </ccTool>
+      </item>
+      <item path="../../bitcoin-0.14.0/src/warnings.cpp"
+            ex="false"
+            tool="1"
+            flavor2="8">
+        <ccTool flags="3">
+          <incDir>
+            <pElem>../../bitcoin-0.14.0/src</pElem>
+            <pElem>../../bitcoin-0.14.0/src/config</pElem>
+            <pElem>../../bitcoin-0.14.0/src/obj</pElem>
+            <pElem>/usr/include</pElem>
+            <pElem>../../bitcoin-0.14.0/src/leveldb/include</pElem>
+            <pElem>../../bitcoin-0.14.0/src/leveldb/helpers/memenv</pElem>
+            <pElem>../../bitcoin-0.14.0/src/secp256k1/include</pElem>
+            <pElem>../../bitcoin-0.14.0/src/univalue/include</pElem>
+          </incDir>
+          <preprocessorList>
+            <Elem>HAVE_BUILD_INFO</Elem>
+            <Elem>_FORTIFY_SOURCE=2</Elem>
+            <Elem>__STDC_FORMAT_MACROS</Elem>
+          </preprocessorList>
+        </ccTool>
+      </item>
+      <item path="../../bitcoin-0.14.0/src/zmq/zmqabstractnotifier.cpp"
+            ex="false"
+            tool="1"
+            flavor2="8">
+        <ccTool flags="3">
+        </ccTool>
+      </item>
+      <item path="../../bitcoin-0.14.0/src/zmq/zmqnotificationinterface.cpp"
+            ex="false"
+            tool="1"
+            flavor2="8">
+        <ccTool flags="3">
+        </ccTool>
+      </item>
+      <item path="../../bitcoin-0.14.0/src/zmq/zmqpublishnotifier.cpp"
+            ex="false"
+            tool="1"
+            flavor2="8">
+        <ccTool flags="3">
+        </ccTool>
+      </item>
+      <folder path="SourceFiles/src/bench">
+        <ccTool>
+          <incDir>
+            <pElem>../../bitcoin-0.14.0/src</pElem>
+            <pElem>../../bitcoin-0.14.0/src/config</pElem>
+            <pElem>../../bitcoin-0.14.0/src/obj</pElem>
+            <pElem>/usr/include</pElem>
+            <pElem>../../bitcoin-0.14.0/src/leveldb/include</pElem>
+            <pElem>../../bitcoin-0.14.0/src/leveldb/helpers/memenv</pElem>
+            <pElem>../../bitcoin-0.14.0/src/secp256k1/include</pElem>
+            <pElem>../../bitcoin-0.14.0/src/univalue/include</pElem>
+            <pElem>../../bitcoin-0.14.0/src/bench</pElem>
+          </incDir>
+          <preprocessorList>
+            <Elem>HAVE_BUILD_INFO</Elem>
+            <Elem>_FORTIFY_SOURCE=2</Elem>
+            <Elem>__STDC_FORMAT_MACROS</Elem>
+          </preprocessorList>
+        </ccTool>
+      </folder>
+      <folder path="SourceFiles/src/compat">
+        <ccTool>
+          <incDir>
+            <pElem>../../bitcoin-0.14.0/src</pElem>
+            <pElem>../../bitcoin-0.14.0/src/config</pElem>
+            <pElem>../../bitcoin-0.14.0/src/obj</pElem>
+            <pElem>/usr/include</pElem>
+            <pElem>../../bitcoin-0.14.0/src/leveldb/include</pElem>
+            <pElem>../../bitcoin-0.14.0/src/leveldb/helpers/memenv</pElem>
+            <pElem>../../bitcoin-0.14.0/src/secp256k1/include</pElem>
+            <pElem>../../bitcoin-0.14.0/src/univalue/include</pElem>
+          </incDir>
+          <preprocessorList>
+            <Elem>HAVE_BUILD_INFO</Elem>
+            <Elem>_FORTIFY_SOURCE=2</Elem>
+            <Elem>__STDC_FORMAT_MACROS</Elem>
+          </preprocessorList>
+        </ccTool>
+      </folder>
+      <folder path="SourceFiles/src/consensus">
+        <ccTool>
+          <incDir>
+            <pElem>../../bitcoin-0.14.0/src</pElem>
+            <pElem>../../bitcoin-0.14.0/src/config</pElem>
+            <pElem>../../bitcoin-0.14.0/src/obj</pElem>
+            <pElem>/usr/include</pElem>
+            <pElem>../../bitcoin-0.14.0/src/leveldb/include</pElem>
+            <pElem>../../bitcoin-0.14.0/src/leveldb/helpers/memenv</pElem>
+            <pElem>../../bitcoin-0.14.0/src/secp256k1/include</pElem>
+            <pElem>../../bitcoin-0.14.0/src/univalue/include</pElem>
+          </incDir>
+          <preprocessorList>
+            <Elem>HAVE_BUILD_INFO</Elem>
+            <Elem>_FORTIFY_SOURCE=2</Elem>
+            <Elem>__STDC_FORMAT_MACROS</Elem>
+          </preprocessorList>
+        </ccTool>
+      </folder>
+      <folder path="SourceFiles/src/crypto">
+        <ccTool>
+          <incDir>
+            <pElem>../../bitcoin-0.14.0/src</pElem>
+            <pElem>../../bitcoin-0.14.0/src/config</pElem>
+            <pElem>../../bitcoin-0.14.0/src/obj</pElem>
+            <pElem>../../bitcoin-0.14.0/src/secp256k1/include</pElem>
+          </incDir>
+          <preprocessorList>
+            <Elem>BUILD_BITCOIN_INTERNAL</Elem>
+            <Elem>HAVE_BUILD_INFO</Elem>
+            <Elem>PIC</Elem>
+            <Elem>_FORTIFY_SOURCE=2</Elem>
+            <Elem>__STDC_FORMAT_MACROS</Elem>
+          </preprocessorList>
+        </ccTool>
+      </folder>
+      <folder path="SourceFiles/src/leveldb">
+        <ccTool>
+          <incDir>
+            <pElem>../../bitcoin-0.14.0/src</pElem>
+            <pElem>../../bitcoin-0.14.0/src/config</pElem>
+            <pElem>../../bitcoin-0.14.0/src/leveldb</pElem>
+            <pElem>../../bitcoin-0.14.0/src/leveldb/include</pElem>
+            <pElem>../../bitcoin-0.14.0/src/leveldb/helpers/memenv</pElem>
+          </incDir>
+          <preprocessorList>
+            <Elem>HAVE_BUILD_INFO</Elem>
+            <Elem>LEVELDB_ATOMIC_PRESENT</Elem>
+            <Elem>LEVELDB_PLATFORM_POSIX</Elem>
+            <Elem>OS_LINUX</Elem>
+            <Elem>_FORTIFY_SOURCE=2</Elem>
+            <Elem>__STDC_FORMAT_MACROS</Elem>
+            <Elem>__STDC_LIMIT_MACROS</Elem>
+          </preprocessorList>
+          <undefinedList>
+            <Elem>_FORTIFY_SOURCE</Elem>
+          </undefinedList>
+        </ccTool>
+      </folder>
+      <folder path="SourceFiles/src/policy">
+        <ccTool>
+          <incDir>
+            <pElem>../../bitcoin-0.14.0/src</pElem>
+            <pElem>../../bitcoin-0.14.0/src/config</pElem>
+            <pElem>../../bitcoin-0.14.0/src/obj</pElem>
+            <pElem>/usr/include</pElem>
+            <pElem>../../bitcoin-0.14.0/src/leveldb/include</pElem>
+            <pElem>../../bitcoin-0.14.0/src/leveldb/helpers/memenv</pElem>
+            <pElem>../../bitcoin-0.14.0/src/secp256k1/include</pElem>
+            <pElem>../../bitcoin-0.14.0/src/univalue/include</pElem>
+          </incDir>
+          <preprocessorList>
+            <Elem>HAVE_BUILD_INFO</Elem>
+            <Elem>_FORTIFY_SOURCE=2</Elem>
+            <Elem>__STDC_FORMAT_MACROS</Elem>
+          </preprocessorList>
+        </ccTool>
+      </folder>
+      <folder path="SourceFiles/src/primitives">
+        <ccTool>
+          <incDir>
+            <pElem>../../bitcoin-0.14.0/src</pElem>
+            <pElem>../../bitcoin-0.14.0/src/config</pElem>
+            <pElem>../../bitcoin-0.14.0/src/obj</pElem>
+            <pElem>/usr/include</pElem>
+            <pElem>../../bitcoin-0.14.0/src/leveldb/include</pElem>
+            <pElem>../../bitcoin-0.14.0/src/leveldb/helpers/memenv</pElem>
+            <pElem>../../bitcoin-0.14.0/src/secp256k1/include</pElem>
+            <pElem>../../bitcoin-0.14.0/src/univalue/include</pElem>
+          </incDir>
+          <preprocessorList>
+            <Elem>HAVE_BUILD_INFO</Elem>
+            <Elem>_FORTIFY_SOURCE=2</Elem>
+            <Elem>__STDC_FORMAT_MACROS</Elem>
+          </preprocessorList>
+        </ccTool>
+      </folder>
+      <folder path="SourceFiles/src/qt">
+        <ccTool>
+          <incDir>
+            <pElem>../../bitcoin-0.14.0/src</pElem>
+            <pElem>../../bitcoin-0.14.0/src/config</pElem>
+            <pElem>../../bitcoin-0.14.0/src/obj</pElem>
+            <pElem>/usr/include</pElem>
+            <pElem>../../bitcoin-0.14.0/src/leveldb/include</pElem>
+            <pElem>../../bitcoin-0.14.0/src/leveldb/helpers/memenv</pElem>
+            <pElem>../../bitcoin-0.14.0/src/secp256k1/include</pElem>
+            <pElem>../../bitcoin-0.14.0/src/univalue/include</pElem>
+            <pElem>../../bitcoin-0.14.0/src/qt</pElem>
+            <pElem>../../bitcoin-0.14.0/src/qt/forms</pElem>
+            <pElem>/usr/include/x86_64-linux-gnu/qt5/QtNetwork</pElem>
+            <pElem>/usr/include/x86_64-linux-gnu/qt5</pElem>
+            <pElem>/usr/include/x86_64-linux-gnu/qt5/QtWidgets</pElem>
+            <pElem>/usr/include/x86_64-linux-gnu/qt5/QtGui</pElem>
+            <pElem>/usr/include/x86_64-linux-gnu/qt5/QtCore</pElem>
+          </incDir>
+          <preprocessorList>
+            <Elem>HAVE_BUILD_INFO</Elem>
+            <Elem>QT_NO_KEYWORDS</Elem>
+            <Elem>_FORTIFY_SOURCE=2</Elem>
+            <Elem>__STDC_FORMAT_MACROS</Elem>
+          </preprocessorList>
+        </ccTool>
+      </folder>
+      <folder path="SourceFiles/src/qt/test">
+        <ccTool>
+          <incDir>
+            <pElem>/usr/include/x86_64-linux-gnu/qt5/QtTest</pElem>
+          </incDir>
+        </ccTool>
+      </folder>
+      <folder path="SourceFiles/src/rpc">
+        <ccTool>
+          <incDir>
+            <pElem>../../bitcoin-0.14.0/src</pElem>
+            <pElem>../../bitcoin-0.14.0/src/config</pElem>
+            <pElem>../../bitcoin-0.14.0/src/obj</pElem>
+            <pElem>/usr/include</pElem>
+            <pElem>../../bitcoin-0.14.0/src/leveldb/include</pElem>
+            <pElem>../../bitcoin-0.14.0/src/leveldb/helpers/memenv</pElem>
+            <pElem>../../bitcoin-0.14.0/src/secp256k1/include</pElem>
+            <pElem>../../bitcoin-0.14.0/src/univalue/include</pElem>
+          </incDir>
+          <preprocessorList>
+            <Elem>HAVE_BUILD_INFO</Elem>
+            <Elem>_FORTIFY_SOURCE=2</Elem>
+            <Elem>__STDC_FORMAT_MACROS</Elem>
+          </preprocessorList>
+        </ccTool>
+      </folder>
+      <folder path="SourceFiles/src/script">
+        <ccTool>
+          <incDir>
+            <pElem>../../bitcoin-0.14.0/src</pElem>
+            <pElem>../../bitcoin-0.14.0/src/config</pElem>
+            <pElem>../../bitcoin-0.14.0/src/obj</pElem>
+            <pElem>/usr/include</pElem>
+            <pElem>../../bitcoin-0.14.0/src/leveldb/include</pElem>
+            <pElem>../../bitcoin-0.14.0/src/leveldb/helpers/memenv</pElem>
+            <pElem>../../bitcoin-0.14.0/src/secp256k1/include</pElem>
+            <pElem>../../bitcoin-0.14.0/src/univalue/include</pElem>
+          </incDir>
+          <preprocessorList>
+            <Elem>HAVE_BUILD_INFO</Elem>
+            <Elem>_FORTIFY_SOURCE=2</Elem>
+            <Elem>__STDC_FORMAT_MACROS</Elem>
+          </preprocessorList>
+        </ccTool>
+      </folder>
+      <folder path="SourceFiles/src/support">
+        <ccTool>
+          <incDir>
+            <pElem>../../bitcoin-0.14.0/src</pElem>
+            <pElem>../../bitcoin-0.14.0/src/config</pElem>
+            <pElem>../../bitcoin-0.14.0/src/obj</pElem>
+            <pElem>/usr/include</pElem>
+            <pElem>../../bitcoin-0.14.0/src/leveldb/include</pElem>
+            <pElem>../../bitcoin-0.14.0/src/leveldb/helpers/memenv</pElem>
+            <pElem>../../bitcoin-0.14.0/src/secp256k1/include</pElem>
+            <pElem>../../bitcoin-0.14.0/src/univalue/include</pElem>
+          </incDir>
+          <preprocessorList>
+            <Elem>HAVE_BUILD_INFO</Elem>
+            <Elem>_FORTIFY_SOURCE=2</Elem>
+            <Elem>__STDC_FORMAT_MACROS</Elem>
+          </preprocessorList>
+        </ccTool>
+      </folder>
+      <folder path="SourceFiles/src/test">
+        <ccTool>
+          <incDir>
+            <pElem>../../bitcoin-0.14.0/src</pElem>
+            <pElem>../../bitcoin-0.14.0/src/config</pElem>
+            <pElem>../../bitcoin-0.14.0/src/obj</pElem>
+            <pElem>/usr/include</pElem>
+            <pElem>../../bitcoin-0.14.0/src/leveldb/include</pElem>
+            <pElem>../../bitcoin-0.14.0/src/leveldb/helpers/memenv</pElem>
+            <pElem>../../bitcoin-0.14.0/src/secp256k1/include</pElem>
+            <pElem>../../bitcoin-0.14.0/src/univalue/include</pElem>
+          </incDir>
+          <preprocessorList>
+            <Elem>HAVE_BUILD_INFO</Elem>
+            <Elem>_FORTIFY_SOURCE=2</Elem>
+            <Elem>__STDC_FORMAT_MACROS</Elem>
+          </preprocessorList>
+        </ccTool>
+      </folder>
+      <folder path="SourceFiles/src/univalue">
+        <ccTool>
+          <incDir>
+            <pElem>../../bitcoin-0.14.0/src/univalue</pElem>
+            <pElem>../../bitcoin-0.14.0/src/univalue/include</pElem>
+          </incDir>
+          <preprocessorList>
+            <Elem>PIC</Elem>
+          </preprocessorList>
+        </ccTool>
+      </folder>
+      <folder path="SourceFiles/src/wallet">
+        <ccTool>
+          <incDir>
+            <pElem>../../bitcoin-0.14.0/src</pElem>
+            <pElem>../../bitcoin-0.14.0/src/config</pElem>
+            <pElem>../../bitcoin-0.14.0/src/obj</pElem>
+            <pElem>/usr/include</pElem>
+            <pElem>../../bitcoin-0.14.0/src/leveldb/include</pElem>
+            <pElem>../../bitcoin-0.14.0/src/leveldb/helpers/memenv</pElem>
+            <pElem>../../bitcoin-0.14.0/src/secp256k1/include</pElem>
+            <pElem>../../bitcoin-0.14.0/src/univalue/include</pElem>
+          </incDir>
+          <preprocessorList>
+            <Elem>HAVE_BUILD_INFO</Elem>
+            <Elem>_FORTIFY_SOURCE=2</Elem>
+            <Elem>__STDC_FORMAT_MACROS</Elem>
+          </preprocessorList>
+        </ccTool>
+      </folder>
+      <folder path="SourceFiles/src/wallet/test">
+        <ccTool>
+          <incDir>
+            <pElem>../../bitcoin-0.14.0/src/test</pElem>
+          </incDir>
+          <preprocessorList>
+            <Elem>BOOST_TEST_DYN_LINK</Elem>
+          </preprocessorList>
+        </ccTool>
+      </folder>
+      <folder path="SourceFiles/src/zmq">
+        <ccTool>
+          <incDir>
+            <pElem>../../bitcoin-0.14.0/src</pElem>
+            <pElem>../../bitcoin-0.14.0/src/config</pElem>
+            <pElem>../../bitcoin-0.14.0/src/obj</pElem>
+            <pElem>/usr/include</pElem>
+            <pElem>../../bitcoin-0.14.0/src/leveldb/include</pElem>
+            <pElem>../../bitcoin-0.14.0/src/leveldb/helpers/memenv</pElem>
+            <pElem>../../bitcoin-0.14.0/src/secp256k1/include</pElem>
+            <pElem>../../bitcoin-0.14.0/src/univalue/include</pElem>
+          </incDir>
+          <preprocessorList>
+            <Elem>HAVE_BUILD_INFO</Elem>
+            <Elem>__STDC_FORMAT_MACROS</Elem>
+          </preprocessorList>
+        </ccTool>
+      </folder>
+    </conf>
+  </confs>
+</configurationDescriptor>
